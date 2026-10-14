@@ -9,12 +9,14 @@ A planilha é a base de dados. Este vault registra regras, taxonomia, ambiguidad
 ## Estado atual
 
 - Base esperada após correção estrutural: **294.905 palavras-chave únicas**.
+- [[Amostra Estratificada Global v1]] criada com **10.000 palavras-chave** e cobertura das **44 combinações exatas de áreas** existentes na base.
 - Classificação semântica definitiva: **ainda não iniciada**.
 - Estratégia: lotes controlados por uma taxonomia global, com conjunto de controle e reconciliação final.
 
 ## Navegação
 
 - [[Mapa Global - Estrutural]]
+- [[Amostra Estratificada Global v1]]
 - [[MOC - Áreas]]
 - [[MOC - Intenções]]
 - [[MOC - Taxonomia]]
