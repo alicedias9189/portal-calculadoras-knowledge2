@@ -1,33 +1,44 @@
 # MOC - Intenções
 
-> A lista abaixo é provisória até a amostra estratificada ser analisada em High.
+## Status
 
-Tipos de intenção que devem ser distinguidos durante a classificação:
+Lista de intenções **v1 — ativa** para os primeiros lotes.
 
-- Conversão direta
-- Conversão que exige contexto ou variável adicional
-- Cálculo direto
-- Simulação
-- Cotação atual
-- Cotação histórica
-- Consulta informativa
-- Consulta educacional
-- Tabela ou referência
-- Conversão de arquivo/mídia
-- Busca transacional/comercial
-- Busca por documento/conteúdo
-- Fora do escopo do portal
-- Ambígua / revisão manual
+O tipo de intenção descreve o que a pessoa quer fazer, não apenas o assunto mencionado.
 
-## Princípio
+## Tipos de intenção
 
-O tipo de intenção deve descrever o que a pessoa quer fazer, não apenas o assunto mencionado na consulta.
+- **cálculo direto** — fórmula determinística com entradas suficientes.
+- **conversão direta** — transformação entre unidades/representações compatíveis.
+- **simulação/projeção** — evolução, parcelas, rendimento ou cenário ao longo do tempo.
+- **dimensionamento** — tamanho/capacidade/quantidade técnica necessária.
+- **estimativa de quantidade** — materiais/itens necessários.
+- **estimativa de consumo** — consumo energético/combustível.
+- **estimativa de custo** — custo calculado a partir de quantidade, tarifa ou preço.
+- **cotação atual** — requer taxa/preço corrente.
+- **cotação histórica** — requer taxa/preço de data passada.
+- **tabela/referência** — tabela ou equivalência, sem necessariamente cálculo interativo.
+- **informacional** — explicação, regra ou conceito.
+- **navegacional/transacional** — acessar serviço, app, saldo, banco ou produto específico.
+- **conversão de arquivo/mídia** — transformar formato de documento, imagem, áudio ou vídeo.
+- **cálculo contextual** — relação depende de variável adicional, como densidade, tarifa ou fator de potência.
+- **consulta de preço/mercado** — preço comercial de bem, commodity ou serviço.
+- **fora de escopo** — não representa ferramenta útil para o portal.
+- **ambígua/revisão** — há mais de uma interpretação plausível sem contexto suficiente.
 
-Exemplos de conflitos já conhecidos:
+## Exemplos de fronteira
 
-- `preço da arroba do boi` não é automaticamente conversão de massa.
-- `libras hoje valor` pode ser cotação de moeda, não unidade de peso.
-- `medidas de mitigação das mudanças climáticas pdf` é busca por conteúdo/documento, não conversão de PDF.
-- `converter gramas em ml` exige contexto de densidade.
+- `1 milhas em km` → conversão direta.
+- `converter gramas em ml` → cálculo contextual.
+- `cotacao do dolar hoje` → cotação atual.
+- `1 dólar em real` → conversão direta.
+- `calculadora de juros compostos` → simulação/projeção.
+- `ar condicionado 12000 btus consumo` → estimativa de consumo.
+- `calcular quantidade de telhas` → estimativa de quantidade.
+- `apk whatsapp gb` → fora de escopo.
 
-Veja [[../03-Ambiguidades/Ambiguidades Globais]].
+## Regra
+
+Quando o tipo de intenção for contextual, ambíguo ou dependente de dado dinâmico, isso deve aparecer também em `confianca` e `revisao_manual` quando aplicável.
+
+Veja [[../03-Ambiguidades/Ambiguidades Globais]] e [[Taxonomia Mestre v1]].
