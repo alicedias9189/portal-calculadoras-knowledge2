@@ -70,19 +70,72 @@ Os quatro fragmentos exatos das duas reconstruções não foram encontrados nos 
 
 ## Barra `/`
 
-A barra deve ser tratada em fase separada. Não se deve inferir `/` automaticamente a partir de qualquer espaço entre números ou unidades.
+A barra é tratada em fase separada e com uma regra mais conservadora do que a vírgula.
 
-A fase de `/` deve combinar:
+### Regra central
 
-- sementes que ainda possuem `/` explicitamente;
-- formas em que `/` foi removida manualmente, como `1 3`, `km h`, `g cm3`;
-- formas em que a barra foi substituída por palavras, como `um terço`.
+Uma forma já sanitizada **não prova** que existia `/` originalmente.
 
-Casos como `3 5 litros` não devem ser interpretados como `3/5`: podem representar decimal (`3,5`) ou outra estrutura.
+Exemplos:
+
+- `um terço` pode ter sido escrito originalmente assim ou pode ser substituição manual de `1/3`;
+- `férias com 1 3` pode ser `1/3` com barra removida, mas só deve ser tratado como hipótese até haver evidência/contexto suficiente;
+- `MB s` pode representar `MB/s`, mas em outras consultas dois tokens de unidade podem indicar apenas uma conversão;
+- `um quarto` é especialmente polissêmico porque pode significar fração ou cômodo.
+
+Portanto, nenhuma forma escrita ou com espaço recebe reconstrução automática.
+
+### Script de auditoria
+
+O script `auditar_barras_v1.py` separa três classes:
+
+1. **barra explícita confirmada** — a própria semente ainda contém `/`; esta é evidência direta;
+2. **candidato sanitizado ambíguo** — formas como `1 3`, `um terço`, `km h`, `MB s`; origem não confirmada;
+3. **variante de busca** — forma derivada de uma semente com slash explícita para procurar nos resultados, sem virar prova sozinha.
+
+O script registra arquivo, aba, linha, coluna e célula, preservando rastreabilidade.
+
+### Teste nos 7 arquivos de sementes atuais
+
+A execução de teste encontrou:
+
+- **14 células com `/` explícita**;
+- **6 prováveis cabeçalhos/categorias** com `/`;
+- **8 prováveis keywords reais com `/` explícita**;
+- **44 candidatos sanitizados** para revisão;
+- **16 variantes de busca** derivadas das keywords explícitas.
+
+As 8 keywords explícitas reais estão em `SementesConversores.ods`, aba `Sementes misturadas`, e incluem:
+
+- `Mbps para MB/s`;
+- `MB/s para Mbps`;
+- `Gbps para GB/s`;
+- `GB/s para Gbps`;
+- `Kbps para KB/s`;
+- `KB/s para Kbps`;
+- `velocidade de internet Mbps para MB/s`;
+- `quanto é 100 Mbps em MB/s`.
+
+Entre os candidatos sanitizados existem três casos claros para investigação, mas ainda não para reconstrução automática:
+
+- `férias com 1 3`;
+- `cálculo de férias com 1 3`;
+- outra ocorrência de `férias com 1 3`.
+
+Também existem muitas ocorrências de `um terço` ligadas a férias, mas a origem delas permanece **indeterminada** porque o texto por extenso pode ser legítimo.
+
+### Falsos positivos evitados
+
+A auditoria não deve converter automaticamente:
+
+- `traço de concreto 1 2 3` em `1/2`;
+- `um quarto` em `1/4` sem contexto, pois pode significar cômodo;
+- `meio período` em `1/2 período`;
+- qualquer par numérico simplesmente porque há um espaço entre os números.
 
 ## Regra de preservação
 
-A coluna original `Keyword` nunca deve ser sobrescrita. Reconstruções ficam em campos paralelos, como:
+A coluna original `Keyword` nunca deve ser sobrescrita. Reconstruções e hipóteses ficam em campos paralelos, como:
 
 - `keyword_interpretada`;
 - `fenomeno_origem`;
@@ -93,4 +146,4 @@ A coluna original `Keyword` nunca deve ser sobrescrita. Reconstruções ficam em
 
 ## Próximo passo
 
-Executar a auditoria de `/` e das formas sanitizadas manualmente antes de retomar a classificação do lote 002.
+Usar as 8 sementes com `/` explícita para procurar variantes nos CSV/ODS de resultados e, separadamente, investigar os candidatos sanitizados sem tratá-los como reconstruções confirmadas. Só depois aplicar o mapa de evidências à classificação dos lotes.
