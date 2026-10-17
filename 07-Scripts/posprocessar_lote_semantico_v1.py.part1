@@ -1,0 +1,190 @@
+import csv,re,unicodedata,argparse
+from pathlib import Path
+from collections import Counter
+
+def rd(p):
+    with open(p,'r',encoding='utf-8-sig',newline='') as f:return list(csv.DictReader(f,delimiter=';'))
+def wr(p,rows):
+    with open(p,'w',encoding='utf-8-sig',newline='') as f:
+        w=csv.DictWriter(f,fieldnames=list(rows[0].keys()),delimiter=';');w.writeheader();w.writerows(rows)
+def n(s):
+    s=unicodedata.normalize('NFKD',(s or '').casefold());s=''.join(c for c in s if not unicodedata.combining(c));return re.sub(r'\s+',' ',s).strip()
+def L(a,c,s):return '|||'.join([a,c,s])
+
+parser=argparse.ArgumentParser(description='Aplica regras semânticas pós-classificação a um lote.')
+parser.add_argument('--lote',type=int,required=True)
+parser.add_argument('--root',default='.')
+args=parser.parse_args();LOT=args.lote;ROOT=Path(args.root).resolve()
+rows=rd(ROOT/f'_lote-{LOT:03d}-stage-preds.csv')
+
+for r in rows:
+ t=n(r['_text']); lab=r['_label']; typ=r['_intent']
+ # Data storage
+ if re.search(r'\b(bytes?|kilobytes?|megabytes?|gigabytes?|terabytes?|\bkb\b|\bmb\b|\bgb\b|\btb\b)\b',t) and not re.search(r'\b(kbps|mbps|gbps|bps)\b',t):
+  r['_label']=L('Conversores','Dados digitais','Armazenamento digital')
+  r['_intent']='conversão direta' if re.search(r'\b(para| to | em )\b',t) and len(re.findall(r'\b(bytes?|kilobytes?|megabytes?|gigabytes?|terabytes?|kb|mb|gb|tb)\b',t))>=2 else 'informacional'
+ # digital transfer rates
+ if re.search(r'\b(kbps|mbps|gbps|bps|mb/s|gb/s|kb/s)\b',t):
+  r['_label']=L('Conversores','Dados digitais','Taxa de transferência e rede')
+ # temperature shorthand
+ if re.search(r'\b(converter|passar|transformar)\b',t) and re.search(r'\b(c|f|k|celsius|fahrenheit|kelvin)\b',t) and re.search(r'\b(para|em| to )\b',t):
+  # avoid generic file letters unless temperature context patterns
+  if re.search(r'\b(c para f|f para c|f para k|k para f|c para k|k para c|celsius|fahrenheit|kelvin)\b',t):
+   r['_label']=L('Conversores','Unidades físicas','Temperatura');r['_intent']='conversão direta'
+ # math trig
+ if re.search(r'\b(seno|cosseno|tangente|trigonometr|inequacao trigonometrica)\b',t):
+  r['_label']=L('Matemática','Trigonometria','Trigonometria e geometria angular')
+  r['_intent']='cálculo direto' if re.search(r'\b(calculadora|calcular|calcule|resolver|resolva)\b',t) else 'informacional'
+ # polynomial / interpolation
+ if re.search(r'\b(mmc de polinom|interpolacao linear|inequacao)\b',t) and 'trigonom' not in t:
+  r['_label']=L('Matemática','Álgebra','Equações e expressões');r['_intent']='cálculo direto' if re.search(r'\b(calculadora|calcular|resolver)\b',t) else 'informacional'
+ # dissidio
+ if re.search(r'\bdissidio\b',t):
+  r['_label']=L('Trabalho','Legislação e direitos','Direitos trabalhistas e CLT')
+  r['_intent']='cálculo direto' if re.search(r'\b(calcular|calculadora|calculo|reajuste|aumento)\b',t) else 'informacional'
+ # previdencia privada is finance, not INSS
+ if re.search(r'\bprevidencia privada\b',t):
+  r['_label']=L('Finanças','Investimentos','Rendimento geral')
+  r['_intent']='simulação/projeção' if re.search(r'\b(simul|calculadora|projec)\b',t) else 'informacional'
+ # dividend yield
+ if re.search(r'\bdividend yield\b',t):
+  r['_label']=L('Finanças','Investimentos','Ações e dividendos')
+  r['_intent']='cálculo direto' if re.search(r'\b(calcular|calculadora|calculo)\b',t) else 'informacional'
+ # IGP-M/IPCA-like indices
+ if re.search(r'\b(igp m|igpm|ipca)\b',t):
+  r['_label']=L('Finanças','Correção monetária','Inflação e índices')
+  r['_intent']='cálculo direto' if re.search(r'\b(calcular|calculadora|atualiza|reajuste|corrig)\b',t) else 'informacional'
+ # juros sobre juros
+ if re.search(r'\bjuros sobre juros\b',t):
+  r['_label']=L('Finanças','Juros','Juros compostos')
+  r['_intent']='cálculo direto' if re.search(r'\b(calcular|calculadora|conta)\b',t) else 'informacional'
+ # investment simulators
+ if re.search(r'\b(simulador|simulacao) de aplicacoes financeiras\b',t) or re.search(r'\btitulo imobiliario simulador\b',t):
+  r['_label']=L('Finanças','Investimentos','Rendimento geral');r['_intent']='simulação/projeção'
+ # work day value
+ if re.search(r'\bquanto vale (?:meu |o |um |1 )?dia de trabalho\b',t) or re.search(r'\bvalor (?:do )?dia de trabalho\b',t):
+  r['_label']=L('Trabalho','Remuneração','Valor da hora e dias trabalhados');r['_intent']='cálculo direto'
+ # work benefits and DSR
+ if re.search(r'\bvale combustivel\b',t) and re.search(r'\b(descont|folha|salario|integra)\b',t):
+  r['_label']=L('Trabalho','Descontos e benefícios','Vale-transporte e benefícios');r['_intent']='informacional'
+ if re.search(r'\b(descanso.*proventos|dsr|descanso semanal remunerado)\b',t):
+  r['_label']=L('Trabalho','Jornada e adicionais','DSR');r['_intent']='cálculo direto' if re.search(r'\b(calcul|proventos|reflex)\b',t) else 'informacional'
+ if re.search(r'\bgrf\b',t):
+  r['_label']=L('Trabalho','FGTS','FGTS e multa rescisória');r['_intent']='cálculo direto' if re.search(r'\b(calcul)\b',t) else 'informacional'
+ # 12x36/12 por 36 work schedules
+ if re.search(r'\b12\s*(?:x|por|/)\s*36\b',t) and re.search(r'\b(expediente|escala|jornada|turno|carga horaria|trabalho)\b',t):
+  r['_label']=L('Trabalho','Jornada e adicionais','Escalas e jornada');r['_intent']='informacional'
+ # terrain area
+ if re.search(r'\b(tamanho|area) do terreno\b',t) or re.search(r'\bcalcular tamanho de terreno\b',t):
+  r['_label']=L('Construção','Metragem','Área aplicada à construção');r['_intent']='cálculo direto'
+ # construction costs / prices
+ if re.search(r'\b(custo|preco|precos|valor)\b',t) and re.search(r'\b(construcao|pavilhao|piso|pisos|madeira|tijolo|telha|cimento|argamassa)\b',t):
+  r['_label']=L('Construção','Custos e orçamento','Orçamento, materiais e mão de obra');r['_intent']='consulta de preço/mercado' if re.search(r'\b(preco|precos|valor)\b',t) else 'estimativa de custo'
+ # ferro/laje structures
+ if re.search(r'\bferro para laje\b',t):
+  r['_label']=L('Construção','Estruturas','Fundações e estruturas');r['_intent']='estimativa de quantidade'
+ # solar: power and market generation
+ if re.search(r'\b(painel solar|placa solar).*\b(watts?|produz|potencia)\b',t):
+  r['_label']=L('Energia','Energia solar','Dimensionamento solar');r['_intent']='informacional'
+ if re.search(r'\benergia solar.*venda do excedente\b',t):
+  r['_label']=L('Energia','Mercado e geração','Geração própria e mercado livre');r['_intent']='informacional'
+ # private physical calculators and bobina
+ if re.search(r'\bcalculadora\b',t) and re.search(r'\b(bobina|hp 10s|hp10s|procalc|elgin)\b',t):
+  r['_label']=L('Fora de escopo','Produtos/marcas','Calculadora física');r['_intent']='fora de escopo'
+ # OCR
+ if re.search(r'\bocr\b',t):
+  if re.search(r'\b(para word|para texto|pdf|imagem|foto)\b',t):
+   r['_label']=L('Conversores','Arquivos e documentos','Documentos e PDF');r['_intent']='conversão de arquivo/mídia'
+  else:
+   r['_label']=L('Fora de escopo','Serviços/software','Consulta navegacional');r['_intent']='fora de escopo'
+ # electrical phase conversion
+ if re.search(r'\b(monofasica|trifasica)\b',t):
+  r['_label']=L('Conversores','Eletricidade e eletrônica','Grandezas elétricas');r['_intent']='cálculo contextual'
+ # VA to W depends on power factor
+ if re.search(r'\bva\b.*\bwatts?\b|\bwatts?\b.*\bva\b',t):
+  r['_label']=L('Conversores','Eletricidade e eletrônica','Grandezas elétricas');r['_intent']='cálculo contextual'
+ # travel time from speed/distance
+ if re.search(r'\btempo de viagem\b',t) and re.search(r'\b(km|km/h)\b',t):
+  r['_label']=L('Datas','Duração','Horas, minutos e duração genérica');r['_intent']='cálculo contextual'
+ # generic time counting
+ if re.search(r'\b(contagem de tempo|contar tempo|fazer contagem de tempo)\b',t):
+  r['_label']=L('Datas','Duração','Horas, minutos e duração genérica');r['_intent']='cálculo direto'
+ # agriculture productivity
+ if re.search(r'\b(hectare).*\b(sacas?)\b|\b(sacas?).*\b(hectare)\b',t) and re.search(r'\b(soja|milho|cafe)\b',t):
+  r['_label']=L('Fora de escopo','Agricultura','Produtividade agrícola');r['_intent']='fora de escopo'
+ # legal/judicial: keep monetary correction only when update/index explicit; otherwise out/review
+ if re.search(r'\bcalculo judicial\b',t):
+  if re.search(r'\b(atualiza|monetari|indice|correcao)\b',t):
+   r['_label']=L('Finanças','Correção monetária','Inflação e índices');r['_intent']='cálculo direto'
+  elif re.search(r'\b(tjsp|online|on line)\b',t):
+   r['_label']=L('Fora de escopo','Serviços/software','Consulta navegacional');r['_intent']='fora de escopo'
+ # explicit legal cause/honorarios not portal finance calculator
+ if re.search(r'\b(valor da causa|honorarios|honorários)\b',t) and re.search(r'\bjudicial|processo|causa\b',t):
+  r['_label']=L('Fora de escopo','Jurídico','Cálculos jurídicos');r['_intent']='fora de escopo'
+ # credit online transaction
+ if re.search(r'\bcreditos? online|credito online\b',t):
+  r['_label']=L('Finanças','Crédito','Empréstimos');r['_intent']='navegacional/transacional'
+ # Investing/currency pages imply current quote unless explicit value conversion
+ if 'investing' in t and re.search(r'\b(dolar|euro|eur|usd|real|brl|cambio)\b',t):
+  r['_label']=L('Finanças','Câmbio','Cotação atual');r['_intent']='cotação atual'
+ # generic calculator labor
+ if re.search(r'\b(conta trabalhista|calculos? trabalhistas?|calculadora trabalhista)\b',t):
+  r['_label']=L('Trabalho','Ferramentas trabalhistas','Calculadora trabalhista geral');r['_intent']='cálculo direto'
+ # end employment contract
+ if re.search(r'\bfim de contrato de trabalho\b',t):
+  r['_label']=L('Trabalho','Rescisão','Rescisão trabalhista');r['_intent']='cálculo direto'
+
+
+for r in rows:
+    t=n(r['_text'])
+
+    # Pure energy-unit conversion (R03/R12): kWh/MJ is a converter, not consumption/cost.
+    if re.search(r'\bkwh\b',t) and re.search(r'\bmj\b',t) and re.search(r'\b(para|em|to)\b',t):
+        r['_label']=L('Conversores','Unidades físicas','Energia, potência e calor');r['_intent']='conversão direta'
+
+    # Image/vector format conversion families.
+    image_ext=r'jpg|jpeg|png|webp|gif|svg|cdr|corel|bmp|tiff|tif|heic|ico'
+    if len(re.findall(rf'\b(?:{image_ext})\b',t))>=2 and re.search(r'\b(convert|converter|conversor|para|em|to|2|transformar)\b',t):
+        r['_label']=L('Conversores','Imagem','Formatos de imagem');r['_intent']='conversão de arquivo/mídia'
+
+    # Video formats to/from GIF or another video container.
+    video_ext=r'mov|mp4|avi|mkv|webm|wmv|mpeg|mpg|flv'
+    if re.search(rf'\b(?:{video_ext})\b',t) and re.search(rf'\b(?:{video_ext}|gif)\b',t) and re.search(r'\b(convert|converter|conversor|para|em|to|transformar)\b',t):
+        r['_label']=L('Conversores','Vídeo','Formatos de vídeo');r['_intent']='conversão de arquivo/mídia'
+
+    # Perimeter is generic geometry unless explicitly a construction/terrain application.
+    if re.search(r'\bperimetro\b',t):
+        if re.search(r'\b(terreno|lote|obra|muro)\b',t):
+            r['_label']=L('Construção','Metragem','Área aplicada à construção')
+        else:
+            r['_label']=L('Matemática','Geometria','Área e perímetro')
+        r['_intent']='cálculo direto' if re.search(r'\b(calcul|descobrir|achar|diametro pelo perimetro)\b',t) else 'informacional'
+
+    # Descriptive statistics.
+    if (re.search(r'\bmedia\b',t) and re.search(r'\b(moda|mediana|desvio padrao)\b',t)) or re.search(r'\bmediana\b',t) or re.search(r'\bmoda estat',t):
+        if not re.search(r'\b(media salarial|media de consumo|media mensal de vendas|media de preco)\b',t):
+            r['_label']=L('Matemática','Estatística e probabilidade','Médias e estatística descritiva')
+            r['_intent']='cálculo direto' if re.search(r'\b(calcul|tirar|achar|descobrir)\b',t) else 'informacional'
+
+    # Fraction concepts/conversions.
+    if re.search(r'\bfracao irredut|\bsimplificar fracao|decimal.*fracao|fracao.*decimal\b',t):
+        r['_label']=L('Matemática','Números e operações','Frações e decimais')
+        r['_intent']='cálculo direto' if re.search(r'\b(convert|calcul|simplific|transform)\b',t) else 'informacional'
+
+    # Generic mathematical proportion.
+    if re.search(r'\bproporcao\b',t) and not re.search(r'\b(dividend|mistura|argamassa|concreto|salario|financeir|obra|tinta)\b',t):
+        if re.search(r'\bporcentagem|percentual\b',t):
+            r['_label']=L('Matemática','Porcentagem e proporções','Porcentagem e variação percentual')
+        else:
+            r['_label']=L('Matemática','Porcentagem e proporções','Regra de três e proporções')
+        r['_intent']='cálculo direto' if re.search(r'\b(calcul|calculadora|como fazer|achar)\b',t) else 'informacional'
+
+    # Algebra: systems/two variables/quadratic equations.
+    if re.search(r'\b(equacao|sistema de equacao).*(duas variav|2 variav)|\bequacao quadrat|\bfuncao quadratica|\bfunção quadratica',t):
+        r['_label']=L('Matemática','Álgebra','Equações e expressões')
+        r['_intent']='cálculo direto' if re.search(r'\b(calcul|resolver|resolva|raiz da funcao|raiz de funcao)\b',t) else 'informacional'
+
+    # Square-root function belongs to powers/roots, not trigonometry/general tool.
+    if re.search(r'\braiz quadrad|\bfuncao raiz quadrada|\bfunção raiz quadrada',t) and not re.search(r'\bfuncao quadratica|\bfunção quadratica',t):
+        r['_label']=L('Matemática','Potências e funções','Potências, raízes e logaritmos')
+        r['_intent']='cálculo direto' if re.search(r'\b(calcul|resolver|contas? de raiz)\b',t) else 'informacional'
