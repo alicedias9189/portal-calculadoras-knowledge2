@@ -17,7 +17,8 @@ O gerador de XLSX centralizado usa `artifact_tool`, que precisa estar disponíve
 - `classificar_lote_semantico_v1.py` — classificador inicial do lote usando lote(s) aprovado(s) como treino, Golden Set e mapa de barras.
 - `posprocessar_lote_semantico_v1.py.part1` + `.part2` — regras semânticas pós-classificação usadas nas auditorias recentes.
 - `finalizar_auditar_lote_v1.py` — finalizador-base v1.
-- `finalizar_auditar_lote_v1_1.py` — wrapper reutilizável sobre o v1 com a revisão PDF/content validada no lote 005; distingue conversão/criação de PDF, edição pura de PDF e PDF de referência de unidades.
+- `finalizar_auditar_lote_v1_1.py` — camada de revisão PDF/content validada no lote 005; distingue conversão/criação de PDF, edição pura de PDF e PDF de referência de unidades.
+- `finalizar_auditar_lote_v1_2.py` — camada validada no lote 006; reforça R21 para licenças/direitos parentais que não podem cair em Datas e reconhece flexões inequívocas de conversão de PDF como `converte word em pdf`.
 - `instalar_pipeline_semantico_v1.py` — monta `posprocessar_lote_semantico_v1.py` a partir das duas partes e valida SHA-256.
 - `gerar_qa_centralizado_v1.py` — gerador anterior de QA.
 - `gerar_planilhas_centralizadas_v2.py` — gera XLSX com todas as células usadas centralizadas horizontal e verticalmente; `--qa-only` gera apenas o workbook de QA.
@@ -44,13 +45,13 @@ cd73c777dc89ac56ecb279c113304f9006453d22c68dc81f0110d106377f6207
 
 ## Execução de um lote
 
-Exemplo para o lote 006 usando o lote 005 aprovado como treino/controle anterior:
+Exemplo para o lote 007 usando o lote 006 aprovado como treino/controle anterior:
 
 ```bash
-python3 07-Scripts/classificar_lote_semantico_v1.py --lote 6 --treino 5 --root .
-python3 07-Scripts/posprocessar_lote_semantico_v1.py --lote 6 --root .
-python3 07-Scripts/finalizar_auditar_lote_v1_1.py --lote 6 --controle-anterior 5 --root .
-python3 07-Scripts/gerar_planilhas_centralizadas_v2.py --lote 6 --root . --qa-only
+python3 07-Scripts/classificar_lote_semantico_v1.py --lote 7 --treino 6 --root .
+python3 07-Scripts/posprocessar_lote_semantico_v1.py --lote 7 --root .
+python3 07-Scripts/finalizar_auditar_lote_v1_2.py --lote 7 --controle-anterior 6 --root .
+python3 07-Scripts/gerar_planilhas_centralizadas_v2.py --lote 7 --root . --qa-only
 ```
 
 Se o ambiente suportar a exportação XLSX grande pelo `artifact_tool`, remova `--qa-only` para também gerar o XLSX classificado completo.
@@ -74,6 +75,7 @@ revisao_contextual_barras_v2/mapa-barras-mestre-v2.csv
 - Ambiguidade real não deve ser promovida artificialmente para confiança alta.
 - PDF com conteúdo sobre conversão de medidas não deve ser confundido com conversão de arquivo.
 - Edição pura de PDF sem formato de destino fica fora do escopo do conversor.
+- Quantidade de dias/direitos de licença parental regidos pela relação de trabalho deve ficar em `Trabalho > Afastamentos > Licenças e afastamentos`, e não em Datas.
 
 ## Planilhas
 
