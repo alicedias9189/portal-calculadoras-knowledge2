@@ -109,3 +109,23 @@ python3 07-Scripts/gerar_resumo_consolidado_v1.py --root .
 ```
 
 Esse gerador centraliza horizontal e verticalmente todas as células usadas.
+
+## Saneamento posterior aos 30 lotes (DEC-036)
+
+Os 30 lotes foram processados; um QA transversal identificou **73** inconsistências antigas no L001, resolvidas em **uma cópia versionada**: 7 conversões diretas com metadados preenchidos e 66 reclassificações de intenção, sem alterar as colunas originais nem os controles.
+
+Scripts reutilizáveis:
+
+- `sanear_lote_001_73_v1.py` — reclassifica pontualmente os 73 IDs conhecidos, audita invariantes e grava um novo CSV do L001; requer `pendencias-metadados-diretos-lote-001.csv`.
+- `priorizar_revisao_30_lotes_v1.py` — lê os 30 CSVs, incluindo L003 dentro do ZIP aprovado, e cria fila completa, 500 primeiras pendências e famílias.
+
+Comandos na raiz de trabalho com os lotes disponíveis:
+
+```bash
+python3 07-Scripts/sanear_lote_001_73_v1.py --root .
+python3 07-Scripts/priorizar_revisao_30_lotes_v1.py --root .
+```
+
+Há **52.046 pendências** sinalizadas após o saneamento, em **15.117 famílias**, priorizadas como P0=474, P1=2.557, P2=25.050 e P3=23.965. Esses registros **ainda não receberam revisão qualitativa individual**; a fila é planejamento e não validação semântica. O XLSX centralizado e a versão integral do gerador estão no pacote de entrega desta etapa.
+
+Não propagar decisões com baixa evidência ou alterar os lotes anteriores automaticamente. Os resultados de buscas do Google Ads não devem ser somados por keyword semelhante.
