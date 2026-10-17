@@ -52,13 +52,13 @@ cd73c777dc89ac56ecb279c113304f9006453d22c68dc81f0110d106377f6207
 
 ## Execução de um lote
 
-Exemplo para o lote 029 usando o lote 028 aprovado como treino/controle anterior:
+Exemplo para o lote 030 usando o lote 029 aprovado como treino/controle anterior:
 
 ```bash
-python3 07-Scripts/classificar_lote_semantico_v1_1.py --lote 29 --treino 28 --root .
-python3 07-Scripts/posprocessar_lote_semantico_v1.py --lote 29 --root .
-python3 07-Scripts/finalizar_auditar_lote_v1_16.py --lote 29 --controle-anterior 28 --root .
-python3 07-Scripts/gerar_planilhas_centralizadas_v2.py --lote 29 --root . --qa-only
+python3 07-Scripts/classificar_lote_semantico_v1_1.py --lote 30 --treino 29 --root .
+python3 07-Scripts/posprocessar_lote_semantico_v1.py --lote 30 --root .
+python3 07-Scripts/finalizar_auditar_lote_v1_16.py --lote 30 --controle-anterior 29 --root .
+python3 07-Scripts/gerar_planilhas_centralizadas_v2.py --lote 30 --root . --qa-only
 ```
 
 ## Regras de preservação
