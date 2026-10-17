@@ -15,6 +15,7 @@ O gerador de XLSX centralizado usa `artifact_tool`, que precisa estar disponíve
 ## Arquivos
 
 - `classificar_lote_semantico_v1.py` — classificador inicial do lote usando lote(s) aprovado(s) como treino, Golden Set e mapa de barras.
+- `classificar_lote_semantico_v1_1.py` — mesma lógica do v1, mas com `max_iter=10000` nos dois `LinearSVC`; elimina o `ConvergenceWarning` observado no lote 010 e passa a ser a versão recomendada para os lotes seguintes.
 - `posprocessar_lote_semantico_v1.py.part1` + `.part2` — regras semânticas pós-classificação usadas nas auditorias recentes.
 - `finalizar_auditar_lote_v1.py` — finalizador-base v1.
 - `finalizar_auditar_lote_v1_1.py` — camada de revisão PDF/content validada no lote 005; distingue conversão/criação de PDF, edição pura de PDF e PDF de referência de unidades.
@@ -50,7 +51,7 @@ cd73c777dc89ac56ecb279c113304f9006453d22c68dc81f0110d106377f6207
 Exemplo para o lote 011 usando o lote 010 aprovado como treino/controle anterior:
 
 ```bash
-python3 07-Scripts/classificar_lote_semantico_v1.py --lote 11 --treino 10 --root .
+python3 07-Scripts/classificar_lote_semantico_v1_1.py --lote 11 --treino 10 --root .
 python3 07-Scripts/posprocessar_lote_semantico_v1.py --lote 11 --root .
 python3 07-Scripts/finalizar_auditar_lote_v1_4.py --lote 11 --controle-anterior 10 --root .
 python3 07-Scripts/gerar_planilhas_centralizadas_v2.py --lote 11 --root . --qa-only
