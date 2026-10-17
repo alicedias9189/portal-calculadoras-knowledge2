@@ -34,6 +34,7 @@ O gerador de XLSX centralizado usa `artifact_tool`, que precisa estar disponíve
 - `finalizar_auditar_lote_v1_14.py` — separa preço unitário de combustível, buscas navegacionais por Convertio e folga eleitoral de mesário/presidente de mesa; validado no lote 023 e suficiente no lote 024.
 - `finalizar_auditar_lote_v1_15.py` — amplia PDF↔MOBI/Kindle, conteúdo matemático em PDF, Smallpdf navegacional, combustível por km, `transforma PDF` e PowerPoint→PDF; validado no lote 025.
 - `finalizar_auditar_lote_v1_16.py` — reconhece XPS↔PDF e reclassifica material identificado de Cálculo em PDF como conteúdo/documento informacional; validado no lote 026.
+- `finalizar_auditar_lote_v1_17.py` — corrige pares TIFF↔PDF com direção explícita e marca pares nus PDF/DWG/DXF como ambíguos; aplicado no lote 030.
 - `instalar_pipeline_semantico_v1.py` — monta o pós-processador e valida SHA-256.
 - `gerar_qa_centralizado_v1.py` — gerador anterior de QA.
 - `gerar_planilhas_centralizadas_v2.py` — gera XLSX centralizado horizontal e verticalmente; `--qa-only` gera apenas QA.
@@ -52,12 +53,12 @@ cd73c777dc89ac56ecb279c113304f9006453d22c68dc81f0110d106377f6207
 
 ## Execução de um lote
 
-Exemplo para o lote 030 usando o lote 029 aprovado como treino/controle anterior:
+Exemplo final reproduzível do lote 030 usando o lote 029 aprovado como treino/controle anterior:
 
 ```bash
 python3 07-Scripts/classificar_lote_semantico_v1_1.py --lote 30 --treino 29 --root .
 python3 07-Scripts/posprocessar_lote_semantico_v1.py --lote 30 --root .
-python3 07-Scripts/finalizar_auditar_lote_v1_16.py --lote 30 --controle-anterior 29 --root .
+python3 07-Scripts/finalizar_auditar_lote_v1_17.py --lote 30 --controle-anterior 29 --root .
 python3 07-Scripts/gerar_planilhas_centralizadas_v2.py --lote 30 --root . --qa-only
 ```
 
@@ -91,3 +92,9 @@ python3 07-Scripts/gerar_planilhas_centralizadas_v2.py --lote 30 --root . --qa-o
 ## Planilhas
 
 A partir do lote 004, toda planilha XLSX gerada deve manter **todas as linhas e colunas usadas centralizadas horizontal e verticalmente**. CSV não possui formatação visual.
+
+## Encerramento (30/30 lotes)
+
+O lote 030 encerrou o processamento de 294.905 keywords base. O relatório global de encerramento está em `00-Mapa-Global/Encerramento de 30 lotes - auditoria transversal.md`.
+
+A auditoria global identificou 73 conversões diretas com metadados incompletos no lote 001; os lotes 002 a 030 passaram nesse critério. Existem 52.050 keywords sinalizadas para revisão manual. **Os testes automáticos aprovados não substituem essa revisão.**
