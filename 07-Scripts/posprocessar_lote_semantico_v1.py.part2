@@ -1,0 +1,191 @@
+
+    # Payroll/social-security contribution rate is labor payroll, not generic percentage.
+    if re.search(r'\b(contribuicao previdenciaria|percentual.*contribuicao previdenciaria)\b',t):
+        r['_label']=L('Trabalho','Folha e encargos','INSS e IRRF');r['_intent']='informacional'
+
+    # Currency quote wording without a concrete two-sided conversion.
+    if re.search(r'\b(dolar|euro|libra esterlina|iene|yuan|peso argentino|peso chileno|peso mexicano|franco suico|dolar canadense)\b',t) and re.search(r'\b(custo|preco|valor|cotacao|atualiz|hoje|ontem|agora)\b',t):
+        if not (re.search(r'\b\d+(?:[.,]\d+)?\b',t) and re.search(r'\b(para|em)\b',t) and re.search(r'\b(reais|real|euro|dolar|peso|libra|iene|yuan|franco)\b',t)):
+            r['_label']=L('Finanças','Câmbio','Cotação atual');r['_intent']='cotação atual'
+
+    # Gold pound/sovereign value is a dynamic commercial/collectible price, not mass/currency conversion.
+    if re.search(r'\blibra(?:s)?\b.*\bouro\b|\bour[o]?\b.*\blibra(?:s)?\b',t) and re.search(r'\b(preco|valor|quanto vale|rainha victoria)\b',t):
+        r['_label']=L('Fora de escopo','Preço de mercado','Ouro e moedas');r['_intent']='consulta de preço/mercado'
+
+    # Waterproofing materials for tanks/masonry.
+    if re.search(r'\b(manta|impermeabil)\b',t) and re.search(r'\b(caixa d agua|alvenaria|laje|parede|fachada)\b',t):
+        r['_label']=L('Construção','Impermeabilização','Impermeabilização e vedação');r['_intent']='informacional'
+
+    # Pure mass conversion g↔kg.
+    if re.search(r'\b(gramas?|g)\b',t) and re.search(r'\b(kg|quilogramas?)\b',t) and re.search(r'\b(para|em|to|converter|passar)\b',t) and not re.search(r'\b(cm3|m3|densidade|por centimetro cubico|por metro cubico)\b',t):
+        r['_label']=L('Conversores','Unidades físicas','Massa e peso');r['_intent']='conversão direta'
+
+    # Density conversion g/cm³ ↔ kg/m³.
+    if re.search(r'\bgrama.*centimetro cubico.*kg.*metro cubico|\bg\s*/?\s*cm3.*kg\s*/?\s*m3',t):
+        r['_label']=L('Conversores','Grandezas físico-químicas','Densidade e concentração');r['_intent']='conversão direta'
+
+    # FGTS-backed loan/advance is a financial credit product when the query is about bank/rate/loan terms.
+    if re.search(r'\bfgts\b',t) and re.search(r'\b(emprestimo|antecipacao|taxa|juros|banco)\b',t):
+        r['_label']=L('Finanças','Crédito','Empréstimos')
+        r['_intent']='navegacional/transacional' if re.search(r'\b(banco|onde|melhor|menor taxa|menor juros)\b',t) else 'informacional'
+
+    # Excel is a medium, not a PDF conversion, unless file conversion is explicit.
+    if 'excel' in t and not re.search(r'\b(pdf|csv|xlsx|xls|converter arquivo|salvar como|gerar pdf)\b',t):
+        if re.search(r'\b(porcentagem|percentual)\b',t):
+            r['_label']=L('Matemática','Porcentagem e proporções','Porcentagem e variação percentual');r['_intent']='informacional'
+        elif re.search(r'\b(media|moda|mediana|desvio padrao)\b',t):
+            r['_label']=L('Matemática','Estatística e probabilidade','Médias e estatística descritiva');r['_intent']='informacional'
+        elif re.search(r'\b(soma|somar|subtrair|multiplicar|dividir)\b',t):
+            r['_label']=L('Matemática','Números e operações','Aritmética e operações básicas');r['_intent']='informacional'
+        elif re.search(r'\bjuros compostos\b',t):
+            r['_label']=L('Finanças','Juros','Juros compostos');r['_intent']='informacional'
+
+
+for r in rows:
+    t=n(r['_text'])
+
+    # Generic averages/statistics without a thematic domain.
+    if re.search(r'\b(como (?:fazer|saber|calcular|tirar) (?:a )?media|calcular media|conta de media|media aritmetica)\b',t) and not re.search(r'\b(salario|consumo|preco|vendas|idade media de|velocidade media|custo)\b',t):
+        r['_label']=L('Matemática','Estatística e probabilidade','Médias e estatística descritiva')
+        r['_intent']='cálculo direto'
+
+    # Percentage operations phrased as how-to calculations.
+    if re.search(r'\b(porcentagem|percentual)\b',t) and re.search(r'\b(somar|adicionar|tirar|calcular|achar|descobrir)\b',t) and not re.search(r'\b(salario|inss|previdenci|juros|desconto trabalhista)\b',t):
+        r['_label']=L('Matemática','Porcentagem e proporções','Porcentagem e variação percentual');r['_intent']='cálculo direto'
+
+    # Standalone "raiz quadrática" is a square-root query, not a generic calculator.
+    if re.search(r'\braiz quadratica\b',t) and not re.search(r'\bfuncao|equacao\b',t):
+        r['_label']=L('Matemática','Potências e funções','Potências, raízes e logaritmos');r['_intent']='informacional'
+
+    # Pure area conversions.
+    if re.search(r'\b(metros? quadrados?|m2|km2|quilometros? quadrados?|hectares?|acres?|alqueires?)\b',t) and re.search(r'\b(para|em|to)\b',t):
+        # Only when query looks like a unit conversion, not price/area calculation.
+        if not re.search(r'\b(preco|valor|custo|construcao|terreno.*calcular)\b',t):
+            r['_label']=L('Conversores','Unidades físicas','Área e superfície');r['_intent']='conversão direta'
+
+    # Length conversions including micrometers.
+    if re.search(r'\b(micrometros?|um|µm)\b',t) and re.search(r'\b(mm|milimetros?)\b',t) and re.search(r'\b(para|em|to)\b',t):
+        r['_label']=L('Conversores','Unidades físicas','Comprimento e distância');r['_intent']='conversão direta'
+
+    # Volume conversions m³↔cm³.
+    if re.search(r'\b(metros? cubicos?|m3)\b',t) and re.search(r'\b(centimetros? cubicos?|cm3)\b',t) and re.search(r'\b(para|em|to)\b',t):
+        r['_label']=L('Conversores','Unidades físicas','Volume e capacidade');r['_intent']='conversão direta'
+
+    # Mass conversions including ounces.
+    if re.search(r'\b(kg|quilogramas?)\b',t) and re.search(r'\b(ounces?|oncas?|oz)\b',t) and re.search(r'\b(para|em|to)\b',t):
+        r['_label']=L('Conversores','Unidades físicas','Massa e peso');r['_intent']='conversão direta'
+
+    # Density/concentration units.
+    if re.search(r'\b(?:g|gramas?)\s*(?:por|/)\s*ml\b',t) and re.search(r'\b(?:g|gramas?)\s*(?:por|/)\s*(?:l|litro)\b',t):
+        r['_label']=L('Conversores','Grandezas físico-químicas','Densidade e concentração');r['_intent']='conversão direta'
+
+    # Culinary volume measures. g↔volume remains contextual.
+    if re.search(r'\b(colher(?: de sopa| de sobremesa)?|chavena|xicara)\b',t) and re.search(r'\b(ml|mililitros?|litros?)\b',t):
+        r['_label']=L('Conversores','Culinária e medidas contextuais','Medidas culinárias');r['_intent']='conversão direta'
+    if re.search(r'\b(colher|chavena|xicara)\b',t) and re.search(r'\b(gramas?|g)\b',t):
+        r['_label']=L('Conversores','Culinária e medidas contextuais','Medidas culinárias');r['_intent']='cálculo contextual'
+
+    # Power conversion CV/hp ↔ W/kW is physical power conversion.
+    if re.search(r'\b(cv|cavalo(?:s)? de potencia|hp)\b',t) and re.search(r'\b(watts?|kw|quilowatts?)\b',t):
+        r['_label']=L('Conversores','Unidades físicas','Energia, potência e calor');r['_intent']='conversão direta'
+
+    # kW↔A and kVA↔W require electrical context such as voltage/power factor.
+    if re.search(r'\b(kw|quilowatts?)\b',t) and re.search(r'\b(amperes?|amps?|\ba\b)\b',t):
+        r['_label']=L('Conversores','Eletricidade e eletrônica','Grandezas elétricas');r['_intent']='cálculo contextual'
+    if re.search(r'\bkva\b',t) and re.search(r'\bwatts?|\bw\b',t):
+        r['_label']=L('Conversores','Eletricidade e eletrônica','Grandezas elétricas');r['_intent']='cálculo contextual'
+
+    # Mass↔volume needs density.
+    if re.search(r'\b(toneladas?|kg|quilogramas?)\b',t) and re.search(r'\b(metros? cubicos?|m3|litros?)\b',t) and re.search(r'\b(para|em|to)\b',t):
+        r['_label']=L('Conversores','Grandezas físico-químicas','Densidade e concentração');r['_intent']='cálculo contextual'
+
+    # Explicit density-unit conversion wins over the generic mass↔volume contextual rule.
+    if re.search(r'\b(?:g|gramas?)\s*(?:por|/)?\s*(?:cm3|centimetros? cubicos?).*\b(?:kg|quilogramas?)\s*(?:por|/)?\s*(?:m3|metros? cubicos?)',t):
+        r['_label']=L('Conversores','Grandezas físico-químicas','Densidade e concentração');r['_intent']='conversão direta'
+
+    # Roman numeral requests/ranges.
+    if re.search(r'\b(algarismo romano|algarismos romanos|numeros romanos|número romano|numero romano)\b',t):
+        r['_label']=L('Conversores','Sistemas numéricos','Algarismos romanos e bases')
+        r['_intent']='conversão direta' if re.search(r'\b\d+\b|\b(de|ate|até)\b',t) else 'informacional'
+
+    # File/media conversions based on extensions.
+    img=r'jpg|jpeg|png|webp|gif|svg|cdr|bmp|tiff|tif|heic|ico|nef|raw'
+    if re.search(rf'\b(?:nef|raw|heic|xps|html|web)\b',t) and re.search(rf'\b(?:jpg|jpeg|png)\b',t) and re.search(r'\b(para|em|to|convert|converter|transformar)\b',t):
+        r['_label']=L('Conversores','Imagem','Formatos de imagem');r['_intent']='conversão de arquivo/mídia'
+    if re.search(r'\b(foto|imagem)\b',t) and re.search(r'\b(jpg|jpeg|png|webp)\b',t) and re.search(r'\b(para|em|convert|converter)\b',t):
+        r['_label']=L('Conversores','Imagem','Formatos de imagem');r['_intent']='conversão de arquivo/mídia'
+    if re.search(r'\b(jpg bmp|bmp jpg)\b',t):
+        r['_label']=L('Conversores','Imagem','Formatos de imagem');r['_intent']='conversão de arquivo/mídia'
+
+    # Archive conversion is a file operation, not a unit converter.
+    if re.search(r'\bzip\b',t) and re.search(r'\b(jpg|jpeg|png|pdf)\b',t) and re.search(r'\b(para|em|convert|converter|transformar)\b',t):
+        r['_label']=L('Conversores','Arquivos e documentos','Documentos e PDF');r['_intent']='conversão de arquivo/mídia'
+
+    # Currencies that the previous parser did not know.
+    currency_pairs=[
+        (r'\bwon\b',r'\b(euro|real|reais|dolar|dólar)\b'),
+        (r'\b(soles?|sol peruano|moeda peruana)\b',r'\b(real|reais|dolar|dólar|euro)\b'),
+        (r'\b(moeda turca|lira turca|liras turcas)\b',r'\b(euro|real|reais|dolar|dólar)\b'),
+        (r'\b(moeda norueguesa|coroa norueguesa|coroas norueguesas)\b',r'\b(real|reais|euro|dolar|dólar)\b'),
+    ]
+    if any(re.search(a,t) and re.search(b,t) for a,b in currency_pairs) and re.search(r'\b(para|em|to|converter|conversor)\b',t):
+        r['_label']=L('Conversores','Moedas e câmbio','Conversão entre moedas');r['_intent']='conversão direta'
+
+    # Historic Cruzeiro -> Real tables: reference intent, not an ambiguous current FX quote.
+    if re.search(r'\bcruzeiro\b',t) and re.search(r'\breal\b',t):
+        r['_label']=L('Conversores','Moedas e câmbio','Conversão entre moedas')
+        r['_intent']='tabela/referência' if 'tabela' in t else 'conversão direta'
+
+    # Typo form for FGTS loan.
+    if re.search(r'\bemprestimodo fgts\b',t):
+        r['_label']=L('Finanças','Crédito','Empréstimos');r['_intent']='informacional'
+
+
+for r in rows:
+    t=n(r['_text'])
+
+    # "Segundo turno" with a date/voting context is a calendar query, not a work shift.
+    if re.search(r'\bsegundo turno\b',t) and re.search(r'\b(data|quando|dia|votar|votacao|eleicao|2022)\b',t) and not re.search(r'\b(trabalho|jornada|escala|emprego|horario)\b',t):
+        r['_label']=L('Datas','Calendário','Dia da semana e calendário');r['_intent']='informacional'
+
+    # Saque-aniversário advance is a financial credit product when anticipation/bank/rates are the intent.
+    if re.search(r'\bsaque aniversario\b',t) and re.search(r'\b(antecipacao|banco|taxa|juros|emprestimo|nubank|itau|santander|caixa|bradesco)\b',t):
+        r['_label']=L('Finanças','Crédito','Empréstimos')
+        r['_intent']='navegacional/transacional' if re.search(r'\b(banco|nubank|itau|santander|caixa|bradesco|onde|melhor|menor taxa|menor juros)\b',t) else 'informacional'
+
+    # Triangle-angle calculations belong to trigonometry/angular geometry.
+    if re.search(r'\bangulo\b',t) and re.search(r'\btriangulo\b',t):
+        r['_label']=L('Matemática','Trigonometria','Trigonometria e geometria angular')
+        r['_intent']='cálculo direto' if re.search(r'\b(calcul|descobrir|achar|valor)\b',t) else 'informacional'
+
+    # Appliance power/specification is informational unless time/consumption is requested.
+    appliance=r'maquina de lavar|enceradeira|liquidificador|geladeira|microondas|forno|cafeteira|aspirador|secador|ventilador|freezer|batedeira|tanquinho|air fryer|airfryer|chuveiro'
+    if re.search(rf'\b(?:{appliance})\b',t) and re.search(r'\bpotencia\b|\bwatts?\b',t):
+        r['_label']=L('Energia','Aparelhos elétricos','Consumo de aparelhos')
+        if re.search(r'\b(consumo|consome|gasta|kwh|por dia|por mes|por mês|horas? por)\b',t):
+            r['_intent']='estimativa de consumo'
+        else:
+            r['_intent']='informacional'
+
+    # Currency A-or-B without amount/direction is not a direct conversion.
+    if re.search(r'\b(dolar|euro|libra|iene|peso)\b\s+ou\s+\b(dolar|euro|libra|iene|peso)\b',t):
+        r['_label']=L('Finanças','Câmbio','Cotação atual');r['_intent']='ambígua/revisão'
+
+    # Explicit interest amount on an installment is a direct financial calculation.
+    if re.search(r'\b(?:como )?calcular juros (?:na|da|de uma?) parcela\b',t):
+        r['_label']=L('Finanças','Juros','Juros compostos');r['_intent']='cálculo direto'
+
+    # Explicit calculation of compound interest is a projection/simulation unless the query is only asking for a formula/how-to in software.
+    if re.search(r'\bcalcular juros compostos\b',t):
+        r['_label']=L('Finanças','Juros','Juros compostos')
+        if re.search(r'\b(excel|formula|fórmula|hp|como calcular)\b',t):
+            r['_intent']='informacional'
+        else:
+            r['_intent']='simulação/projeção'
+
+
+out=ROOT/f'_lote-{LOT:03d}-post-preds.csv'
+wr(out,rows)
+print('saida',out)
+print('areas',Counter(r['_label'].split('|||')[0] for r in rows))
+print('intents',Counter(r['_intent'] for r in rows))
