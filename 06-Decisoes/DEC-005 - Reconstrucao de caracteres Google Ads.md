@@ -64,86 +64,101 @@ Na base global:
 
 Reconstrução: **confirmada / confiança alta**.
 
-## Arquivos individuais do Google Ads
+## Barra `/` — regra v2
 
-Os quatro fragmentos exatos das duas reconstruções não foram encontrados nos 13 arquivos individuais `Keyword Stats ...csv` de Matemática. A evidência está no consolidado `palavras-chave-Matematica.csv` e na base global.
+A regra anterior, que tratava `1 3` como baixa confiança por padrão, foi substituída.
 
-## Barra `/`
+O histórico de preparação das sementes confirma que `/` foi o caractere que, em parte do processo, foi substituído por espaço e, em outra parte, simplesmente removido. Por isso, sequências compatíveis com barra removida podem receber **confiança alta quando o contexto semântico confirma a leitura**.
 
-A barra é tratada em fase separada e com uma regra mais conservadora do que a vírgula.
+### Formas por extenso
 
-### Regra central
+`um terço`, `dois terços`, `um quarto`, `meio` e formas semelhantes **não são reconstruídas**. Não há como distinguir retroativamente se foram escritas assim originalmente ou se resultaram de substituição manual de `1/3`, `2/3`, `1/4` etc. Elas permanecem intactas e são entendidas apenas semanticamente.
 
-Uma forma já sanitizada **não prova** que existia `/` originalmente.
+### Numéricos com espaço
 
-Exemplos:
+A decisão é contextual:
 
-- `um terço` pode ter sido escrito originalmente assim ou pode ser substituição manual de `1/3`;
-- `férias com 1 3` pode ser `1/3` com barra removida, mas só deve ser tratado como hipótese até haver evidência/contexto suficiente;
-- `MB s` pode representar `MB/s`, mas em outras consultas dois tokens de unidade podem indicar apenas uma conversão;
-- `um quarto` é especialmente polissêmico porque pode significar fração ou cômodo.
+- `férias com 1 3` → `férias com 1/3` — confiança alta;
+- `cálculo de 1 3 de férias` → `1/3` — alta;
+- `como calcular 2 3 de um número` → `2/3` — alta;
+- `3 4 polegada` → `3/4 polegada` — alta;
+- `dsr horista 1 6` → `1/6` — alta;
+- `12 36` em escala/jornada → `12/36` — alta como reconstrução histórica; semanticamente pode ser normalizado depois para `12x36`;
+- `potenciação 2 3` → não reconstruir como fração;
+- `traço de concreto 1 2 3` → não reconstruir como fração;
+- valores como `3 5 litros` ou `1 5 milhão` não recebem `/` automaticamente; ficam como decimal provável/revisão quando o contexto indicar isso.
 
-Portanto, nenhuma forma escrita ou com espaço recebe reconstrução automática.
+Nenhum espaço é interpretado como vírgula nesta auditoria. A vírgula continua dependendo da auditoria específica de sementes.
 
-### Script de auditoria
+### Unidades compostas
 
-O script `auditar_barras_v1.py` separa três classes:
+A barra pode ser reconstruída com alta confiança quando a dimensionalidade é coerente, por exemplo:
 
-1. **barra explícita confirmada** — a própria semente ainda contém `/`; esta é evidência direta;
-2. **candidato sanitizado ambíguo** — formas como `1 3`, `um terço`, `km h`, `MB s`; origem não confirmada;
-3. **variante de busca** — forma derivada de uma semente com slash explícita para procurar nos resultados, sem virar prova sozinha.
+- `km h` → `km/h`;
+- `m s` → `m/s` em contexto de velocidade;
+- `MB s` → `MB/s` em contexto de taxa de transferência;
+- `g cm3` → `g/cm3`;
+- `kg m3` → `kg/m3`;
+- `kWh dia` → `kWh/dia`;
+- `kWh mês` → `kWh/mês`.
 
-O script registra arquivo, aba, linha, coluna e célula, preservando rastreabilidade.
+Tokens concatenados pela remoção completa de `/` também podem ser recuperados quando o contexto confirma a unidade: `MBs`, `GBs`, `KBs`, `kmh` e `ms` em conversões de velocidade/taxa.
 
-### Teste nos 7 arquivos de sementes atuais
+## Auditoria v2 executada
 
-A execução de teste encontrou:
+O script `auditar_barras_v2.py` foi aplicado aos 7 arquivos de sementes e à base global corrigida de 294.905 keywords.
 
-- **14 células com `/` explícita**;
-- **6 prováveis cabeçalhos/categorias** com `/`;
-- **8 prováveis keywords reais com `/` explícita**;
-- **44 candidatos sanitizados** para revisão;
-- **16 variantes de busca** derivadas das keywords explícitas.
+### Sementes
 
-As 8 keywords explícitas reais estão em `SementesConversores.ods`, aba `Sementes misturadas`, e incluem:
+- 14 células com `/` explícita;
+- 8 fora da linha 1, correspondendo às keywords explícitas já identificadas em Conversores;
+- 49 ocorrências de formas por extenso detectadas e deliberadamente ignoradas como reconstrução histórica;
+- 38 achados sanitizados analisados;
+- nas sementes, os três casos `1 3` ligados a férias foram promovidos para reconstrução de confiança alta;
+- `traço de concreto 1 2 3` foi explicitamente bloqueado como fração.
 
-- `Mbps para MB/s`;
-- `MB/s para Mbps`;
-- `Gbps para GB/s`;
-- `GB/s para Gbps`;
-- `Kbps para KB/s`;
-- `KB/s para Kbps`;
-- `velocidade de internet Mbps para MB/s`;
-- `quanto é 100 Mbps em MB/s`.
+### Base global
 
-Entre os candidatos sanitizados existem três casos claros para investigação, mas ainda não para reconstrução automática:
+- 2.166 achados contextuais auditados;
+- **583 keywords únicas** receberam uma `keyword_interpretada` de confiança alta;
+- **1.230 keywords únicas** continuam em revisão contextual;
+- os casos de revisão foram divididos em 3 lotes de até 500 registros;
+- o QA não encontrou conflito entre reconstruções de fração alta e contexto de potência ou contexto decimal forte.
 
-- `férias com 1 3`;
-- `cálculo de férias com 1 3`;
-- outra ocorrência de `férias com 1 3`.
+### Impacto imediato nos lotes semânticos
 
-Também existem muitas ocorrências de `um terço` ligadas a férias, mas a origem delas permanece **indeterminada** porque o texto por extenso pode ser legítimo.
+- Lote 001: 8 keywords com reconstrução de confiança alta;
+- Lote 002: 13 keywords com reconstrução de confiança alta.
 
-### Falsos positivos evitados
+Exemplos do lote 001:
 
-A auditoria não deve converter automaticamente:
+- `1 mach km h` → `1 mach km/h`;
+- `5 32 polegadas em mm` → `5/32 polegadas em mm`;
+- `abono pecuniário vende 1 3` → `abono pecuniário vende 1/3`;
+- `mb s mbps` → `MB/s mbps`.
 
-- `traço de concreto 1 2 3` em `1/2`;
-- `um quarto` em `1/4` sem contexto, pois pode significar cômodo;
-- `meio período` em `1/2 período`;
-- qualquer par numérico simplesmente porque há um espaço entre os números.
+Exemplos do lote 002:
+
+- `3 4 polegada é igual a quantos milimetros` → `3/4 polegada é igual a quantos milimetros`;
+- `calculo de 1 3 de ferias na rescisão` → `calculo de 1/3 de ferias na rescisão`;
+- `como calcular 2 3 de um numero` → `como calcular 2/3 de um numero`;
+- `dsr horista 1 6` → `dsr horista 1/6`;
+- `g cm3 para kg m3` → `g/cm3 para kg/m3`;
+- `kwh dia` → `kWh/dia`;
+- `turno 12 36` → `turno 12/36`.
 
 ## Regra de preservação
 
-A coluna original `Keyword` nunca deve ser sobrescrita. Reconstruções e hipóteses ficam em campos paralelos, como:
+A coluna original `Keyword` nunca deve ser sobrescrita. Reconstruções ficam em campos paralelos:
 
 - `keyword_interpretada`;
-- `fenomeno_origem`;
-- `simbolo_provavel`;
+- `tipo_reconstrucao`;
 - `confianca_reconstrucao`;
-- `evidencia`;
-- `id_keyword_parceira`, quando houver fragmentação por vírgula.
+- `motivo`;
+- `semente_origem`, quando houver evidência direta.
 
-## Próximo passo
+## Uso operacional
 
-Usar as 8 sementes com `/` explícita para procurar variantes nos CSV/ODS de resultados e, separadamente, investigar os candidatos sanitizados sem tratá-los como reconstruções confirmadas. Só depois aplicar o mapa de evidências à classificação dos lotes.
+As 583 reconstruções de confiança alta podem ser usadas como contexto semântico nos lotes, mantendo a keyword original para rastreabilidade e métricas. Os 1.230 casos restantes devem ser revisados por lotes antes de qualquer promoção para confiança alta.
+
+Antes de retomar a classificação do lote 002, o lote 001 deve ser rechecado contra as 8 reconstruções de alta confiança que o afetam.
