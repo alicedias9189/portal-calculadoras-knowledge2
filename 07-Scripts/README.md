@@ -129,3 +129,20 @@ python3 07-Scripts/priorizar_revisao_30_lotes_v1.py --root .
 Há **52.046 pendências** sinalizadas após o saneamento, em **15.117 famílias**, priorizadas como P0=474, P1=2.557, P2=25.050 e P3=23.965. Esses registros **ainda não receberam revisão qualitativa individual**; a fila é planejamento e não validação semântica. O XLSX centralizado e a versão integral do gerador estão no pacote de entrega desta etapa.
 
 Não propagar decisões com baixa evidência ou alterar os lotes anteriores automaticamente. Os resultados de buscas do Google Ads não devem ser somados por keyword semelhante.
+
+
+## Revisão P0 (30 lotes concluídos)
+
+A etapa pós-pipeline revisou individualmente 474 keywords de maior prioridade e aplicou 462 correções verificadas em versões paralelas, preservando 2.190 controles (DEC-037). Restaram 109 P0 ambíguas; P1–P3 ainda não foram revisadas.
+
+Para **reaplicar exatamente** as correções validadas, utilize `aplicar_correcoes_p0_de_csv_v1.py` junto de `correcoes-objetivas-p0.csv`, distribuído no ZIP de auditoria da entrega, sobre os CSVs originais e o L001 saneado. O aplicador confere campos antes/depois, IDs, Keyword, 73 controles por lote e metadados de conversão direta. Ele gera cópias separadas e nunca sobrescreve lotes originais. Exemplos:
+
+```bash
+python3 07-Scripts/aplicar_correcoes_p0_de_csv_v1.py --root . \
+  --patch revisao-p0-30-lotes/correcoes-objetivas-p0.csv \
+  --out revisao-p0-reproduzido
+```
+
+O pacote ZIP da etapa contém, além do patch, os scripts completos usados para propor as decisões e gerar a planilha centralizada. A documentação registra a decisão, mas arquivos de dezenas de MB de classificação não foram adicionados ao repositório.
+
+**Regra de qualidade:** Golden Set e controles históricos preservados não constituem um novo teste semântico independente das correções P0. Priorizar a revisão P1 por famílias antes da arquitetura SEO final. 
