@@ -35,6 +35,7 @@ O gerador de XLSX centralizado usa `artifact_tool`, que precisa estar disponíve
 - `finalizar_auditar_lote_v1_15.py` — amplia PDF↔MOBI/Kindle, conteúdo matemático em PDF, Smallpdf navegacional, combustível por km, `transforma PDF` e PowerPoint→PDF; validado no lote 025.
 - `finalizar_auditar_lote_v1_16.py` — reconhece XPS↔PDF e reclassifica material identificado de Cálculo em PDF como conteúdo/documento informacional; validado no lote 026.
 - `finalizar_auditar_lote_v1_17.py` — corrige pares TIFF↔PDF com direção explícita e marca pares nus PDF/DWG/DXF como ambíguos; aplicado no lote 030.
+- `gerar_resumo_consolidado_v1.py` — gera o workbook XLSX centralizado do resumo dos 30 lotes e da planilha de pendências (requer os dois CSVs da auditoria global).
 - `instalar_pipeline_semantico_v1.py` — monta o pós-processador e valida SHA-256.
 - `gerar_qa_centralizado_v1.py` — gerador anterior de QA.
 - `gerar_planilhas_centralizadas_v2.py` — gera XLSX centralizado horizontal e verticalmente; `--qa-only` gera apenas QA.
@@ -98,3 +99,13 @@ A partir do lote 004, toda planilha XLSX gerada deve manter **todas as linhas e 
 O lote 030 encerrou o processamento de 294.905 keywords base. O relatório global de encerramento está em `00-Mapa-Global/Encerramento de 30 lotes - auditoria transversal.md`.
 
 A auditoria global identificou 73 conversões diretas com metadados incompletos no lote 001; os lotes 002 a 030 passaram nesse critério. Existem 52.050 keywords sinalizadas para revisão manual. **Os testes automáticos aprovados não substituem essa revisão.**
+
+## Planilha de auditoria transversal
+
+Com `resumo-consolidado-30-lotes.csv` e `pendencias-metadados-diretos-lote-001.csv` disponíveis na pasta de trabalho:
+
+```bash
+python3 07-Scripts/gerar_resumo_consolidado_v1.py --root .
+```
+
+Esse gerador centraliza horizontal e verticalmente todas as células usadas.
