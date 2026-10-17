@@ -25,7 +25,7 @@ O gerador de XLSX centralizado usa `artifact_tool`, que precisa estar disponíve
 - `finalizar_auditar_lote_v1_5.py` — custo de combustível por rota/distância.
 - `finalizar_auditar_lote_v1_6.py` — `dias trabalhados`, licença/afastamento por dias, TRCT/fatorial em PDF e pares adjacentes de formatos.
 - `finalizar_auditar_lote_v1_7.py` — `intervalos reais`, luto/óbito trabalhista, `horas trabalhadas`, salário por hora/proporcional, IRRF sobre salário/folha e reajuste salarial.
-- `finalizar_auditar_lote_v1_8.py` — direito/folga de aniversário, pares PDF explícitos e variantes com marca iLovePDF; validado no lote 014 e suficiente no lote 015.
+- `finalizar_auditar_lote_v1_8.py` — direito/folga de aniversário, pares PDF explícitos e variantes com marca iLovePDF; validado no lote 014 e suficiente nos lotes 015 e 016.
 - `instalar_pipeline_semantico_v1.py` — monta o pós-processador e valida SHA-256.
 - `gerar_qa_centralizado_v1.py` — gerador anterior de QA.
 - `gerar_planilhas_centralizadas_v2.py` — gera XLSX centralizado horizontal e verticalmente; `--qa-only` gera apenas QA.
@@ -44,13 +44,13 @@ cd73c777dc89ac56ecb279c113304f9006453d22c68dc81f0110d106377f6207
 
 ## Execução de um lote
 
-Exemplo para o lote 016 usando o lote 015 aprovado como treino/controle anterior:
+Exemplo para o lote 017 usando o lote 016 aprovado como treino/controle anterior:
 
 ```bash
-python3 07-Scripts/classificar_lote_semantico_v1_1.py --lote 16 --treino 15 --root .
-python3 07-Scripts/posprocessar_lote_semantico_v1.py --lote 16 --root .
-python3 07-Scripts/finalizar_auditar_lote_v1_8.py --lote 16 --controle-anterior 15 --root .
-python3 07-Scripts/gerar_planilhas_centralizadas_v2.py --lote 16 --root . --qa-only
+python3 07-Scripts/classificar_lote_semantico_v1_1.py --lote 17 --treino 16 --root .
+python3 07-Scripts/posprocessar_lote_semantico_v1.py --lote 17 --root .
+python3 07-Scripts/finalizar_auditar_lote_v1_8.py --lote 17 --controle-anterior 16 --root .
+python3 07-Scripts/gerar_planilhas_centralizadas_v2.py --lote 17 --root . --qa-only
 ```
 
 ## Regras de preservação
