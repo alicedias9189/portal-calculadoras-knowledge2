@@ -29,7 +29,11 @@ O gerador de XLSX centralizado usa `artifact_tool`, que precisa estar disponíve
 - `finalizar_auditar_lote_v1_9.py` — busca de material de concurso em PDF sem troca de formato é conteúdo/documento, não conversão de arquivo; validado no lote 018.
 - `finalizar_auditar_lote_v1_10.py` — reconhece PDF/A e variantes compactas de pares documentais, mantém pares nus `pdf e word`/`pdf x word` como ambíguos e reclassifica buscas por livros identificados em PDF; validado no lote 019.
 - `finalizar_auditar_lote_v1_11.py` — reconhece `transformador` como substantivo de ferramenta de conversão em contexto de PDF; validado no lote 020.
-- `finalizar_auditar_lote_v1_12.py` — reconhece `convert`/`conversion` em inglês e formatos CAD DWG/DXF em pares com PDF; validado no lote 021. Possui `--skip-anterior` para uso quando a cadeia v1.11 já foi aplicada ao lote atual.
+- `finalizar_auditar_lote_v1_12.py` — reconhece `convert`/`conversion` em inglês e formatos CAD DWG/DXF em pares com PDF; validado no lote 021.
+- `finalizar_auditar_lote_v1_13.py` — reconhece `salvar ... em PDF` como criação/conversão com origem implícita e reforça R21 para feriado/compensação sob CLT; validado no lote 022.
+- `finalizar_auditar_lote_v1_14.py` — separa preço unitário de combustível, buscas navegacionais por Convertio e folga eleitoral de mesário/presidente de mesa; validado no lote 023 e suficiente no lote 024.
+- `finalizar_auditar_lote_v1_15.py` — amplia PDF↔MOBI/Kindle, conteúdo matemático em PDF, Smallpdf navegacional, combustível por km, `transforma PDF` e PowerPoint→PDF; validado no lote 025.
+- `finalizar_auditar_lote_v1_16.py` — reconhece XPS↔PDF e reclassifica material identificado de Cálculo em PDF como conteúdo/documento informacional; validado no lote 026.
 - `instalar_pipeline_semantico_v1.py` — monta o pós-processador e valida SHA-256.
 - `gerar_qa_centralizado_v1.py` — gerador anterior de QA.
 - `gerar_planilhas_centralizadas_v2.py` — gera XLSX centralizado horizontal e verticalmente; `--qa-only` gera apenas QA.
@@ -48,13 +52,13 @@ cd73c777dc89ac56ecb279c113304f9006453d22c68dc81f0110d106377f6207
 
 ## Execução de um lote
 
-Exemplo para o lote 022 usando o lote 021 aprovado como treino/controle anterior:
+Exemplo para o lote 027 usando o lote 026 aprovado como treino/controle anterior:
 
 ```bash
-python3 07-Scripts/classificar_lote_semantico_v1_1.py --lote 22 --treino 21 --root .
-python3 07-Scripts/posprocessar_lote_semantico_v1.py --lote 22 --root .
-python3 07-Scripts/finalizar_auditar_lote_v1_12.py --lote 22 --controle-anterior 21 --root .
-python3 07-Scripts/gerar_planilhas_centralizadas_v2.py --lote 22 --root . --qa-only
+python3 07-Scripts/classificar_lote_semantico_v1_1.py --lote 27 --treino 26 --root .
+python3 07-Scripts/posprocessar_lote_semantico_v1.py --lote 27 --root .
+python3 07-Scripts/finalizar_auditar_lote_v1_16.py --lote 27 --controle-anterior 26 --root .
+python3 07-Scripts/gerar_planilhas_centralizadas_v2.py --lote 27 --root . --qa-only
 ```
 
 ## Regras de preservação
@@ -68,19 +72,21 @@ python3 07-Scripts/gerar_planilhas_centralizadas_v2.py --lote 22 --root . --qa-o
 - Pares PDF↔outro formato com direção explícita são conversão.
 - PDF/A é tratado como formato documental válido em pares PDF↔PDF/A.
 - Variantes compactas como `pdf de word`, `pdf no word`, `pdf for excel` e `pdf for jpg` representam conversão de arquivo.
-- Pares nus como `pdf e word` e `pdf x word`, sem verbo/direção, permanecem em revisão por ambiguidade.
-- `transformador` em contexto de PDF representa ferramenta de transformação/conversão de arquivo.
-- `convert`/`conversion` em inglês com PDF e DWG/DXF/CAD representa conversão de arquivo.
-- Busca por material de concurso em PDF, sem troca de formato, é `Fora de escopo > Busca por conteúdo > Documento/PDF informacional`.
-- Busca por livro/material identificado em PDF, sem operação de conversão, também é conteúdo/documento.
-- Marca iLovePDF com dois formatos inequívocos pode representar conversão; busca genérica pela marca sem operação é navegacional/fora de escopo.
-- Licenças/afastamentos, luto/óbito e direitos de folga no contexto de trabalho permanecem em Trabalho.
+- Pares nus como `pdf e word`, `pdf x word`, `pdf mobi` e `xps pdf`, sem verbo/direção, permanecem em revisão por ambiguidade.
+- `transformador`, `transforma`, `convert` e `conversion` em contexto documental podem indicar conversão quando o contexto é inequívoco.
+- `salvar ... em PDF` é criação/conversão para PDF mesmo com origem implícita.
+- PDF↔MOBI/Kindle e XPS↔PDF são famílias de conversão documental reconhecidas quando há direção/verbo.
+- Busca por material de concurso, livro ou conteúdo matemático identificado em PDF, sem operação de conversão, é conteúdo/documento informacional.
+- Marca iLovePDF/Smallpdf/Convertio sem operação específica é navegacional/fora de escopo; com par inequívoco de formatos pode ser conversão.
+- Licenças/afastamentos, luto/óbito, folga de aniversário e folga eleitoral no contexto de trabalho permanecem em Trabalho.
+- Consulta CLT sobre feriado/compensação é direito trabalhista, não cálculo de datas.
 - `dias trabalhados` e `horas trabalhadas` são domínios trabalhistas por padrão.
 - salário por hora/proporcional é remuneração trabalhista.
 - IR/IRRF sobre salário/folha é Trabalho > Folha e encargos > INSS e IRRF.
-- `intervalos reais` é conteúdo matemático, inclusive com PDF/DOC/PPT.
+- `intervalos reais` e `intervalos numéricos` são conteúdo matemático mesmo quando PDF aparece como formato de referência.
 - reajuste salarial, sem subcontexto mais específico, fica em Finanças > Correção monetária > Inflação e índices.
-- custo/gasto de combustível por rota/distância fica em Energia > Combustíveis > Custo de viagem.
+- custo/gasto/preço de combustível por rota ou distância fica em Energia > Combustíveis > Custo de viagem.
+- preço unitário atual por litro de combustível, sem rota/distância, é consulta de mercado.
 
 ## Planilhas
 
