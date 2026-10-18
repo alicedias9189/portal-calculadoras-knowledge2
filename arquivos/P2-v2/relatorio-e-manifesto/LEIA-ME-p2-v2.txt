@@ -1,0 +1,18 @@
+P2 — Validação semântica complementar (v2) — 2026-10-17
+
+Os arquivos foram criados com regras contextuais em Python e testes de regressão.
+Importante: decisões automáticas de alta confiança não são revisão humana editorial.
+
+ENTREGÁVEIS
+- qa-validacao-p2-v2-centralizada.xlsx: planilha com resumo, regras, testes, amostras e alertas. Todas as células utilizadas centralizadas.
+- lotes-001-a-030-p0-p1-p2-v2.zip: 30 lotes completos, todas as colunas e registros originais preservados; apenas decisões analíticas P2 pendentes alteradas.
+- relatorio-validacao-p2-v2.md: resumo técnico, critérios e limitações.
+- p2-v2-auditoria-csv-scripts.zip: pacote com os CSVs íntegros, manifestos e scripts reproduzíveis.
+- validar_pendencias_p2_v2.py: reproduz a classificação, gera 30 lotes, diffs e regressão; só biblioteca padrão Python.
+- gerar_qa_p2_v2.py: gera a amostra e o Excel; requer artifact_tool.
+
+RESULTADOS
+25.050 P2 (universo) | 8.813 pendências examinadas | 959 alta confiança | 1.716 com ressalvas | 6.138 pendentes.
+Amostragem das decisões P2-v1: 438, com 5 alertas heurísticos para revisão editorial.
+
+Reprodução: atualize caminhos --base, --p2, --fila, --out conforme necessário; a segunda etapa usa a pasta /mnt/data/p2_validation_v2/out.

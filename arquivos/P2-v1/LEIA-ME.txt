@@ -1,0 +1,21 @@
+# P2 / 30 lotes — pacote de auditoria
+
+Escopo: 25.050 keywords P2; base P0/P1 v2 imutável fora da P2.
+
+- `p2-validacao-semantica-25050.csv`: arquivo completo, todas as 25.050 keywords P2 e todas as colunas da fila + decisões novas.
+- `p2-pendencias.csv`: fila integral de 8.813 casos sem evidência contextual.
+- `p2-ressalvas.csv`: 7.291 casos com parâmetros ou contexto operacional pendente.
+- `p2-patches.csv`: diffs campo por campo das 16.237 alterações.
+- `fila-30-lotes-p0-p1-p2-v1.csv`: fila integral com 52.046 itens, mantendo prioridades.
+- `qa-regressao-30-lotes-p2.csv`: validação dos 30 lotes.
+- `qa-revisao-p2-centralizada.xlsx`: resumo, AMOSTRA ESTRATIFICADA das decisões, primeiras 1.100 pendências, contagem das regras, regressão e patches amostrados. **Não contém todas as 25.050 linhas; o CSV contém.** Todas as células usadas são centralizadas.
+- `amostra-estratificada-p2.csv`: exemplos verificáveis por regra.
+- `relatorio-p2-v1.md`: resumo e limites metodológicos.
+- `revisar_p2_30_lotes_v1.py`, `p2_classificador_base.py`: scripts Python stdlib, requerem como entrada `lotes-001-a-030-p0-p1-v2.zip` e `p1-v2-auditoria-relatorios-scripts.zip` já salvos no cofre.
+- `gerar_planilha_p2_v1.py`: script Python com `artifact_tool` para gerar XLSX centralizado.
+
+Os rótulos VALIDADOS indicam regras automáticas auditáveis, não confirmação manual independente. Há 8.813 pendências para revisão semântica posterior. Não somar volumes Ads agregando variantes.
+
+Execução local a partir de uma pasta contendo os 3 scripts Python:
+python revisar_p2_30_lotes_v1.py --base /caminho/lotes-001-a-030-p0-p1-v2.zip --qa /caminho/p1-v2-auditoria-relatorios-scripts.zip --out /caminho/saida
+python gerar_planilha_p2_v1.py --dir /caminho/saida

@@ -1,0 +1,16 @@
+{
+  "universo_base": 294905,
+  "p1_total": 2557,
+  "p1_familias": 1173,
+  "registros_com_regra_forte": 1464,
+  "registros_pendentes_validacao": 1093,
+  "registros_alterados": 1719,
+  "mudancas_area": 412,
+  "mudancas_tipo_intencao": 1195,
+  "novas_conversoes_diretas": 193,
+  "lotes_com_patches": 30,
+  "controles_verificados": 2190,
+  "p0_inalterado": true,
+  "p2_p3_inalterados": true,
+  "ads_originais_intactos": true
+}

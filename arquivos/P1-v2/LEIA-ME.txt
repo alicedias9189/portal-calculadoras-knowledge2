@@ -1,0 +1,20 @@
+VALIDAÇÃO P1 V2 — EDITORIAL + REGRESSÃO
+
+Entrada: p1-relatorios-qa-scripts.zip e p1-lotes-001-a-030-versoes-paralelas.zip.
+Os dois arquivos devem estar no diretório escolhido em --root.
+
+Para processar novamente (Python 3, apenas biblioteca padrão):
+  python3 validar_semantica_p1_v2.py --root /caminho/das/entradas --out /caminho/de/saida
+
+Para montar planilha centralizada (requer pacote Python artifact_tool):
+  python3 criar_planilha_qa_p1_v2.py --dir /caminho/de/saida
+
+Classificações:
+  VALIDADO: evidência semântica suficiente;
+  VALIDADO_COM_RESSALVA: contexto incompleto (não inventar valores/pares/direções);
+  PENDENTE_CONTEXTUAL: sem evidência suficiente para concluir.
+
+Os 30 lotes v2 são versões paralelas, não substituem arquivos anteriores.
+NENHUM valor Ads ou coluna de origem foi modificado.
+A revisão é automatizada com regras semânticas especializadas e curadoria de exceções,
+não uma revisão humana independente de cada palavra-chave.

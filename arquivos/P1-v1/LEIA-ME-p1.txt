@@ -1,0 +1,9 @@
+P1 — revisão contextual automatizada
+
+1. Os arquivos em lotes/ são versões paralelas com correções P0 + P1, não substituir os lotes originais sem aprovação.
+2. Todos os 2557 termos foram triados por regras; a avaliação NÃO equivale a revisão humana completa.
+3. Leia relatorio-p1.md e p1-pendencias-validacao.csv antes de promover os rótulos como aprovados.
+4. A planilha qa-revisao-p1-centralizado.xlsx possui texto centralizado em todas as células utilizadas.
+5. Scripts Python 3 em 07-Scripts/. Para reproduzir: extrair os 2 ZIPs P0 ('revisao-p0-relatorio-qa-patches.zip' e 'lotes-001-a-030-revisados-p0.zip') no mesmo diretório com as pastas 'lotes/' e '07-Scripts/'. Rodar 'python 07-Scripts/revisar_p1_30_lotes_v1.py --root DIRETORIO --out DIRETORIO/p1_outputs'. Depois 'python 07-Scripts/validar_p1_30_lotes_v1.py --root DIRETORIO --out DIRETORIO/p1_outputs'.
+6. Use 'python 07-Scripts/gerar_qa_p1_v1.py DIRETORIO/p1_outputs' para regenerar o Excel (requer artifact_tool).
+7. Valores Ads são patamares, não somar o volume de variantes próximas.

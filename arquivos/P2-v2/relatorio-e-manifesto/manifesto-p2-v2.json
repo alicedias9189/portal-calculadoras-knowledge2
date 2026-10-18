@@ -1,0 +1,72 @@
+[
+  {
+    "arquivo": "p2-v2-pendencias-reais.csv",
+    "tamanho_bytes": 4707028,
+    "sha256": "a93b6ff534139f26139cf442a4814c48290eff3edb91dddf42de785136e87d81"
+  },
+  {
+    "arquivo": "p2-v2-decisoes-25050.csv",
+    "tamanho_bytes": 17254839,
+    "sha256": "de447ed06a774e7451cf0b841e90c746383bba98ae770e20aa13c0dee5107b50"
+  },
+  {
+    "arquivo": "resumo-p2-v2.json",
+    "tamanho_bytes": 2003,
+    "sha256": "91c71d59505f98c5f04ab041cdfbf1c2fb1750b7d30fb1aa9eced332a0a3951d"
+  },
+  {
+    "arquivo": "LEIA-ME-p2-v2.txt",
+    "tamanho_bytes": 1284,
+    "sha256": "5b261c018036676471d74c275fec9e5d78c9ab6d5e3d9a650619e2a8da82ae3c"
+  },
+  {
+    "arquivo": "p2-v1-amostra-auditoria.csv",
+    "tamanho_bytes": 102991,
+    "sha256": "12837a8b143535551cba98c080e0128e97250b3c3a5cc5b4ba19fc70dbf93ed9"
+  },
+  {
+    "arquivo": "p2-v2-regressao-30-lotes.csv",
+    "tamanho_bytes": 909,
+    "sha256": "34002f3d89d98a979b407a8bae12a8261195fad123a454e1ae605a94d5abd8a5"
+  },
+  {
+    "arquivo": "p2-v2-ressalvas.csv",
+    "tamanho_bytes": 1241798,
+    "sha256": "1edd6d5bd6ed2a1652abcbbb2d5f1d854d42b890ad06afa9ab46e6b3860c5727"
+  },
+  {
+    "arquivo": "relatorio-validacao-p2-v2.md",
+    "tamanho_bytes": 1843,
+    "sha256": "be01c4f044821ab8ade053282da30e2b55468ea0f6d61b7b993a6f887411075c"
+  },
+  {
+    "arquivo": "fila-30-lotes-p0-p1-p2-v2.csv",
+    "tamanho_bytes": 17859608,
+    "sha256": "55f8a2a15cde3aec0c6f09777273b1347d24d9813cf4e2b5b57e6ba2f0f58146"
+  },
+  {
+    "arquivo": "p2-v2-amostra-auditoria.csv",
+    "tamanho_bytes": 82807,
+    "sha256": "3374ec760f781f9120fb5b4f6a51128147f95e97c6604ecc29901f50ad4f7a59"
+  },
+  {
+    "arquivo": "p2-v2-patches.csv",
+    "tamanho_bytes": 2790667,
+    "sha256": "d13d229b32f4c649ef4654d0292db1018c9ae2d93cd63d2ad41484f3aaafe412"
+  },
+  {
+    "arquivo": "p2-v1-sinalizacoes-qa.csv",
+    "tamanho_bytes": 939,
+    "sha256": "25e17b2a0d4266ce5232903c5a78cfc9f251600108f255136d291e63e5fe1e2c"
+  },
+  {
+    "arquivo": "validar_pendencias_p2_v2.py",
+    "tamanho_bytes": 44768,
+    "sha256": "705a2cfde81150fcf8ac5f1b33df0963233cbe840068cf1bc71d6506a3c9b0c5"
+  },
+  {
+    "arquivo": "gerar_qa_p2_v2.py",
+    "tamanho_bytes": 7154,
+    "sha256": "e0162f9b50ccd5d8f6b2f825865bd1e44a1e24f04343d34cc4d4bc6ef8bb66a1"
+  }
+]

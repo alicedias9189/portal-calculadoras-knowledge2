@@ -1,0 +1,580 @@
+﻿id_global;Keyword;area;area_final_p2;tipo_intencao_atual;tipo_intencao_final_p2;status_p2;regra_p2;justificativa_p2
+183073;medicina quantos anos para se formar;Conversores;Conversores;ambígua/revisão;ambígua/revisão;PENDENTE_CONTEXTUAL;contexto_ainda_insuficiente;Não há contexto suficiente para garantir classificação sem revisão contextual adicional.
+1056;1 milhão quanto rende por mes;Finanças;Finanças;simulação/projeção;simulação/projeção;PENDENTE_CONTEXTUAL;contexto_ainda_insuficiente;Não há contexto suficiente para garantir classificação sem revisão contextual adicional.
+165469;gta a 5;Conversores;Conversores;ambígua/revisão;ambígua/revisão;PENDENTE_CONTEXTUAL;contexto_ainda_insuficiente;Não há contexto suficiente para garantir classificação sem revisão contextual adicional.
+120109;cupom droga raia app;Matemática;Matemática;informacional;informacional;PENDENTE_CONTEXTUAL;contexto_ainda_insuficiente;Não há contexto suficiente para garantir classificação sem revisão contextual adicional.
+230195;quanto rende 1000 reais por mes;Conversores;Conversores;ambígua/revisão;ambígua/revisão;PENDENTE_CONTEXTUAL;contexto_ainda_insuficiente;Não há contexto suficiente para garantir classificação sem revisão contextual adicional.
+112445;converter para bmp;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;conversor_sem_par;Conversor genérico sem unidade/par suficiente: solicitar seleção.
+105606;conversor de força online;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;conversor_sem_par;Conversor genérico sem unidade/par suficiente: solicitar seleção.
+106916;conversor de temperatura do corpo;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;conversor_sem_par;Conversor genérico sem unidade/par suficiente: solicitar seleção.
+110175;converter base de logaritmo;Matemática;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;conversor_sem_par;Conversor genérico sem unidade/par suficiente: solicitar seleção.
+106875;conversor de rendimento automotivo;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;conversor_sem_par;Conversor genérico sem unidade/par suficiente: solicitar seleção.
+105404;conversor de dolar para metical;Conversores;Conversores;ambígua/revisão;conversão direta;VALIDADO;cambio_par_explicito;Par de códigos cambiais e direção linguística explícitos.
+65225;cambio metical para real;Conversores;Conversores;ambígua/revisão;conversão direta;VALIDADO;cambio_par_explicito;Par de códigos cambiais e direção linguística explícitos.
+286884;valor da libra convertido em real;Conversores;Conversores;ambígua/revisão;conversão direta;VALIDADO;cambio_par_explicito;Par de códigos cambiais e direção linguística explícitos.
+64703;cambio de metical para real;Conversores;Conversores;ambígua/revisão;conversão direta;VALIDADO;cambio_par_explicito;Par de códigos cambiais e direção linguística explícitos.
+286893;valor da libra em euros;Conversores;Conversores;ambígua/revisão;conversão direta;VALIDADO;cambio_par_explicito;Par de códigos cambiais e direção linguística explícitos.
+107829;conversor moeda islandia euro;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;cambio_contexto;Intenção cambial provável, mas origem/destino ou cotação não estão completamente explicitados.
+102911;conta em euro c6 bank;Conversores;Finanças;ambígua/revisão;cotação atual;VALIDADO_COM_RESSALVA;cambio_contexto;Intenção cambial provável, mas origem/destino ou cotação não estão completamente explicitados.
+137651;dolar comercial investing;Finanças;Finanças;cotação atual;cotação atual;VALIDADO_COM_RESSALVA;cambio_contexto;Intenção cambial provável, mas origem/destino ou cotação não estão completamente explicitados.
+135130;dinheiro convertido em dolar;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;cambio_contexto;Intenção cambial provável, mas origem/destino ou cotação não estão completamente explicitados.
+69514;cena euro do dolara;Conversores;Finanças;ambígua/revisão;cotação atual;VALIDADO_COM_RESSALVA;cambio_contexto;Intenção cambial provável, mas origem/destino ou cotação não estão completamente explicitados.
+10746;70 dias são quantas semanas de gestação;Conversores;Fora de escopo;ambígua/revisão;fora de escopo;VALIDADO;gestacao_prioritaria;Contexto explícito de gestação/saúde, não converter mês de calendário automaticamente.
+2515;11 semanas de gestação e quantos meses;Conversores;Fora de escopo;ambígua/revisão;fora de escopo;VALIDADO;gestacao_prioritaria;Contexto explícito de gestação/saúde, não converter mês de calendário automaticamente.
+284458;ultrassom tn com quantas semanas;Conversores;Fora de escopo;ambígua/revisão;fora de escopo;VALIDADO;gestacao_prioritaria;Contexto explícito de gestação/saúde, não converter mês de calendário automaticamente.
+23557;até quantas semanas pode fazer o exame de sexagem fetal;Conversores;Fora de escopo;ambígua/revisão;fora de escopo;VALIDADO;gestacao_prioritaria;Contexto explícito de gestação/saúde, não converter mês de calendário automaticamente.
+11137;8 semanas de gestação são quantos meses;Conversores;Fora de escopo;ambígua/revisão;fora de escopo;VALIDADO;gestacao_prioritaria;Contexto explícito de gestação/saúde, não converter mês de calendário automaticamente.
+10358;600 de media no enem;Matemática;Matemática;ambígua/revisão;informacional;VALIDADO;ensino_nao_calculadora;Consulta educacional/didática sem pedido operacional inequívoco.
+149204;exercicios de operações com fração 6 ano;Matemática;Matemática;informacional;informacional;VALIDADO;ensino_nao_calculadora;Consulta educacional/didática sem pedido operacional inequívoco.
+182361;media 470 enem;Matemática;Matemática;ambígua/revisão;informacional;VALIDADO;ensino_nao_calculadora;Consulta educacional/didática sem pedido operacional inequívoco.
+148658;exercicio de area do circulo;Matemática;Matemática;cálculo direto;informacional;VALIDADO;ensino_nao_calculadora;Consulta educacional/didática sem pedido operacional inequívoco.
+145251;equações de bhaskara exercicios;Matemática;Matemática;ambígua/revisão;informacional;VALIDADO;ensino_nao_calculadora;Consulta educacional/didática sem pedido operacional inequívoco.
+201003;peso argentino e dólar;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;cambio_par_bidir;"Dois códigos cambiais reconhecidos; não presumir direção."
+1573;10 reais in euro;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;cambio_par_bidir;"Dois códigos cambiais reconhecidos; não presumir direção."
+22871;ativo eur usd;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;cambio_par_bidir;"Dois códigos cambiais reconhecidos; não presumir direção."
+147387;eur vs real;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;cambio_par_bidir;"Dois códigos cambiais reconhecidos; não presumir direção."
+201005;peso argentino e real;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;cambio_par_bidir;"Dois códigos cambiais reconhecidos; não presumir direção."
+90182;como juntar mil reais;Conversores;Finanças;ambígua/revisão;informacional;VALIDADO;planejamento_financeiro;Planejamento financeiro/planilha, não conversão de moeda ou consumo elétrico.
+89996;como juntar 50 mil em 6 meses;Conversores;Finanças;ambígua/revisão;informacional;VALIDADO;planejamento_financeiro;Planejamento financeiro/planilha, não conversão de moeda ou consumo elétrico.
+103910;contas a pagar contas a receber;Fora de escopo;Finanças;fora de escopo;informacional;VALIDADO;planejamento_financeiro;Planejamento financeiro/planilha, não conversão de moeda ou consumo elétrico.
+90177;como juntar dinheiro todo mes;Conversores;Finanças;ambígua/revisão;informacional;VALIDADO;planejamento_financeiro;Planejamento financeiro/planilha, não conversão de moeda ou consumo elétrico.
+204114;planilha para controle de horas trabalhadas;Trabalho;Finanças;informacional;informacional;VALIDADO;planejamento_financeiro;Planejamento financeiro/planilha, não conversão de moeda ou consumo elétrico.
+109292;conversão moeda sueca para real;Conversores;Conversores;ambígua/revisão;ambígua/revisão;PENDENTE_CONTEXTUAL;termo_monetario_solto;Termo monetário isolado sem evidência cambial inequívoca.
+187767;moeda que mais valorizou;Conversores;Conversores;ambígua/revisão;ambígua/revisão;PENDENTE_CONTEXTUAL;termo_monetario_solto;Termo monetário isolado sem evidência cambial inequívoca.
+211728;preço moedas de 1 real;Conversores;Conversores;ambígua/revisão;ambígua/revisão;PENDENTE_CONTEXTUAL;termo_monetario_solto;Termo monetário isolado sem evidência cambial inequívoca.
+228467;quanto o real desvalorizou;Conversores;Conversores;ambígua/revisão;ambígua/revisão;PENDENTE_CONTEXTUAL;termo_monetario_solto;Termo monetário isolado sem evidência cambial inequívoca.
+9817;5000 chf;Conversores;Conversores;ambígua/revisão;ambígua/revisão;PENDENTE_CONTEXTUAL;termo_monetario_solto;Termo monetário isolado sem evidência cambial inequívoca.
+69551;centímetros para milhas;Conversores;Conversores;ambígua/revisão;conversão direta;VALIDADO;unidades_compativeis_direcao;Duas unidades da mesma dimensão com relação direcional explícita.
+109401;conversão polegada milesimal para milimetro;Conversores;Conversores;ambígua/revisão;conversão direta;VALIDADO;unidades_compativeis_direcao;Duas unidades da mesma dimensão com relação direcional explícita.
+111696;converter kpa em bar;Conversores;Conversores;ambígua/revisão;conversão direta;VALIDADO;unidades_compativeis_direcao;Duas unidades da mesma dimensão com relação direcional explícita.
+271290;tabela de conversão de polegadas para milimetros em excel;Conversores;Conversores;ambígua/revisão;conversão direta;VALIDADO;unidades_compativeis_direcao;Duas unidades da mesma dimensão com relação direcional explícita.
+284130;tubos polegadas para milimetros;Conversores;Conversores;ambígua/revisão;conversão direta;VALIDADO;unidades_compativeis_direcao;Duas unidades da mesma dimensão com relação direcional explícita.
+254323;salario de contribuição inss 2021;Trabalho;Trabalho;informacional;informacional;VALIDADO_COM_RESSALVA;trabalho_informativo;Assunto trabalhista sem operação determinística identificada.
+190874;novo valor do inss 2023;Trabalho;Trabalho;informacional;informacional;VALIDADO_COM_RESSALVA;trabalho_informativo;Assunto trabalhista sem operação determinística identificada.
+289205;valor do inss sobre o salário;Trabalho;Trabalho;informacional;informacional;VALIDADO_COM_RESSALVA;trabalho_informativo;Assunto trabalhista sem operação determinística identificada.
+253549;saber o tempo de contribuição do inss;Trabalho;Trabalho;informacional;informacional;VALIDADO_COM_RESSALVA;trabalho_informativo;Assunto trabalhista sem operação determinística identificada.
+236753;quanto é o desconto do irrf no salario;Trabalho;Trabalho;informacional;informacional;VALIDADO_COM_RESSALVA;trabalho_informativo;Assunto trabalhista sem operação determinística identificada.
+11727;98 inch cm;Conversores;Conversores;ambígua/revisão;ambígua/revisão;PENDENTE_CONTEXTUAL;unidade_solitaria;Unidade mencionada sem pedido de conversão suficiente.
+204550;polegadas milimetros;Conversores;Conversores;ambígua/revisão;ambígua/revisão;PENDENTE_CONTEXTUAL;unidade_solitaria;Unidade mencionada sem pedido de conversão suficiente.
+176900;km e milhas;Conversores;Conversores;ambígua/revisão;ambígua/revisão;PENDENTE_CONTEXTUAL;unidade_solitaria;Unidade mencionada sem pedido de conversão suficiente.
+2310;1000ml é 1 litro;Energia;Energia;cálculo contextual;cálculo contextual;PENDENTE_CONTEXTUAL;unidade_solitaria;Unidade mencionada sem pedido de conversão suficiente.
+6226;24 semanas e 4 dias;Conversores;Conversores;ambígua/revisão;ambígua/revisão;PENDENTE_CONTEXTUAL;unidade_solitaria;Unidade mencionada sem pedido de conversão suficiente.
+43682;calcular guia de inss empresa;Trabalho;Trabalho;cálculo direto;cálculo contextual;VALIDADO_COM_RESSALVA;trabalho_contextual;Cálculo depende de regime, período, salário-base, alíquotas e legislação aplicável.
+38380;calculadora online clt;Trabalho;Trabalho;cálculo direto;cálculo contextual;VALIDADO_COM_RESSALVA;trabalho_contextual;Cálculo depende de regime, período, salário-base, alíquotas e legislação aplicável.
+51722;calculo de ferias e 13 salario;Trabalho;Trabalho;cálculo direto;cálculo contextual;VALIDADO_COM_RESSALVA;trabalho_contextual;Cálculo depende de regime, período, salário-base, alíquotas e legislação aplicável.
+124433;cálculo do descanso semanal remunerado;Trabalho;Trabalho;informacional;cálculo contextual;VALIDADO_COM_RESSALVA;trabalho_contextual;Cálculo depende de regime, período, salário-base, alíquotas e legislação aplicável.
+76483;como calcular clt para pj;Trabalho;Trabalho;cálculo direto;cálculo contextual;VALIDADO_COM_RESSALVA;trabalho_contextual;Cálculo depende de regime, período, salário-base, alíquotas e legislação aplicável.
+48932;calcule as raízes quadradas 50 98;Matemática;Matemática;ambígua/revisão;cálculo direto;VALIDADO;potencias_logaritmos;Potências/expoentes/logaritmos/raízes.
+49076;calcule o valor de cada potência;Matemática;Matemática;informacional;cálculo direto;VALIDADO;potencias_logaritmos;Potências/expoentes/logaritmos/raízes.
+242910;raiz cubica 1;Matemática;Matemática;ambígua/revisão;informacional;VALIDADO;potencias_logaritmos;Potências/expoentes/logaritmos/raízes.
+180676;log de base 10;Matemática;Matemática;ambígua/revisão;informacional;VALIDADO;potencias_logaritmos;Potências/expoentes/logaritmos/raízes.
+12569;a raiz cúbica de 64;Matemática;Matemática;ambígua/revisão;informacional;VALIDADO;potencias_logaritmos;Potências/expoentes/logaritmos/raízes.
+1019;1 milhas sao quantos km;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;unidades_compativeis_bidir;"Par de unidades compatíveis, mas sentido não explicitado; exigir seleção."
+222719;quantas gramas de proteina tem 1 kg de frango;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;unidades_compativeis_bidir;"Par de unidades compatíveis, mas sentido não explicitado; exigir seleção."
+176782;kg x lb;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;unidades_compativeis_bidir;"Par de unidades compatíveis, mas sentido não explicitado; exigir seleção."
+5884;21 semanas e 4 dias são quantos meses;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;unidades_compativeis_bidir;"Par de unidades compatíveis, mas sentido não explicitado; exigir seleção."
+6629;27 semanas e 5 dias são quantos meses;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;unidades_compativeis_bidir;"Par de unidades compatíveis, mas sentido não explicitado; exigir seleção."
+200820;permutação por repetição;Matemática;Matemática;ambígua/revisão;informacional;VALIDADO_COM_RESSALVA;matematica_especifica;"Objeto matemático identificável; parâmetros/expressão podem não constar."
+5320;20 fatorial;Matemática;Matemática;ambígua/revisão;informacional;VALIDADO_COM_RESSALVA;matematica_especifica;"Objeto matemático identificável; parâmetros/expressão podem não constar."
+152155;fatorial n 1;Matemática;Matemática;ambígua/revisão;informacional;VALIDADO_COM_RESSALVA;matematica_especifica;"Objeto matemático identificável; parâmetros/expressão podem não constar."
+213086;problemas envolvendo mmc 6 ano;Matemática;Matemática;cálculo direto;informacional;VALIDADO_COM_RESSALVA;matematica_especifica;"Objeto matemático identificável; parâmetros/expressão podem não constar."
+159083;formula matematica bhaskara;Matemática;Matemática;ambígua/revisão;informacional;VALIDADO_COM_RESSALVA;matematica_especifica;"Objeto matemático identificável; parâmetros/expressão podem não constar."
+112448;converter para doc;Conversores;Conversores;ambígua/revisão;conversão de arquivo/mídia;VALIDADO_COM_RESSALVA;formato_incompleto;Formato citado, mas origem/destino ou operação não estão completos.
+282394;transformar mht em pdf;Conversores;Conversores;conversão de arquivo/mídia;conversão de arquivo/mídia;VALIDADO_COM_RESSALVA;formato_incompleto;Formato citado, mas origem/destino ou operação não estão completos.
+108185;conversor powerpoint pdf;Fora de escopo;Conversores;fora de escopo;conversão de arquivo/mídia;VALIDADO_COM_RESSALVA;formato_incompleto;Formato citado, mas origem/destino ou operação não estão completos.
+282147;transformar exe em pdf;Conversores;Conversores;conversão de arquivo/mídia;conversão de arquivo/mídia;VALIDADO_COM_RESSALVA;formato_incompleto;Formato citado, mas origem/destino ou operação não estão completos.
+110159;converter audio online para mp3;Conversores;Conversores;ambígua/revisão;conversão de arquivo/mídia;VALIDADO_COM_RESSALVA;formato_incompleto;Formato citado, mas origem/destino ou operação não estão completos.
+148076;evento complementar probabilidade;Matemática;Matemática;ambígua/revisão;informacional;VALIDADO;probabilidade;Combinatória e probabilidade.
+212611;probabilidade do evento complementar;Matemática;Matemática;ambígua/revisão;informacional;VALIDADO;probabilidade;Combinatória e probabilidade.
+212466;probabilidade aplicações à estatística;Matemática;Matemática;ambígua/revisão;informacional;VALIDADO;probabilidade;Combinatória e probabilidade.
+21122;arranjo com combinação;Matemática;Matemática;ambígua/revisão;cálculo direto;VALIDADO;probabilidade;Combinatória e probabilidade.
+212424;probabilidade 3 ano fundamental;Finanças;Matemática;informacional;informacional;VALIDADO;probabilidade;Combinatória e probabilidade.
+49095;calcule o valor do cateto no triângulo retângulo abaixo;Matemática;Matemática;ambígua/revisão;cálculo direto;VALIDADO;geometria_plana;Geometria plana/área/perímetro.
+125088;cálculo para a quantidade de tijolos por metro quadrado;Conversores;Matemática;ambígua/revisão;cálculo direto;VALIDADO;geometria_plana;Geometria plana/área/perímetro.
+239126;quantos tijolos são necessarios para um metro quadrado;Conversores;Matemática;ambígua/revisão;informacional;VALIDADO;geometria_plana;Geometria plana/área/perímetro.
+75991;como calcular area de um paralelogramo;Matemática;Matemática;cálculo direto;cálculo direto;VALIDADO;geometria_plana;Geometria plana/área/perímetro.
+124313;cálculo de área de retângulo;Matemática;Matemática;cálculo direto;cálculo direto;VALIDADO;geometria_plana;Geometria plana/área/perímetro.
+107842;conversor moeda metical;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;conversor_moeda_generico;Ferramenta de câmbio genérica sem par definido.
+106046;conversor de moeda app;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;conversor_moeda_generico;Ferramenta de câmbio genérica sem par definido.
+106077;conversor de moeda chilena;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;conversor_moeda_generico;Ferramenta de câmbio genérica sem par definido.
+106412;conversor de moedas msn;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;conversor_moeda_generico;Ferramenta de câmbio genérica sem par definido.
+109271;conversão moeda argentina para brasileira;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;conversor_moeda_generico;Ferramenta de câmbio genérica sem par definido.
+180372;lista de exercícios funções trigonométricas;Matemática;Matemática;informacional;informacional;VALIDADO;matematica_didatica;Conteúdo educativo, não ferramenta calculadora operacional.
+162273;fórmula potência reativa;Matemática;Matemática;ambígua/revisão;informacional;VALIDADO;matematica_didatica;Conteúdo educativo, não ferramenta calculadora operacional.
+159445;formula razão pa;Matemática;Matemática;ambígua/revisão;informacional;VALIDADO;matematica_didatica;Conteúdo educativo, não ferramenta calculadora operacional.
+21161;arranjo exemplos;Matemática;Matemática;ambígua/revisão;informacional;VALIDADO;matematica_didatica;Conteúdo educativo, não ferramenta calculadora operacional.
+158654;formula de arranjo combinação e permutação;Matemática;Matemática;ambígua/revisão;informacional;VALIDADO;matematica_didatica;Conteúdo educativo, não ferramenta calculadora operacional.
+184455;melhor taxa para financiamento de imovel;Conversores;Finanças;ambígua/revisão;informacional;VALIDADO;financiamento;Financiamento imobiliário/veicular ou linha de crédito, com parâmetros da instituição.
+57284;calculo para pagamento antecipado de financiamento;Conversores;Finanças;ambígua/revisão;informacional;VALIDADO;financiamento;Financiamento imobiliário/veicular ou linha de crédito, com parâmetros da instituição.
+26006;banco central taxa de juros financiamento;Conversores;Finanças;ambígua/revisão;navegacional/transacional;VALIDADO;financiamento;Financiamento imobiliário/veicular ou linha de crédito, com parâmetros da instituição.
+157253;financiamento bradesco imóvel;Conversores;Finanças;ambígua/revisão;informacional;VALIDADO;financiamento;Financiamento imobiliário/veicular ou linha de crédito, com parâmetros da instituição.
+275919;taxa imobiliario;Finanças;Finanças;informacional;informacional;VALIDADO;financiamento;Financiamento imobiliário/veicular ou linha de crédito, com parâmetros da instituição.
+816;1 kg de rejunte faz quantos metros quadrados;Conversores;Conversores;ambígua/revisão;ambígua/revisão;PENDENTE_CONTEXTUAL;dimensoes_incompativeis;"Unidades de dimensões diferentes; falta relação física explícita e/ou texto pode não representar uma conversão."
+107748;conversor milhas para km h;Conversores;Conversores;ambígua/revisão;ambígua/revisão;PENDENTE_CONTEXTUAL;dimensoes_incompativeis;"Unidades de dimensões diferentes; falta relação física explícita e/ou texto pode não representar uma conversão."
+4206;150 milhas em km h;Conversores;Conversores;ambígua/revisão;ambígua/revisão;PENDENTE_CONTEXTUAL;dimensoes_incompativeis;"Unidades de dimensões diferentes; falta relação física explícita e/ou texto pode não representar uma conversão."
+237985;quantos kg de rejunte por metro quadrado;Conversores;Conversores;ambígua/revisão;ambígua/revisão;PENDENTE_CONTEXTUAL;dimensoes_incompativeis;"Unidades de dimensões diferentes; falta relação física explícita e/ou texto pode não representar uma conversão."
+152733;feet per second em kmh;Conversores;Conversores;ambígua/revisão;ambígua/revisão;PENDENTE_CONTEXTUAL;dimensoes_incompativeis;"Unidades de dimensões diferentes; falta relação física explícita e/ou texto pode não representar uma conversão."
+167404;horária de empregada doméstica;Trabalho;Trabalho;informacional;informacional;VALIDADO;direito_trabalhista;"Direito/regra trabalhista; informação jurídica, não operação direta."
+249981;rescisão acordo clt;Trabalho;Trabalho;informacional;informacional;VALIDADO;direito_trabalhista;"Direito/regra trabalhista; informação jurídica, não operação direta."
+136490;direitos trabalhistas clt 2021;Trabalho;Trabalho;cálculo direto;informacional;VALIDADO;direito_trabalhista;"Direito/regra trabalhista; informação jurídica, não operação direta."
+70543;clt dsr sobre horas extras;Trabalho;Trabalho;informacional;informacional;VALIDADO;direito_trabalhista;"Direito/regra trabalhista; informação jurídica, não operação direta."
+70443;clt comparada e atualizada com a reforma trabalhista;Trabalho;Trabalho;informacional;informacional;VALIDADO;direito_trabalhista;"Direito/regra trabalhista; informação jurídica, não operação direta."
+182777;media mediano e moda;Matemática;Matemática;informacional;informacional;VALIDADO;estatistica;Conceito/cálculo de estatística descritiva.
+87934;como fazer media ponderada excel;Matemática;Matemática;cálculo direto;informacional;VALIDADO;estatistica;Conceito/cálculo de estatística descritiva.
+182973;media sisu 2022;Matemática;Matemática;ambígua/revisão;informacional;VALIDADO;estatistica;Conceito/cálculo de estatística descritiva.
+133116;desvio médio e variância;Matemática;Matemática;ambígua/revisão;cálculo direto;VALIDADO;estatistica;Conceito/cálculo de estatística descritiva.
+182912;media para sisu;Matemática;Matemática;ambígua/revisão;informacional;VALIDADO;estatistica;Conceito/cálculo de estatística descritiva.
+144150;equacoes calculadora;Matemática;Matemática;cálculo direto;cálculo direto;VALIDADO_COM_RESSALVA;calculadora_generica;Calculadora matemática geral, sem operação específica na consulta.
+52893;calculo de pensao online;Matemática;Matemática;ambígua/revisão;cálculo direto;VALIDADO_COM_RESSALVA;calculadora_generica;Calculadora matemática geral, sem operação específica na consulta.
+80700;como calcular o perímetro de um pentágono;Matemática;Matemática;informacional;cálculo direto;VALIDADO_COM_RESSALVA;calculadora_generica;Calculadora matemática geral, sem operação específica na consulta.
+39658;calculadora sac;Matemática;Matemática;ambígua/revisão;cálculo direto;VALIDADO_COM_RESSALVA;calculadora_generica;Calculadora matemática geral, sem operação específica na consulta.
+39243;calculadora pro rata die;Matemática;Matemática;cálculo direto;cálculo direto;VALIDADO_COM_RESSALVA;calculadora_generica;Calculadora matemática geral, sem operação específica na consulta.
+253913;sacas em toneladas;Conversores;Conversores;ambígua/revisão;informacional;VALIDADO_COM_RESSALVA;unidade_contextual;"Unidade física mencionada; parâmetros/par ou sentido não totalmente especificados."
+110952;converter em gramas;Conversores;Conversores;ambígua/revisão;informacional;VALIDADO_COM_RESSALVA;unidade_contextual;"Unidade física mencionada; parâmetros/par ou sentido não totalmente especificados."
+271222;tabela de conversão de gramas para xicaras;Conversores;Conversores;ambígua/revisão;informacional;VALIDADO_COM_RESSALVA;unidade_contextual;"Unidade física mencionada; parâmetros/par ou sentido não totalmente especificados."
+87603;como fazer conta em metros cúbicos;Conversores;Conversores;ambígua/revisão;informacional;VALIDADO_COM_RESSALVA;unidade_contextual;"Unidade física mencionada; parâmetros/par ou sentido não totalmente especificados."
+238630;quantos quilos saco de cimento;Conversores;Conversores;ambígua/revisão;informacional;VALIDADO_COM_RESSALVA;unidade_contextual;"Unidade física mencionada; parâmetros/par ou sentido não totalmente especificados."
+106117;conversor de moeda dirham para real;Conversores;Conversores;ambígua/revisão;ambígua/revisão;PENDENTE_CONTEXTUAL;direcao_nao_verificada;Regra herdada de direção sem verificação dimensional/monetária P2 suficiente.
+114562;convertir pesos argentinos a libras;Conversores;Conversores;ambígua/revisão;ambígua/revisão;PENDENTE_CONTEXTUAL;direcao_nao_verificada;Regra herdada de direção sem verificação dimensional/monetária P2 suficiente.
+111845;converter m para cm;Conversores;Conversores;ambígua/revisão;ambígua/revisão;PENDENTE_CONTEXTUAL;direcao_nao_verificada;Regra herdada de direção sem verificação dimensional/monetária P2 suficiente.
+105597;conversor de farenheits para celsius;Conversores;Conversores;ambígua/revisão;ambígua/revisão;PENDENTE_CONTEXTUAL;direcao_nao_verificada;Regra herdada de direção sem verificação dimensional/monetária P2 suficiente.
+113298;converter pesos colombianos em euros;Conversores;Conversores;ambígua/revisão;ambígua/revisão;PENDENTE_CONTEXTUAL;direcao_nao_verificada;Regra herdada de direção sem verificação dimensional/monetária P2 suficiente.
+96685;como transformar foto em excel;Conversores;Conversores;ambígua/revisão;ambígua/revisão;PENDENTE_CONTEXTUAL;arquivo_amplo;Arquivo/formato detectado por regra ampla, mas não houve pedido explícito verificado.
+294332;xlsx para csv;Conversores;Conversores;ambígua/revisão;ambígua/revisão;PENDENTE_CONTEXTUAL;arquivo_amplo;Arquivo/formato detectado por regra ampla, mas não houve pedido explícito verificado.
+110123;converter arquivos de video;Conversores;Conversores;ambígua/revisão;ambígua/revisão;PENDENTE_CONTEXTUAL;arquivo_amplo;Arquivo/formato detectado por regra ampla, mas não houve pedido explícito verificado.
+105216;conversor de arquivos grátis;Conversores;Conversores;ambígua/revisão;ambígua/revisão;PENDENTE_CONTEXTUAL;arquivo_amplo;Arquivo/formato detectado por regra ampla, mas não houve pedido explícito verificado.
+114534;convertio youtube;Conversores;Conversores;ambígua/revisão;ambígua/revisão;PENDENTE_CONTEXTUAL;arquivo_amplo;Arquivo/formato detectado por regra ampla, mas não houve pedido explícito verificado.
+124877;cálculo hora noturna 52 minutos e 30 segundos;Conversores;Trabalho;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;parametros_dinamicos;Cálculo dependente de data, regras, taxas e parâmetros definidos pelo usuário.
+283665;trct on line;Finanças;Trabalho;simulação/projeção;cálculo contextual;VALIDADO_COM_RESSALVA;parametros_dinamicos;Cálculo dependente de data, regras, taxas e parâmetros definidos pelo usuário.
+102852;conta de rescisão de contrato;Trabalho;Trabalho;informacional;cálculo contextual;VALIDADO_COM_RESSALVA;parametros_dinamicos;Cálculo dependente de data, regras, taxas e parâmetros definidos pelo usuário.
+189573;método para calcular juros;Conversores;Finanças;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;parametros_dinamicos;Cálculo dependente de data, regras, taxas e parâmetros definidos pelo usuário.
+286417;valor adicional noturno 12x36;Trabalho;Trabalho;cálculo contextual;cálculo contextual;VALIDADO_COM_RESSALVA;parametros_dinamicos;Cálculo dependente de data, regras, taxas e parâmetros definidos pelo usuário.
+281699;transformador de energia 110 220;Conversores;Conversores;informacional;informacional;VALIDADO_COM_RESSALVA;revisao_ampla;"Transformador 110↔220 é equipamento físico; não conversão aritmética entre tensões."
+48001;calcular torque de equipamentos;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;revisao_ampla;Grandeza pressão/torque requer unidade e operação selecionada.
+281776;transformador de voltagem 127 para 220;Conversores;Conversores;ambígua/revisão;informacional;VALIDADO_COM_RESSALVA;revisao_ampla;"Transformador 110↔220 é equipamento físico; não conversão aritmética entre tensões."
+281772;transformador de voltagem 110 220;Conversores;Conversores;ambígua/revisão;informacional;VALIDADO_COM_RESSALVA;revisao_ampla;"Transformador 110↔220 é equipamento físico; não conversão aritmética entre tensões."
+113954;converter torque de parafuso;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;revisao_ampla;Grandeza pressão/torque requer unidade e operação selecionada.
+113255;converter peso kg para lbs;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;peso_pais_ausente;"Peso sem país emissor; origem/destino só se resolvem após escolher moeda."
+113253;converter peso filipino em real;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;peso_pais_ausente;"Peso sem país emissor; origem/destino só se resolvem após escolher moeda."
+113584;converter reais em peso;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;peso_pais_ausente;"Peso sem país emissor; origem/destino só se resolvem após escolher moeda."
+65321;cambio peso x real;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;peso_pais_ausente;"Peso sem país emissor; origem/destino só se resolvem após escolher moeda."
+113781;converter real para peso filipino;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;peso_pais_ausente;"Peso sem país emissor; origem/destino só se resolvem após escolher moeda."
+274560;taxa de juros de veiculos banco central;Conversores;Finanças;ambígua/revisão;informacional;VALIDADO;juros_financeiros;Juros/montante são funções financeiras, não salário nem trabalho.
+28620;bradesco juros;Finanças;Finanças;simulação/projeção;informacional;VALIDADO;juros_financeiros;Juros/montante são funções financeiras, não salário nem trabalho.
+217697;qual o juros do minha casa minha vida;Finanças;Finanças;informacional;informacional;VALIDADO;juros_financeiros;Juros/montante são funções financeiras, não salário nem trabalho.
+173909;juro caixa consignado;Finanças;Finanças;navegacional/transacional;informacional;VALIDADO;juros_financeiros;Juros/montante são funções financeiras, não salário nem trabalho.
+266229;simular juros;Finanças;Finanças;simulação/projeção;informacional;VALIDADO;juros_financeiros;Juros/montante são funções financeiras, não salário nem trabalho.
+214533;quadro para completar sequencia numerica;Matemática;Matemática;ambígua/revisão;informacional;VALIDADO;sequencias_matematicas;Progressão, soma/termo de PA ou PG.
+260203;sequencias pa e pg;Matemática;Matemática;ambígua/revisão;informacional;VALIDADO;sequencias_matematicas;Progressão, soma/termo de PA ou PG.
+244037;razão aurea fibonacci;Matemática;Matemática;ambígua/revisão;informacional;VALIDADO;sequencias_matematicas;Progressão, soma/termo de PA ou PG.
+269840;soma dos termos de pa;Matemática;Matemática;ambígua/revisão;cálculo direto;VALIDADO;sequencias_matematicas;Progressão, soma/termo de PA ou PG.
+48992;calcule o a18 na pa 5 3 1;Matemática;Matemática;ambígua/revisão;cálculo direto;VALIDADO;sequencias_matematicas;Progressão, soma/termo de PA ou PG.
+290866;valor moeda de 1 real comemorativa 50 anos banco central;Conversores;Fora de escopo;ambígua/revisão;consulta de preço/mercado;VALIDADO;numismatica;Valor de moeda física colecionável, não taxa de câmbio.
+187577;moeda de 1 real bc 40 anos valor;Conversores;Fora de escopo;ambígua/revisão;consulta de preço/mercado;VALIDADO;numismatica;Valor de moeda física colecionável, não taxa de câmbio.
+187449;moeda 50 centavos 1995 preço;Conversores;Fora de escopo;ambígua/revisão;consulta de preço/mercado;VALIDADO;numismatica;Valor de moeda física colecionável, não taxa de câmbio.
+187572;moeda de 1 real 50 anos banco central preço 2022;Conversores;Fora de escopo;ambígua/revisão;consulta de preço/mercado;VALIDADO;numismatica;Valor de moeda física colecionável, não taxa de câmbio.
+287020;valor da moeda de 1 real 40 anos banco central;Conversores;Fora de escopo;ambígua/revisão;consulta de preço/mercado;VALIDADO;numismatica;Valor de moeda física colecionável, não taxa de câmbio.
+58984;calculos com frações 4 ano;Matemática;Matemática;cálculo direto;informacional;VALIDADO;fracoes_decimais;Frações, notação decimal/arredondamento.
+191542;numeros decimais e dizimas periodicas;Conversores;Matemática;ambígua/revisão;informacional;VALIDADO;fracoes_decimais;Frações, notação decimal/arredondamento.
+159998;fração geratriz online;Matemática;Matemática;ambígua/revisão;informacional;VALIDADO;fracoes_decimais;Frações, notação decimal/arredondamento.
+106478;conversor de numeros decimais para binarios;Conversores;Matemática;ambígua/revisão;informacional;VALIDADO;fracoes_decimais;Frações, notação decimal/arredondamento.
+260699;simplificador de frações online;Matemática;Matemática;ambígua/revisão;informacional;VALIDADO;fracoes_decimais;Frações, notação decimal/arredondamento.
+21635;arroba vaca magra;Conversores;Fora de escopo;ambígua/revisão;cotação atual;VALIDADO;mercado_pecuario;"Preço de mercado pecuário; arroba é unidade citada, mas a intenção é acompanhar preços."
+210340;preço do bezerro de desmama;Conversores;Fora de escopo;ambígua/revisão;cotação atual;VALIDADO;mercado_pecuario;"Preço de mercado pecuário; arroba é unidade citada, mas a intenção é acompanhar preços."
+21369;arroba da vaca preço;Conversores;Fora de escopo;ambígua/revisão;cotação atual;VALIDADO;mercado_pecuario;"Preço de mercado pecuário; arroba é unidade citada, mas a intenção é acompanhar preços."
+210339;preço do bezerro de 7 arrobas;Conversores;Fora de escopo;ambígua/revisão;cotação atual;VALIDADO;mercado_pecuario;"Preço de mercado pecuário; arroba é unidade citada, mas a intenção é acompanhar preços."
+258019;scot consultoria arroba da vaca;Conversores;Fora de escopo;ambígua/revisão;cotação atual;VALIDADO;mercado_pecuario;"Preço de mercado pecuário; arroba é unidade citada, mas a intenção é acompanhar preços."
+239202;quatro meses é quantas semanas;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;semana_mes;"Semanas e meses exigem definição de mês, gestacional ou civil; não fator fixo universal."
+198026;passar semanas para meses;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;semana_mes;"Semanas e meses exigem definição de mês, gestacional ou civil; não fator fixo universal."
+7709;33 semanas são quantos meses tabela;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;semana_mes;"Semanas e meses exigem definição de mês, gestacional ou civil; não fator fixo universal."
+185298;meses para dias;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;semana_mes;"Semanas e meses exigem definição de mês, gestacional ou civil; não fator fixo universal."
+3898;14 semanas da quantos meses;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;semana_mes;"Semanas e meses exigem definição de mês, gestacional ou civil; não fator fixo universal."
+261449;simulador cef emprestimo consignado;Finanças;Finanças;navegacional/transacional;simulação/projeção;VALIDADO_COM_RESSALVA;simulacao_parametrica;Taxa, prazo, valor/índice e calendário dependem dos dados do usuário.
+267140;simulação de empréstimo pelo whatsapp;Finanças;Finanças;informacional;simulação/projeção;VALIDADO_COM_RESSALVA;simulacao_parametrica;Taxa, prazo, valor/índice e calendário dependem dos dados do usuário.
+157334;financiamento carros itau simulador;Finanças;Finanças;informacional;simulação/projeção;VALIDADO_COM_RESSALVA;simulacao_parametrica;Taxa, prazo, valor/índice e calendário dependem dos dados do usuário.
+263815;simulador empréstimo valia;Finanças;Finanças;simulação/projeção;simulação/projeção;VALIDADO_COM_RESSALVA;simulacao_parametrica;Taxa, prazo, valor/índice e calendário dependem dos dados do usuário.
+262653;simulador de financiamento de imovel itau;Finanças;Finanças;simulação/projeção;simulação/projeção;VALIDADO_COM_RESSALVA;simulacao_parametrica;Taxa, prazo, valor/índice e calendário dependem dos dados do usuário.
+272708;tabela para desconto do inss 2022;Trabalho;Trabalho;informacional;informacional;VALIDADO;regra_trabalhista;Pergunta de regra/prazo trabalhista, não cálculo direto.
+271912;tabela de percentual de desconto do inss;Trabalho;Trabalho;informacional;informacional;VALIDADO;regra_trabalhista;Pergunta de regra/prazo trabalhista, não cálculo direto.
+194423;o que é 40 da rescisão;Trabalho;Trabalho;cálculo direto;informacional;VALIDADO;regra_trabalhista;Pergunta de regra/prazo trabalhista, não cálculo direto.
+179940;licença pelo inss como funciona;Trabalho;Trabalho;informacional;informacional;VALIDADO;regra_trabalhista;Pergunta de regra/prazo trabalhista, não cálculo direto.
+194657;o que é os 40 da rescisão;Trabalho;Trabalho;cálculo direto;informacional;VALIDADO;regra_trabalhista;Pergunta de regra/prazo trabalhista, não cálculo direto.
+213089;problemas envolvendo mmc e mdc 5 ano;Matemática;Matemática;ambígua/revisão;cálculo direto;VALIDADO;aritmetica_numeros;Teoria de números e divisibilidade, não preço de mercado.
+192502;números primos 4o ano;Matemática;Matemática;ambígua/revisão;cálculo direto;VALIDADO;aritmetica_numeros;Teoria de números e divisibilidade, não preço de mercado.
+143632;encontrar fatores primos;Matemática;Matemática;ambígua/revisão;cálculo direto;VALIDADO;aritmetica_numeros;Teoria de números e divisibilidade, não preço de mercado.
+186803;mmc e mdc o que significa;Matemática;Matemática;ambígua/revisão;informacional;VALIDADO;aritmetica_numeros;Teoria de números e divisibilidade, não preço de mercado.
+191427;numero primo em javascript;Matemática;Matemática;ambígua/revisão;cálculo direto;VALIDADO;aritmetica_numeros;Teoria de números e divisibilidade, não preço de mercado.
+183166;medida de copo e xicara;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;culinaria_sem_ingrediente;Conversão culinária massa↔volume precisa do ingrediente/densidade ou padrão da medida.
+71276;colher margarina gramas;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;culinaria_sem_ingrediente;Conversão culinária massa↔volume precisa do ingrediente/densidade ou padrão da medida.
+294445;xícara em gramas;Conversores;Conversores;cálculo contextual;cálculo contextual;VALIDADO_COM_RESSALVA;culinaria_sem_ingrediente;Conversão culinária massa↔volume precisa do ingrediente/densidade ou padrão da medida.
+1328;1 xicara de cha em gramas;Conversores;Conversores;cálculo contextual;cálculo contextual;VALIDADO_COM_RESSALVA;culinaria_sem_ingrediente;Conversão culinária massa↔volume precisa do ingrediente/densidade ou padrão da medida.
+107257;conversor de xicara para gramas;Conversores;Conversores;cálculo contextual;cálculo contextual;VALIDADO_COM_RESSALVA;culinaria_sem_ingrediente;Conversão culinária massa↔volume precisa do ingrediente/densidade ou padrão da medida.
+53057;calculo de quantas semanas estou;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;meses_temporais;Conversão temporal depende de calendário versus mês de duração média.
+71831;com quantas semanas entra no 8 mes;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;meses_temporais;Conversão temporal depende de calendário versus mês de duração média.
+245024;recem nascido é ate quantos meses;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;meses_temporais;Conversão temporal depende de calendário versus mês de duração média.
+71528;com quantas semanas arrumar o berço;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;meses_temporais;Conversão temporal depende de calendário versus mês de duração média.
+70120;clear blue mostra ate quantas semanas;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;meses_temporais;Conversão temporal depende de calendário versus mês de duração média.
+197413;parcelamento de icms;Finanças;Finanças;cotação atual;navegacional/transacional;VALIDADO;divida_tributaria;Dívida/parcelamento tributário exige regras do órgão credor.
+197389;parcelamento com juros no cartão de crédito;Finanças;Finanças;simulação/projeção;navegacional/transacional;VALIDADO;divida_tributaria;Dívida/parcelamento tributário exige regras do órgão credor.
+245255;refis mei;Finanças;Finanças;simulação/projeção;informacional;VALIDADO;divida_tributaria;Dívida/parcelamento tributário exige regras do órgão credor.
+260682;simples mei parcelamento;Finanças;Finanças;informacional;navegacional/transacional;VALIDADO;divida_tributaria;Dívida/parcelamento tributário exige regras do órgão credor.
+165745;historia dia das mães;Fora de escopo;Finanças;fora de escopo;informacional;VALIDADO;divida_tributaria;Dívida/parcelamento tributário exige regras do órgão credor.
+231765;quanto rende 50 milhões no tesouro selic;Finanças;Finanças;informacional;informacional;VALIDADO;investimentos;Aplicação/retorno financeiro, sem operação de conversão física.
+68628;cdb santander hoje;Finanças;Finanças;cálculo contextual;informacional;VALIDADO;investimentos;Aplicação/retorno financeiro, sem operação de conversão física.
+68662;cdb sofisa direto;Finanças;Finanças;estimativa de custo;informacional;VALIDADO;investimentos;Aplicação/retorno financeiro, sem operação de conversão física.
+204850;porcentagem cdi hoje;Finanças;Finanças;informacional;informacional;VALIDADO;investimentos;Aplicação/retorno financeiro, sem operação de conversão física.
+177581;lca é bom investimento;Finanças;Finanças;simulação/projeção;informacional;VALIDADO;investimentos;Aplicação/retorno financeiro, sem operação de conversão física.
+209289;previdencia privada para aposentadoria;Finanças;Trabalho;informacional;informacional;VALIDADO;beneficio_previdenciario;"Benefício previdenciário/legislação; cálculo condicionado a regras próprias quando solicitado."
+268050;simule sua aposentadoria inss;Trabalho;Trabalho;informacional;informacional;VALIDADO;beneficio_previdenciario;"Benefício previdenciário/legislação; cálculo condicionado a regras próprias quando solicitado."
+18764;aposentado por invalidez tem direito a rescisão contratual;Trabalho;Trabalho;informacional;informacional;VALIDADO;beneficio_previdenciario;"Benefício previdenciário/legislação; cálculo condicionado a regras próprias quando solicitado."
+265381;simular aposentadoria tempo de contribuição;Trabalho;Trabalho;cálculo direto;informacional;VALIDADO;beneficio_previdenciario;"Benefício previdenciário/legislação; cálculo condicionado a regras próprias quando solicitado."
+209286;previdencia privada calculadora;Finanças;Trabalho;simulação/projeção;informacional;VALIDADO;beneficio_previdenciario;"Benefício previdenciário/legislação; cálculo condicionado a regras próprias quando solicitado."
+163676;gbwhatsapp pro v15 00;Conversores;Fora de escopo;ambígua/revisão;informacional;VALIDADO;marca_produto;Consulta de aplicativo, marca, produto ou conteúdo sem intenção de cálculo.
+163702;gbwhatsapp v17;Conversores;Fora de escopo;ambígua/revisão;informacional;VALIDADO;marca_produto;Consulta de aplicativo, marca, produto ou conteúdo sem intenção de cálculo.
+163655;gbwhatsapp mod;Conversores;Fora de escopo;ambígua/revisão;informacional;VALIDADO;marca_produto;Consulta de aplicativo, marca, produto ou conteúdo sem intenção de cálculo.
+163666;gbwhatsapp pro v13 50;Conversores;Fora de escopo;ambígua/revisão;informacional;VALIDADO;marca_produto;Consulta de aplicativo, marca, produto ou conteúdo sem intenção de cálculo.
+163659;gbwhatsapp pro 2022;Conversores;Fora de escopo;ambígua/revisão;informacional;VALIDADO;marca_produto;Consulta de aplicativo, marca, produto ou conteúdo sem intenção de cálculo.
+200789;permutação com repetição pdf;Matemática;Conversores;ambígua/revisão;informacional;VALIDADO;pdf_referencia;PDF citado como documento/referência, não há pedido de conversão.
+214149;propriedades logarítmicas pdf;Matemática;Conversores;ambígua/revisão;informacional;VALIDADO;pdf_referencia;PDF citado como documento/referência, não há pedido de conversão.
+191212;numeração romana de 1 a 5000 pdf;Conversores;Conversores;ambígua/revisão;informacional;VALIDADO;pdf_referencia;PDF citado como documento/referência, não há pedido de conversão.
+146938;estatistica e probabilidade para engenheiros montgomery pdf;Matemática;Conversores;ambígua/revisão;informacional;VALIDADO;pdf_referencia;PDF citado como documento/referência, não há pedido de conversão.
+183400;medidas de tendência central pdf;Matemática;Conversores;ambígua/revisão;informacional;VALIDADO;pdf_referencia;PDF citado como documento/referência, não há pedido de conversão.
+130552;derivada sen 4x;Matemática;Matemática;ambígua/revisão;informacional;VALIDADO;trigonometria;Trigonometria e unidades angulares.
+75899;como calcular angulo de inclinação de telhado;Conversores;Matemática;ambígua/revisão;cálculo direto;VALIDADO;trigonometria;Trigonometria e unidades angulares.
+75911;como calcular angulos complementares e suplementares;Matemática;Matemática;ambígua/revisão;cálculo direto;VALIDADO;trigonometria;Trigonometria e unidades angulares.
+145557;equivalência entre graus e radianos;Conversores;Matemática;ambígua/revisão;informacional;VALIDADO;trigonometria;Trigonometria e unidades angulares.
+109584;converta em radianos;Conversores;Matemática;ambígua/revisão;informacional;VALIDADO;trigonometria;Trigonometria e unidades angulares.
+288425;valor do dolar em dezembro de 2021;Conversores;Finanças;ambígua/revisão;cotação histórica;VALIDADO;cambio_historico;Cotação cambial de período histórico, não cotação atual.
+288451;valor do dolar em maio de 2022;Conversores;Finanças;ambígua/revisão;cotação histórica;VALIDADO;cambio_historico;Cotação cambial de período histórico, não cotação atual.
+288766;valor do dólar em fevereiro de 2022;Conversores;Finanças;ambígua/revisão;cotação histórica;VALIDADO;cambio_historico;Cotação cambial de período histórico, não cotação atual.
+288757;valor do dólar em 2015;Conversores;Finanças;ambígua/revisão;cotação histórica;VALIDADO;cambio_historico;Cotação cambial de período histórico, não cotação atual.
+288758;valor do dólar em 2016;Conversores;Finanças;ambígua/revisão;cotação histórica;VALIDADO;cambio_historico;Cotação cambial de período histórico, não cotação atual.
+206086;posso sacar meu fgts em qualquer agencia da caixa;Trabalho;Trabalho;navegacional/transacional;informacional;VALIDADO;fgts;Termo de FGTS/saldo/multa trabalhista.
+86670;como faco para sacar os 1000 reais do fgts;Conversores;Trabalho;ambígua/revisão;informacional;VALIDADO;fgts;Termo de FGTS/saldo/multa trabalhista.
+193056;o desconto do inss vai para o fgts;Trabalho;Trabalho;informacional;informacional;VALIDADO;fgts;Termo de FGTS/saldo/multa trabalhista.
+156776;fgts saque rescisão 2022;Trabalho;Trabalho;navegacional/transacional;navegacional/transacional;VALIDADO;fgts;Termo de FGTS/saldo/multa trabalhista.
+89116;como faço para sacar meu fgts bloqueado;Trabalho;Trabalho;navegacional/transacional;informacional;VALIDADO;fgts;Termo de FGTS/saldo/multa trabalhista.
+118259;crv 2016 a venda;Conversores;Fora de escopo;ambígua/revisão;informacional;VALIDADO;veiculo_produto;Busca por marca/modelo ou comércio automotivo, não conversor de unidade. 
+167731;hrv 2019 a venda;Conversores;Fora de escopo;ambígua/revisão;informacional;VALIDADO;veiculo_produto;Busca por marca/modelo ou comércio automotivo, não conversor de unidade. 
+167733;hrv 2021 a venda;Conversores;Fora de escopo;ambígua/revisão;informacional;VALIDADO;veiculo_produto;Busca por marca/modelo ou comércio automotivo, não conversor de unidade. 
+167790;hyundai kona ev 39 kwh;Conversores;Fora de escopo;ambígua/revisão;informacional;VALIDADO;veiculo_produto;Busca por marca/modelo ou comércio automotivo, não conversor de unidade. 
+139256;dut e crv é a mesma coisa;Conversores;Fora de escopo;ambígua/revisão;informacional;VALIDADO;veiculo_produto;Busca por marca/modelo ou comércio automotivo, não conversor de unidade. 
+88829;como fazer soma da nota do enem;Matemática;Fora de escopo;ambígua/revisão;informacional;VALIDADO;educacao_notas;Nota escolar/ponderação, não peso físico nem moeda estrangeira.
+182854;media notas enem 2022;Matemática;Fora de escopo;ambígua/revisão;informacional;VALIDADO;educacao_notas;Nota escolar/ponderação, não peso físico nem moeda estrangeira.
+96188;como somar nota total do enem;Matemática;Fora de escopo;ambígua/revisão;informacional;VALIDADO;educacao_notas;Nota escolar/ponderação, não peso físico nem moeda estrangeira.
+182568;media de notas no enem;Matemática;Fora de escopo;ambígua/revisão;informacional;VALIDADO;educacao_notas;Nota escolar/ponderação, não peso físico nem moeda estrangeira.
+86695;como faz para somar nota do enem;Matemática;Fora de escopo;ambígua/revisão;informacional;VALIDADO;educacao_notas;Nota escolar/ponderação, não peso físico nem moeda estrangeira.
+1983;100 polegadas em metros quadrados;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;area_comprimento;"Comprimento↔área exige largura ou geometria; não é conversão direta."
+214488;pés quadrados em acres;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;area_comprimento;"Comprimento↔área exige largura ou geometria; não é conversão direta."
+282383;transformar metros em metros quadrados;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;area_comprimento;"Comprimento↔área exige largura ou geometria; não é conversão direta."
+110246;converter centimetros em metros quadrados;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;area_comprimento;"Comprimento↔área exige largura ou geometria; não é conversão direta."
+282393;transformar metros quadrados em metros linear;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;area_comprimento;"Comprimento↔área exige largura ou geometria; não é conversão direta."
+238253;quantos litros tem um saco de cimento de 50kg;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;densidade_fisica;"Massa↔volume exige densidade/ingrediente; não é conversão universal."
+109261;conversão ml em gramas;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;densidade_fisica;"Massa↔volume exige densidade/ingrediente; não é conversão universal."
+85142;como converter litros em gramas;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;densidade_fisica;"Massa↔volume exige densidade/ingrediente; não é conversão universal."
+112013;converter ml em gramas;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;densidade_fisica;"Massa↔volume exige densidade/ingrediente; não é conversão universal."
+271273;tabela de conversão de ml para kg;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;densidade_fisica;"Massa↔volume exige densidade/ingrediente; não é conversão universal."
+108561;conversão de cv para amperes;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;potencia_eletrica;Entre V, A, VA e W são necessárias corrente/tensão e, quando aplicável, fator de potência.
+114264;converter watt em ampere;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;potencia_eletrica;Entre V, A, VA e W são necessárias corrente/tensão e, quando aplicável, fator de potência.
+111707;converter kw para amperes;Conversores;Conversores;cálculo contextual;cálculo contextual;VALIDADO_COM_RESSALVA;potencia_eletrica;Entre V, A, VA e W são necessárias corrente/tensão e, quando aplicável, fator de potência.
+105324;conversor de cv para amperes;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;potencia_eletrica;Entre V, A, VA e W são necessárias corrente/tensão e, quando aplicável, fator de potência.
+16640;amperes para watts;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;potencia_eletrica;Entre V, A, VA e W são necessárias corrente/tensão e, quando aplicável, fator de potência.
+146122;escala de folga funcionarios;Trabalho;Trabalho;informacional;informacional;VALIDADO;jornada_regras;"Consulta de regra de jornada e descanso; não converter horas para moeda."
+67335;casamento no civil tem direito a folga;Trabalho;Trabalho;informacional;informacional;VALIDADO;jornada_regras;"Consulta de regra de jornada e descanso; não converter horas para moeda."
+158182;folga 6x1 domingo;Trabalho;Trabalho;informacional;informacional;VALIDADO;jornada_regras;"Consulta de regra de jornada e descanso; não converter horas para moeda."
+158181;folga 6x1 como funciona;Trabalho;Trabalho;informacional;informacional;VALIDADO;jornada_regras;"Consulta de regra de jornada e descanso; não converter horas para moeda."
+67283;casamento civil tem direito a quantos dias de folga;Trabalho;Trabalho;informacional;informacional;VALIDADO;jornada_regras;"Consulta de regra de jornada e descanso; não converter horas para moeda."
+259090;seculos em numeração romana;Conversores;Conversores;ambígua/revisão;informacional;VALIDADO;numeracao;Representação de números e bases numéricas.
+11500;9 numeração romana;Conversores;Conversores;ambígua/revisão;informacional;VALIDADO;numeracao;Representação de números e bases numéricas.
+191184;numeração romana 1 a 100;Conversores;Conversores;ambígua/revisão;informacional;VALIDADO;numeracao;Representação de números e bases numéricas.
+9825;5000 em numeração romana;Conversores;Conversores;ambígua/revisão;informacional;VALIDADO;numeracao;Representação de números e bases numéricas.
+181016;m numeração romana;Conversores;Conversores;ambígua/revisão;informacional;VALIDADO;numeracao;Representação de números e bases numéricas.
+226682;quanto ganha um analista de pcp;Finanças;Trabalho;cálculo direto;informacional;VALIDADO;salario_profissao;Pesquisa salarial de profissão/cargo, não uma operação aritmética.
+226979;quanto ganha um gerente de hotel;Finanças;Trabalho;simulação/projeção;informacional;VALIDADO;salario_profissao;Pesquisa salarial de profissão/cargo, não uma operação aritmética.
+234815;quanto um deputado ganha;Finanças;Trabalho;cálculo direto;informacional;VALIDADO;salario_profissao;Pesquisa salarial de profissão/cargo, não uma operação aritmética.
+226599;quanto ganha na rescisão;Trabalho;Trabalho;informacional;informacional;VALIDADO;salario_profissao;Pesquisa salarial de profissão/cargo, não uma operação aritmética.
+226877;quanto ganha um enfermeiro chefe;Construção;Trabalho;informacional;informacional;VALIDADO;salario_profissao;Pesquisa salarial de profissão/cargo, não uma operação aritmética.
+187737;moeda mais valorizada do mundo 2022;Conversores;Finanças;ambígua/revisão;informacional;VALIDADO_COM_RESSALVA;cotacao_data_ambigua;Pode ser cotação antiga, numismática ou valor comparativo: requer contexto.
+288418;valor do dolar em abril 2021;Conversores;Finanças;ambígua/revisão;informacional;VALIDADO_COM_RESSALVA;cotacao_data_ambigua;Pode ser cotação antiga, numismática ou valor comparativo: requer contexto.
+187477;moeda banco central 2005 valor;Conversores;Finanças;ambígua/revisão;informacional;VALIDADO_COM_RESSALVA;cotacao_data_ambigua;Pode ser cotação antiga, numismática ou valor comparativo: requer contexto.
+187702;moeda grega antiga preço;Conversores;Finanças;ambígua/revisão;informacional;VALIDADO_COM_RESSALVA;cotacao_data_ambigua;Pode ser cotação antiga, numismática ou valor comparativo: requer contexto.
+187644;moeda de um real 1994 preço;Conversores;Finanças;ambígua/revisão;informacional;VALIDADO_COM_RESSALVA;cotacao_data_ambigua;Pode ser cotação antiga, numismática ou valor comparativo: requer contexto.
+193494;o mês de março tem feriado;Datas;Datas;tabela/referência;tabela/referência;VALIDADO;calendario;Busca de feriados/agenda, não duração matemática.
+61047;calendario mês setembro;Datas;Datas;informacional;tabela/referência;VALIDADO;calendario;Busca de feriados/agenda, não duração matemática.
+62282;calendário com número da semana;Datas;Datas;informacional;tabela/referência;VALIDADO;calendario;Busca de feriados/agenda, não duração matemática.
+5805;2027 calendário;Datas;Datas;informacional;tabela/referência;VALIDADO;calendario;Busca de feriados/agenda, não duração matemática.
+239786;que dia vai ser o feriado da semana santa;Datas;Datas;informacional;tabela/referência;VALIDADO;calendario;Busca de feriados/agenda, não duração matemática.
+183171;medida de degraus de escada;Construção;Construção;estimativa de quantidade;informacional;VALIDADO;escada_construcao;Escada/etapas e dimensões de construção.
+187101;modelo de ceramica para escada;Conversores;Construção;ambígua/revisão;informacional;VALIDADO;escada_construcao;Escada/etapas e dimensões de construção.
+201732;piso antiderrapante para escada externa;Conversores;Construção;ambígua/revisão;informacional;VALIDADO;escada_construcao;Escada/etapas e dimensões de construção.
+253006;revestimento para escada externa barato;Construção;Construção;consulta de preço/mercado;informacional;VALIDADO;escada_construcao;Escada/etapas e dimensões de construção.
+201735;piso antiderrapante preto para escada;Conversores;Construção;ambígua/revisão;informacional;VALIDADO;escada_construcao;Escada/etapas e dimensões de construção.
+189185;multiplicação de matrizes 2x2;Matemática;Matemática;ambígua/revisão;informacional;VALIDADO;algebra;Álgebra linear/polinomial, não fórmula de preço.
+133217;determinante matriz 3x3 online;Matemática;Matemática;ambígua/revisão;cálculo direto;VALIDADO;algebra;Álgebra linear/polinomial, não fórmula de preço.
+268749;sistemas lineares descomplica;Matemática;Matemática;ambígua/revisão;informacional;VALIDADO;algebra;Álgebra linear/polinomial, não fórmula de preço.
+268755;sistemas lineares ensino médio;Matemática;Matemática;ambígua/revisão;informacional;VALIDADO;algebra;Álgebra linear/polinomial, não fórmula de preço.
+268721;sistemas lineares 2x2;Matemática;Matemática;cálculo direto;informacional;VALIDADO;algebra;Álgebra linear/polinomial, não fórmula de preço.
+185778;metros quadrados de parede;Conversores;Construção;ambígua/revisão;estimativa de quantidade;VALIDADO;material_obra;Material/revestimento de parede na construção.
+90430;como medir parede para revestimento;Conversores;Construção;ambígua/revisão;estimativa de quantidade;VALIDADO;material_obra;Material/revestimento de parede na construção.
+27557;bautech parede 18 litros;Conversores;Construção;ambígua/revisão;estimativa de quantidade;VALIDADO;material_obra;Material/revestimento de parede na construção.
+283259;traço de cal para reboco;Construção;Construção;ambígua/revisão;estimativa de quantidade;VALIDADO;material_obra;Material/revestimento de parede na construção.
+28521;borracha liquida 18 litros para parede;Conversores;Construção;ambígua/revisão;informacional;VALIDADO;material_obra;Material/revestimento de parede na construção.
+71135;colher cha ml;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;colher_volume;"Colher culinária↔volume usa padrão de utensílio configurável; não exige densidade."
+186650;ml para colher de café;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;colher_volume;"Colher culinária↔volume usa padrão de utensílio configurável; não exige densidade."
+186629;ml colher cha;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;colher_volume;"Colher culinária↔volume usa padrão de utensílio configurável; não exige densidade."
+71138;colher chá ml;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;colher_volume;"Colher culinária↔volume usa padrão de utensílio configurável; não exige densidade."
+4091;15 ml em colher;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;colher_volume;"Colher culinária↔volume usa padrão de utensílio configurável; não exige densidade."
+113459;converter pptx em ppt;Conversores;Conversores;ambígua/revisão;conversão de arquivo/mídia;VALIDADO;formato_direcional;"Formatos de origem e destino explicitados; conversão de arquivo."
+110379;converter de avi para mp4;Conversores;Conversores;conversão de arquivo/mídia;conversão de arquivo/mídia;VALIDADO;formato_direcional;"Formatos de origem e destino explicitados; conversão de arquivo."
+111380;converter heic para jpg gratuito;Conversores;Conversores;conversão de arquivo/mídia;conversão de arquivo/mídia;VALIDADO;formato_direcional;"Formatos de origem e destino explicitados; conversão de arquivo."
+108175;conversor png para jpeg;Conversores;Conversores;conversão de arquivo/mídia;conversão de arquivo/mídia;VALIDADO;formato_direcional;"Formatos de origem e destino explicitados; conversão de arquivo."
+112416;converter online wav to mp3;Conversores;Conversores;ambígua/revisão;conversão de arquivo/mídia;VALIDADO;formato_direcional;"Formatos de origem e destino explicitados; conversão de arquivo."
+38193;calculadora metro cúbico para metro quadrado;Conversores;Construção;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;area_volume;"Área↔volume exige espessura/altura; não é fator universal."
+79052;como calcular m3 para m2;Conversores;Construção;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;area_volume;"Área↔volume exige espessura/altura; não é fator universal."
+282342;transformar m3 em m2 calculadora;Conversores;Construção;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;area_volume;"Área↔volume exige espessura/altura; não é fator universal."
+79036;como calcular m2 para m3;Conversores;Construção;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;area_volume;"Área↔volume exige espessura/altura; não é fator universal."
+284610;um metro cúbico de concreto faz quantos metros quadrados;Construção;Construção;estimativa de quantidade;cálculo contextual;VALIDADO_COM_RESSALVA;area_volume;"Área↔volume exige espessura/altura; não é fator universal."
+171832;inversor de frequencia solar dc ac;Conversores;Energia;ambígua/revisão;dimensionamento;VALIDADO;inversor_contexto;"Inversor solar é dimensionamento elétrico; inversor de frequência genérico é equipamento."
+171821;inversor de frequencia 50hz para 60hz;Conversores;Fora de escopo;ambígua/revisão;informacional;VALIDADO;inversor_contexto;"Inversor solar é dimensionamento elétrico; inversor de frequência genérico é equipamento."
+171852;inversor e conversor de frequencia;Conversores;Fora de escopo;ambígua/revisão;informacional;VALIDADO;inversor_contexto;"Inversor solar é dimensionamento elétrico; inversor de frequência genérico é equipamento."
+186120;micro inversor placa solar;Conversores;Energia;ambígua/revisão;dimensionamento;VALIDADO;inversor_contexto;"Inversor solar é dimensionamento elétrico; inversor de frequência genérico é equipamento."
+171859;inversor lucky amazônia 4000w 24v;Conversores;Fora de escopo;ambígua/revisão;informacional;VALIDADO;inversor_contexto;"Inversor solar é dimensionamento elétrico; inversor de frequência genérico é equipamento."
+5558;200 euros nota;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;valor_moeda_sem_destino;"Valor expresso em moeda sem unidade de destino; solicitar segunda moeda."
+6783;29 euro;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;valor_moeda_sem_destino;"Valor expresso em moeda sem unidade de destino; solicitar segunda moeda."
+8061;38 euro;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;valor_moeda_sem_destino;"Valor expresso em moeda sem unidade de destino; solicitar segunda moeda."
+2636;115 usd;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;valor_moeda_sem_destino;"Valor expresso em moeda sem unidade de destino; solicitar segunda moeda."
+1185;1 real em cfa;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;valor_moeda_sem_destino;"Valor expresso em moeda sem unidade de destino; solicitar segunda moeda."
+223356;quantidade de argamassa para piso por m2;Conversores;Construção;ambígua/revisão;estimativa de quantidade;VALIDADO;pisos_obra;Pisos/revestimentos são insumos de construção.
+90406;como medir o metro quadrado para piso;Conversores;Construção;ambígua/revisão;informacional;VALIDADO;pisos_obra;Pisos/revestimentos são insumos de construção.
+80729;como calcular o piso em metros quadrados;Conversores;Construção;ambígua/revisão;estimativa de quantidade;VALIDADO;pisos_obra;Pisos/revestimentos são insumos de construção.
+87360;como fazer calculo para colocar piso;Conversores;Construção;ambígua/revisão;estimativa de quantidade;VALIDADO;pisos_obra;Pisos/revestimentos são insumos de construção.
+201832;piso metro quadrado;Construção;Construção;estimativa de quantidade;informacional;VALIDADO;pisos_obra;Pisos/revestimentos são insumos de construção.
+270039;somar horas extras;Trabalho;Datas;cálculo direto;cálculo direto;VALIDADO;duracao;"Duração/horas; não é conversão de moeda."
+33872;calculadora de horas adição e subtração;Trabalho;Datas;cálculo direto;cálculo direto;VALIDADO;duracao;"Duração/horas; não é conversão de moeda."
+234499;quanto tempo falta para acabar o jogo de hoje;Datas;Datas;informacional;informacional;VALIDADO;duracao;"Duração/horas; não é conversão de moeda."
+96126;como somar horas trabalhadas;Trabalho;Datas;cálculo direto;cálculo direto;VALIDADO;duracao;"Duração/horas; não é conversão de moeda."
+96110;como somar horas minutos e segundos;Conversores;Datas;ambígua/revisão;cálculo direto;VALIDADO;duracao;"Duração/horas; não é conversão de moeda."
+150632;exercícios propriedades logaritmos pdf;Matemática;Matemática;ambígua/revisão;informacional;VALIDADO;educacao_pdf;Material didático de matemática em arquivo, não conversão de PDF.
+180436;lista de logaritmos pdf;Matemática;Matemática;ambígua/revisão;informacional;VALIDADO;educacao_pdf;Material didático de matemática em arquivo, não conversão de PDF.
+144987;equação do segundo grau exercícios de vestibular pdf;Matemática;Matemática;informacional;informacional;VALIDADO;educacao_pdf;Material didático de matemática em arquivo, não conversão de PDF.
+252682;resumo de probabilidade pdf;Matemática;Matemática;ambígua/revisão;informacional;VALIDADO;educacao_pdf;Material didático de matemática em arquivo, não conversão de PDF.
+252709;resumo probabilidade pdf;Matemática;Matemática;ambígua/revisão;informacional;VALIDADO;educacao_pdf;Material didático de matemática em arquivo, não conversão de PDF.
+285814;vale refeição ifood;Trabalho;Trabalho;informacional;informacional;VALIDADO;beneficios_trabalho;Benefício de alimentação/refeição ou produto de cartão, sem operação.
+285780;vale refeição caju;Finanças;Trabalho;cálculo contextual;informacional;VALIDADO;beneficios_trabalho;Benefício de alimentação/refeição ou produto de cartão, sem operação.
+285806;vale refeição em ingles;Finanças;Trabalho;cálculo contextual;informacional;VALIDADO;beneficios_trabalho;Benefício de alimentação/refeição ou produto de cartão, sem operação.
+67101;cartão vr refeição;Finanças;Trabalho;cálculo contextual;informacional;VALIDADO;beneficios_trabalho;Benefício de alimentação/refeição ou produto de cartão, sem operação.
+285760;vale refeicao em ingles;Finanças;Trabalho;cálculo contextual;informacional;VALIDADO;beneficios_trabalho;Benefício de alimentação/refeição ou produto de cartão, sem operação.
+281924;transformar brl em real;Conversores;Finanças;ambígua/revisão;informacional;VALIDADO;moeda_equivalente;"Mesma moeda expressa em nomes/códigos equivalentes; não existe par cambial."
+110743;converter dolar australiano para dolar americano;Conversores;Finanças;ambígua/revisão;informacional;VALIDADO;moeda_equivalente;"Mesma moeda expressa em nomes/códigos equivalentes; não existe par cambial."
+108464;conversão brl para real;Conversores;Finanças;ambígua/revisão;informacional;VALIDADO;moeda_equivalente;"Mesma moeda expressa em nomes/códigos equivalentes; não existe par cambial."
+110205;converter brl em real;Conversores;Finanças;ambígua/revisão;informacional;VALIDADO;moeda_equivalente;"Mesma moeda expressa em nomes/códigos equivalentes; não existe par cambial."
+281923;transformar brl em reais;Conversores;Finanças;ambígua/revisão;informacional;VALIDADO;moeda_equivalente;"Mesma moeda expressa em nomes/códigos equivalentes; não existe par cambial."
+187229;modelo de planilha financeira pessoal;Finanças;Fora de escopo;cálculo direto;informacional;VALIDADO;planilhas_operacoes;Busca por recurso/fórmula de planilha, não conversão de formato.
+74092;como arredondar para cima no excel;Matemática;Fora de escopo;informacional;informacional;VALIDADO;planilhas_operacoes;Busca por recurso/fórmula de planilha, não conversão de formato.
+21287;arredondar para baixo excel;Matemática;Fora de escopo;informacional;informacional;VALIDADO;planilhas_operacoes;Busca por recurso/fórmula de planilha, não conversão de formato.
+87872;como fazer formula de vezes no excel;Matemática;Fora de escopo;ambígua/revisão;informacional;VALIDADO;planilhas_operacoes;Busca por recurso/fórmula de planilha, não conversão de formato.
+162291;fórmula valor futuro excel;Matemática;Fora de escopo;ambígua/revisão;informacional;VALIDADO;planilhas_operacoes;Busca por recurso/fórmula de planilha, não conversão de formato.
+105167;conversor de 12 volts para 110 volts;Conversores;Conversores;ambígua/revisão;informacional;VALIDADO_COM_RESSALVA;mesma_unidade;"Mesma unidade repetida; não assumir conversão útil."
+111695;converter kn m2 para kgf m2;Conversores;Conversores;ambígua/revisão;informacional;VALIDADO_COM_RESSALVA;mesma_unidade;"Mesma unidade repetida; não assumir conversão útil."
+163497;gb em gb;Conversores;Conversores;ambígua/revisão;informacional;VALIDADO_COM_RESSALVA;mesma_unidade;"Mesma unidade repetida; não assumir conversão útil."
+113370;converter polegada fracionaria para polegada milesimal;Conversores;Conversores;ambígua/revisão;informacional;VALIDADO_COM_RESSALVA;mesma_unidade;"Mesma unidade repetida; não assumir conversão útil."
+176797;kgf metro para newton metro;Conversores;Conversores;ambígua/revisão;informacional;VALIDADO_COM_RESSALVA;mesma_unidade;"Mesma unidade repetida; não assumir conversão útil."
+160169;frações equivalentes exercicios 5 ano doc;Matemática;Matemática;informacional;informacional;PENDENTE_CONTEXTUAL;material_didatico;Material didático em arquivo, sem certeza quanto à disciplina ou ferramenta.
+195573;operações com frações exercícios 7 ano doc;Matemática;Matemática;informacional;informacional;PENDENTE_CONTEXTUAL;material_didatico;Material didático em arquivo, sem certeza quanto à disciplina ou ferramenta.
+150487;exercícios de sistemas lineares 2x2 pdf;Matemática;Matemática;ambígua/revisão;ambígua/revisão;PENDENTE_CONTEXTUAL;material_didatico;Material didático em arquivo, sem certeza quanto à disciplina ou ferramenta.
+149679;exercicios operações com frações 7 ano doc;Matemática;Matemática;informacional;informacional;PENDENTE_CONTEXTUAL;material_didatico;Material didático em arquivo, sem certeza quanto à disciplina ou ferramenta.
+180402;lista de exercícios sistemas lineares pdf;Matemática;Matemática;cálculo direto;cálculo direto;PENDENTE_CONTEXTUAL;material_didatico;Material didático em arquivo, sem certeza quanto à disciplina ou ferramenta.
+35993;calculadora dia de trabalho;Trabalho;Trabalho;cálculo direto;cálculo contextual;VALIDADO_COM_RESSALVA;horas_trabalhadas;Horas de trabalho/jornada não são automaticamente conversão de duração.
+151850;faltei um dia no trabalho quanto será descontado;Trabalho;Trabalho;informacional;cálculo contextual;VALIDADO_COM_RESSALVA;horas_trabalhadas;Horas de trabalho/jornada não são automaticamente conversão de duração.
+145959;escala 5x1 trabalha quantos dias no mês;Trabalho;Trabalho;cálculo direto;cálculo contextual;VALIDADO_COM_RESSALVA;horas_trabalhadas;Horas de trabalho/jornada não são automaticamente conversão de duração.
+145844;escala 12x36 pode fazer hora extra;Trabalho;Trabalho;cálculo contextual;informacional;VALIDADO_COM_RESSALVA;horas_trabalhadas;Horas de trabalho/jornada não são automaticamente conversão de duração.
+222800;quantas horas semanais o trabalhador tem que trabalhar;Fora de escopo;Trabalho;fora de escopo;informacional;VALIDADO_COM_RESSALVA;horas_trabalhadas;Horas de trabalho/jornada não são automaticamente conversão de duração.
+154867;ferramenta de cálculo judicial;Matemática;Fora de escopo;ambígua/revisão;navegacional/transacional;VALIDADO;juridico;"Ferramenta ou norma jurídica específica; não usar como cálculo matemático comum."
+272764;tabela pratica de atualização tjsp;Fora de escopo;Fora de escopo;fora de escopo;navegacional/transacional;VALIDADO;juridico;"Ferramenta ou norma jurídica específica; não usar como cálculo matemático comum."
+58633;calculo tjsp;Trabalho;Fora de escopo;cálculo direto;navegacional/transacional;VALIDADO;juridico;"Ferramenta ou norma jurídica específica; não usar como cálculo matemático comum."
+170011;indice correção tjsp;Finanças;Fora de escopo;informacional;navegacional/transacional;VALIDADO;juridico;"Ferramenta ou norma jurídica específica; não usar como cálculo matemático comum."
+270382;sumula 228 tst;Trabalho;Fora de escopo;informacional;informacional;VALIDADO;juridico;"Ferramenta ou norma jurídica específica; não usar como cálculo matemático comum."
+291584;variancia enem;Matemática;Fora de escopo;ambígua/revisão;informacional;VALIDADO;educacao_enem;"Notas do ENEM dependem de regras de avaliação/ponderação; não são média aritmética universal."
+186763;mmc e mdc cai no enem;Matemática;Fora de escopo;ambígua/revisão;informacional;VALIDADO;educacao_enem;"Notas do ENEM dependem de regras de avaliação/ponderação; não são média aritmética universal."
+133134;desvio padrao enem;Matemática;Fora de escopo;ambígua/revisão;informacional;VALIDADO;educacao_enem;"Notas do ENEM dependem de regras de avaliação/ponderação; não são média aritmética universal."
+239785;que dia vai ser o enem esse ano;Datas;Fora de escopo;informacional;informacional;VALIDADO;educacao_enem;"Notas do ENEM dependem de regras de avaliação/ponderação; não são média aritmética universal."
+186848;mmc no enem;Matemática;Fora de escopo;ambígua/revisão;informacional;VALIDADO;educacao_enem;"Notas do ENEM dependem de regras de avaliação/ponderação; não são média aritmética universal."
+269215;site que calcula integral;Matemática;Matemática;ambígua/revisão;cálculo direto;VALIDADO;calculo_superior;Cálculo diferencial/integral.
+171538;integral sen 2x;Matemática;Matemática;ambígua/revisão;cálculo direto;VALIDADO;calculo_superior;Cálculo diferencial/integral.
+171525;integral cálculo;Matemática;Matemática;ambígua/revisão;cálculo direto;VALIDADO;calculo_superior;Cálculo diferencial/integral.
+252495;resolver limite online;Matemática;Matemática;ambígua/revisão;cálculo direto;VALIDADO;calculo_superior;Cálculo diferencial/integral.
+185397;metodo de substituição integral;Matemática;Matemática;ambígua/revisão;cálculo direto;VALIDADO;calculo_superior;Cálculo diferencial/integral.
+113546;converter radianos para graus;Conversores;Matemática;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;angulo_conversao;Conversão angular clara, embora unidade/direção exatas precisem ser verificadas.
+85074;como converter graus em radianos e vice versa;Conversores;Matemática;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;angulo_conversao;Conversão angular clara, embora unidade/direção exatas precisem ser verificadas.
+85358;como converter radiano em graus;Conversores;Matemática;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;angulo_conversao;Conversão angular clara, embora unidade/direção exatas precisem ser verificadas.
+96726;como transformar graus em radianos na calculadora;Conversores;Matemática;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;angulo_conversao;Conversão angular clara, embora unidade/direção exatas precisem ser verificadas.
+111354;converter graus para radianos;Conversores;Matemática;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;angulo_conversao;Conversão angular clara, embora unidade/direção exatas precisem ser verificadas.
+208729;preco atual do ouro;Conversores;Finanças;cálculo contextual;cotação atual;VALIDADO;preco_mercado;Consulta de preço de commodity/mercado, não multiplicador fixo.
+211710;preço milho kg;Conversores;Finanças;ambígua/revisão;cotação atual;VALIDADO;preco_mercado;Consulta de preço de commodity/mercado, não multiplicador fixo.
+211038;preço do milho kg;Conversores;Finanças;ambígua/revisão;cotação atual;VALIDADO;preco_mercado;Consulta de preço de commodity/mercado, não multiplicador fixo.
+289154;valor do grama do ouro atual;Finanças;Finanças;cotação atual;cotação atual;VALIDADO;preco_mercado;Consulta de preço de commodity/mercado, não multiplicador fixo.
+209910;preço da grama do ouro atual;Conversores;Finanças;cálculo contextual;cotação atual;VALIDADO;preco_mercado;Consulta de preço de commodity/mercado, não multiplicador fixo.
+179220;libra força para dina;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;libra_fisica;"Libra de força/massa física não é GBP; solicitar dimensão e unidade destino."
+176970;kn para lbf;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;libra_fisica;"Libra de força/massa física não é GBP; solicitar dimensão e unidade destino."
+107704;conversor libra peso;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;libra_fisica;"Libra de força/massa física não é GBP; solicitar dimensão e unidade destino."
+139276;dyne em lbf;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;libra_fisica;"Libra de força/massa física não é GBP; solicitar dimensão e unidade destino."
+176801;kgf para libra força;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;libra_fisica;"Libra de força/massa física não é GBP; solicitar dimensão e unidade destino."
+121429;curso para concurso rateio;Conversores;Fora de escopo;ambígua/revisão;informacional;VALIDADO;educacao;Busca educacional/cursos, não uma calculadora temporal ou financeira.
+195249;odontologia quantos anos de faculdade;Fora de escopo;Fora de escopo;fora de escopo;informacional;VALIDADO;educacao;Busca educacional/cursos, não uma calculadora temporal ou financeira.
+243605;rateio curso para concurso;Conversores;Fora de escopo;ambígua/revisão;informacional;VALIDADO;educacao;Busca educacional/cursos, não uma calculadora temporal ou financeira.
+194857;o que é um rateio;Fora de escopo;Fora de escopo;fora de escopo;informacional;VALIDADO;educacao;Busca educacional/cursos, não uma calculadora temporal ou financeira.
+121409;curso delegado rateio;Conversores;Fora de escopo;ambígua/revisão;informacional;VALIDADO;educacao;Busca educacional/cursos, não uma calculadora temporal ou financeira.
+200964;peso argentino ars to usd;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;cambio_bidirecional;Par cambial identificável, mas sem direção inequívoca: ferramenta deve permitir selecionar origem/destino.
+291543;valuta euro dirham;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;cambio_bidirecional;Par cambial identificável, mas sem direção inequívoca: ferramenta deve permitir selecionar origem/destino.
+105437;conversor de dolares euros;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;cambio_bidirecional;Par cambial identificável, mas sem direção inequívoca: ferramenta deve permitir selecionar origem/destino.
+105049;conversion eur aed;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;cambio_bidirecional;Par cambial identificável, mas sem direção inequívoca: ferramenta deve permitir selecionar origem/destino.
+283991;trocar euros por libras;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;cambio_bidirecional;Par cambial identificável, mas sem direção inequívoca: ferramenta deve permitir selecionar origem/destino.
+166281;hora extra conta nas férias;Trabalho;Trabalho;informacional;informacional;VALIDADO;jornada_adicionais;Jornada e adicionais sujeitos a percentual/jornada.
+166280;hora extra conta na rescisão;Trabalho;Trabalho;informacional;informacional;VALIDADO;jornada_adicionais;Jornada e adicionais sujeitos a percentual/jornada.
+166659;hora noturna 52 minutos e 30 segundos;Conversores;Trabalho;ambígua/revisão;informacional;VALIDADO;jornada_adicionais;Jornada e adicionais sujeitos a percentual/jornada.
+166353;hora extra dsr;Trabalho;Trabalho;informacional;informacional;VALIDADO;jornada_adicionais;Jornada e adicionais sujeitos a percentual/jornada.
+166408;hora extra feriados;Trabalho;Trabalho;informacional;informacional;VALIDADO;jornada_adicionais;Jornada e adicionais sujeitos a percentual/jornada.
+37400;calculadora hp engenharia;Conversores;Finanças;ambígua/revisão;cálculo direto;VALIDADO;calculadora_financeira;Calculadora financeira ou produto de calculadora, não matemática geral.
+37454;calculadora hp12c preco;Fora de escopo;Finanças;consulta de preço/mercado;cálculo direto;VALIDADO;calculadora_financeira;Calculadora financeira ou produto de calculadora, não matemática geral.
+37442;calculadora hp simulador;Finanças;Finanças;simulação/projeção;cálculo direto;VALIDADO;calculadora_financeira;Calculadora financeira ou produto de calculadora, não matemática geral.
+152149;fatorial hp 50g;Matemática;Finanças;ambígua/revisão;informacional;VALIDADO;calculadora_financeira;Calculadora financeira ou produto de calculadora, não matemática geral.
+37455;calculadora hp12c preço;Fora de escopo;Finanças;consulta de preço/mercado;cálculo direto;VALIDADO;calculadora_financeira;Calculadora financeira ou produto de calculadora, não matemática geral.
+55319;calculo exato correção poupança;Energia;Finanças;dimensionamento;cálculo contextual;VALIDADO_COM_RESSALVA;correcao_monetaria;Correção monetária depende de índice e datas.
+115167;correção pela taxa selic;Finanças;Finanças;informacional;cálculo contextual;VALIDADO_COM_RESSALVA;correcao_monetaria;Correção monetária depende de índice e datas.
+114760;correção da moeda brasileira;Conversores;Finanças;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;correcao_monetaria;Correção monetária depende de índice e datas.
+39421;calculadora reajuste igpm;Finanças;Finanças;cálculo direto;cálculo contextual;VALIDADO_COM_RESSALVA;correcao_monetaria;Correção monetária depende de índice e datas.
+270850;tabela correção tj sp;Fora de escopo;Finanças;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;correcao_monetaria;Correção monetária depende de índice e datas.
+130689;descobrir data de nascimento por cpf;Datas;Fora de escopo;cálculo direto;informacional;VALIDADO;juridico_geral;Termo jurídico não operacional.
+15315;advogado direito do trabalho;Trabalho;Fora de escopo;informacional;informacional;VALIDADO;juridico_geral;Termo jurídico não operacional.
+130669;descobrir data de nascimento com o cpf;Datas;Fora de escopo;cálculo direto;informacional;VALIDADO;juridico_geral;Termo jurídico não operacional.
+130670;descobrir data de nascimento cpf;Datas;Fora de escopo;cálculo direto;informacional;VALIDADO;juridico_geral;Termo jurídico não operacional.
+130645;descobrir aniversário pelo cpf;Conversores;Fora de escopo;ambígua/revisão;informacional;VALIDADO;juridico_geral;Termo jurídico não operacional.
+253683;saber tempo de serviço no inss;Trabalho;Trabalho;informacional;informacional;VALIDADO;jornada_trabalho;Tempo ou proporção de trabalho, não diferença de datas genérica.
+100247;consultar tempo de serviço pelo inss;Trabalho;Trabalho;informacional;informacional;VALIDADO;jornada_trabalho;Tempo ou proporção de trabalho, não diferença de datas genérica.
+171391;inss tempo de serviço consulta;Trabalho;Trabalho;informacional;informacional;VALIDADO;jornada_trabalho;Tempo ou proporção de trabalho, não diferença de datas genérica.
+25316;aviso prévio proporcional ao tempo de serviço;Trabalho;Trabalho;informacional;informacional;VALIDADO;jornada_trabalho;Tempo ou proporção de trabalho, não diferença de datas genérica.
+278101;tempo de servico inss;Trabalho;Trabalho;informacional;informacional;VALIDADO;jornada_trabalho;Tempo ou proporção de trabalho, não diferença de datas genérica.
+274496;taxa de juros de emprestimo;Finanças;Finanças;simulação/projeção;navegacional/transacional;VALIDADO;credito;Crédito/contratação e empréstimo, não conversão de grandezas.
+142982;empréstimo desconto em folha de pagamento;Trabalho;Finanças;informacional;navegacional/transacional;VALIDADO;credito;Crédito/contratação e empréstimo, não conversão de grandezas.
+143270;empréstimo melhores taxas;Finanças;Finanças;navegacional/transacional;navegacional/transacional;VALIDADO;credito;Crédito/contratação e empréstimo, não conversão de grandezas.
+197749;particular que empresta dinheiro a juros;Conversores;Finanças;ambígua/revisão;navegacional/transacional;VALIDADO;credito;Crédito/contratação e empréstimo, não conversão de grandezas.
+274523;taxa de juros de empréstimo;Finanças;Finanças;simulação/projeção;navegacional/transacional;VALIDADO;credito;Crédito/contratação e empréstimo, não conversão de grandezas.
+3292;13 salario desconta inss;Trabalho;Trabalho;cálculo direto;informacional;VALIDADO;decimo_terceiro;Parcela ou direito ao décimo terceiro salário.
+3218;13 salario 2022 inss data de pagamento;Trabalho;Trabalho;informacional;informacional;VALIDADO;decimo_terceiro;Parcela ou direito ao décimo terceiro salário.
+3756;13salario do inss;Trabalho;Trabalho;informacional;informacional;VALIDADO;decimo_terceiro;Parcela ou direito ao décimo terceiro salário.
+124632;cálculo décimo terceiro pensão alimentícia;Trabalho;Trabalho;cálculo direto;informacional;VALIDADO;decimo_terceiro;Parcela ou direito ao décimo terceiro salário.
+259124;segunda parcela 13 do inss;Trabalho;Trabalho;informacional;cálculo contextual;VALIDADO;decimo_terceiro;Parcela ou direito ao décimo terceiro salário.
+48573;calcular volume de um cubo;Matemática;Matemática;cálculo direto;cálculo direto;VALIDADO;solidos_geometricos;Volume de sólido geométrico, não metrologia de líquido.
+293368;volume esfera raio;Matemática;Matemática;ambígua/revisão;cálculo direto;VALIDADO;solidos_geometricos;Volume de sólido geométrico, não metrologia de líquido.
+162297;fórmula volume cubo;Matemática;Matemática;ambígua/revisão;cálculo direto;VALIDADO;solidos_geometricos;Volume de sólido geométrico, não metrologia de líquido.
+84245;como calcular volume de esfera;Matemática;Matemática;cálculo direto;cálculo direto;VALIDADO;solidos_geometricos;Volume de sólido geométrico, não metrologia de líquido.
+45513;calcular o volume de um cubo;Matemática;Matemática;cálculo direto;cálculo direto;VALIDADO;solidos_geometricos;Volume de sólido geométrico, não metrologia de líquido.
+165471;gta v ps5 vale a pena;Conversores;Fora de escopo;ambígua/revisão;informacional;VALIDADO;vale_a_pena;Pedido de opinião sobre produto/serviço, não é cálculo de benefício ou desconto.
+285303;vale a pena comprar peso argentino;Conversores;Fora de escopo;ambígua/revisão;informacional;VALIDADO;vale_a_pena;Pedido de opinião sobre produto/serviço, não é cálculo de benefício ou desconto.
+165473;gta v vale a pena 2022;Conversores;Fora de escopo;ambígua/revisão;informacional;VALIDADO;vale_a_pena;Pedido de opinião sobre produto/serviço, não é cálculo de benefício ou desconto.
+285298;vale a pena comprar dólar hoje;Finanças;Fora de escopo;cotação atual;informacional;VALIDADO;vale_a_pena;Pedido de opinião sobre produto/serviço, não é cálculo de benefício ou desconto.
+285178;v max 1200 vale a pena;Conversores;Fora de escopo;ambígua/revisão;informacional;VALIDADO;vale_a_pena;Pedido de opinião sobre produto/serviço, não é cálculo de benefício ou desconto.
+249824;rescisao acordo mutuo reforma trabalhista;Trabalho;Trabalho;informacional;informacional;VALIDADO;rescisao;Verbas e direitos de desligamento/trabalho.
+278817;termo de acordo de rescisão trabalhista;Trabalho;Trabalho;informacional;informacional;VALIDADO;rescisao;Verbas e direitos de desligamento/trabalho.
+278820;termo de acordo rescisão trabalhista;Trabalho;Trabalho;informacional;informacional;VALIDADO;rescisao;Verbas e direitos de desligamento/trabalho.
+249850;rescisao comum acordo aviso previo;Trabalho;Trabalho;informacional;informacional;VALIDADO;rescisao;Verbas e direitos de desligamento/trabalho.
+250234;rescisão contratual o que significa;Trabalho;Trabalho;informacional;informacional;VALIDADO;rescisao;Verbas e direitos de desligamento/trabalho.
+176760;kg libra;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;libra_massa;"Libra como unidade de massa por contexto de quilogramas/gramas; não GBP."
+282295;transformar kg em libras;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;libra_massa;"Libra como unidade de massa por contexto de quilogramas/gramas; não GBP."
+108826;conversão de quilos para libras;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;libra_massa;"Libra como unidade de massa por contexto de quilogramas/gramas; não GBP."
+108677;conversão de libras para quilos;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;libra_massa;"Libra como unidade de massa por contexto de quilogramas/gramas; não GBP."
+44600;calcular libra em kg;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;libra_massa;"Libra como unidade de massa por contexto de quilogramas/gramas; não GBP."
+44901;calcular metro cúbico cilindro;Conversores;Matemática;ambígua/revisão;cálculo direto;VALIDADO;geometria_volume;Cálculo geométrico de volume sem contexto de insumos.
+75878;como calcular agua em metros cubicos;Conversores;Matemática;ambígua/revisão;cálculo direto;VALIDADO;geometria_volume;Cálculo geométrico de volume sem contexto de insumos.
+44891;calcular metro cubico cilindro;Conversores;Matemática;ambígua/revisão;cálculo direto;VALIDADO;geometria_volume;Cálculo geométrico de volume sem contexto de insumos.
+80571;como calcular o metro cubico;Datas;Matemática;cálculo direto;cálculo direto;VALIDADO;geometria_volume;Cálculo geométrico de volume sem contexto de insumos.
+48590;calcular volume em metros cubicos;Conversores;Matemática;ambígua/revisão;cálculo direto;VALIDADO;geometria_volume;Cálculo geométrico de volume sem contexto de insumos.
+291801;vedapren para calha;Conversores;Construção;ambígua/revisão;informacional;VALIDADO;obra_produto;Produto de obra/impermeabilização, consulta informacional.
+291746;vedacit para paredes umidas;Conversores;Construção;ambígua/revisão;informacional;VALIDADO;obra_produto;Produto de obra/impermeabilização, consulta informacional.
+291819;vedapren parede branco 18 kg;Conversores;Construção;ambígua/revisão;informacional;VALIDADO;obra_produto;Produto de obra/impermeabilização, consulta informacional.
+291832;vedapren parede preço;Construção;Construção;cálculo direto;informacional;VALIDADO;obra_produto;Produto de obra/impermeabilização, consulta informacional.
+291739;vedacit para cimento;Conversores;Construção;ambígua/revisão;informacional;VALIDADO;obra_produto;Produto de obra/impermeabilização, consulta informacional.
+41115;calcular anos meses e dias entre duas datas no excel;Datas;Datas;cálculo direto;cálculo contextual;VALIDADO_COM_RESSALVA;data_parametros;Cálculo de datas requer data inicial/final e convenção de dias úteis.
+237629;quantos dias faltam para meu aniversário;Datas;Datas;cálculo direto;cálculo contextual;VALIDADO_COM_RESSALVA;data_parametros;Cálculo de datas requer data inicial/final e convenção de dias úteis.
+237645;quantos dias faltam pro meu aniversário;Datas;Datas;cálculo direto;cálculo contextual;VALIDADO_COM_RESSALVA;data_parametros;Cálculo de datas requer data inicial/final e convenção de dias úteis.
+237887;quantos dias úteis;Datas;Datas;informacional;cálculo contextual;VALIDADO_COM_RESSALVA;data_parametros;Cálculo de datas requer data inicial/final e convenção de dias úteis.
+123638;cálculo de dias úteis;Construção;Datas;cálculo direto;cálculo contextual;VALIDADO_COM_RESSALVA;data_parametros;Cálculo de datas requer data inicial/final e convenção de dias úteis.
+157181;financeiro contabilidade;Finanças;Finanças;simulação/projeção;informacional;VALIDADO;contabilidade;Contabilidade ou conta contábil não é calculadora de conversão.
+103223;contabilidade contas de resultado;Finanças;Finanças;informacional;informacional;VALIDADO;contabilidade;Contabilidade ou conta contábil não é calculadora de conversão.
+104054;contas de resultado contabilidade;Finanças;Finanças;informacional;informacional;VALIDADO;contabilidade;Contabilidade ou conta contábil não é calculadora de conversão.
+103231;contabilidade em vila velha;Conversores;Finanças;ambígua/revisão;informacional;VALIDADO;contabilidade;Contabilidade ou conta contábil não é calculadora de conversão.
+103254;contabilidade quantos anos;Fora de escopo;Finanças;fora de escopo;informacional;VALIDADO;contabilidade;Contabilidade ou conta contábil não é calculadora de conversão.
+257881;saque jam cod 60 f;Trabalho;Trabalho;informacional;navegacional/transacional;VALIDADO;previdencia_servico;Consulta de canal, extrato ou serviço previdenciário/FGTS, não cálculo.
+257882;saque jam cod 60 f em vermelho;Trabalho;Trabalho;informacional;navegacional/transacional;VALIDADO;previdencia_servico;Consulta de canal, extrato ou serviço previdenciário/FGTS, não cálculo.
+257877;saque jam cod 50e;Trabalho;Trabalho;informacional;navegacional/transacional;VALIDADO;previdencia_servico;Consulta de canal, extrato ou serviço previdenciário/FGTS, não cálculo.
+22969;atualizar cnis;Trabalho;Trabalho;informacional;navegacional/transacional;VALIDADO;previdencia_servico;Consulta de canal, extrato ou serviço previdenciário/FGTS, não cálculo.
+257875;saque jam cod 50;Trabalho;Trabalho;informacional;navegacional/transacional;VALIDADO;previdencia_servico;Consulta de canal, extrato ou serviço previdenciário/FGTS, não cálculo.
+112543;converter pdf doc online;Conversores;Conversores;conversão de arquivo/mídia;conversão de arquivo/mídia;VALIDADO_COM_RESSALVA;formato_bidir;"Dois formatos reconhecidos; pode faltar direção ou operação específica."
+108071;conversor pdf doc gratis;Conversores;Conversores;conversão de arquivo/mídia;conversão de arquivo/mídia;VALIDADO_COM_RESSALVA;formato_bidir;"Dois formatos reconhecidos; pode faltar direção ou operação específica."
+107911;conversor mp3 wav online;Conversores;Conversores;ambígua/revisão;conversão de arquivo/mídia;VALIDADO_COM_RESSALVA;formato_bidir;"Dois formatos reconhecidos; pode faltar direção ou operação específica."
+108073;conversor pdf dwg;Conversores;Conversores;ambígua/revisão;conversão de arquivo/mídia;VALIDADO_COM_RESSALVA;formato_bidir;"Dois formatos reconhecidos; pode faltar direção ou operação específica."
+108012;conversor online mp3 wav;Conversores;Conversores;ambígua/revisão;conversão de arquivo/mídia;VALIDADO_COM_RESSALVA;formato_bidir;"Dois formatos reconhecidos; pode faltar direção ou operação específica."
+165538;guia gps em atraso;Trabalho;Trabalho;informacional;cálculo contextual;VALIDADO_COM_RESSALVA;guia_previdenciaria;GPS em atraso: guia de Previdência, juros e regras próprias.
+165534;guia do gps em atraso;Trabalho;Trabalho;informacional;cálculo contextual;VALIDADO_COM_RESSALVA;guia_previdenciaria;GPS em atraso: guia de Previdência, juros e regras próprias.
+165520;guia de gps em atraso;Trabalho;Trabalho;informacional;cálculo contextual;VALIDADO_COM_RESSALVA;guia_previdenciaria;GPS em atraso: guia de Previdência, juros e regras próprias.
+43688;calcular guia gps;Trabalho;Trabalho;cálculo direto;cálculo contextual;VALIDADO_COM_RESSALVA;guia_previdenciaria;GPS em atraso: guia de Previdência, juros e regras próprias.
+57233;calculo para gps em atraso;Conversores;Trabalho;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;guia_previdenciaria;GPS em atraso: guia de Previdência, juros e regras próprias.
+183283;medida xicara farinha de trigo;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;culinaria_ingrediente;Conversão culinária massa↔volume depende do ingrediente e da padronização da xícara/colher.
+294290;xicara de farinha de trigo gramas;Conversores;Conversores;cálculo contextual;cálculo contextual;VALIDADO_COM_RESSALVA;culinaria_ingrediente;Conversão culinária massa↔volume depende do ingrediente e da padronização da xícara/colher.
+183231;medida farinha de trigo xicara;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;culinaria_ingrediente;Conversão culinária massa↔volume depende do ingrediente e da padronização da xícara/colher.
+294291;xicara de farinha em gramas;Conversores;Conversores;cálculo contextual;cálculo contextual;VALIDADO_COM_RESSALVA;culinaria_ingrediente;Conversão culinária massa↔volume depende do ingrediente e da padronização da xícara/colher.
+1342;1 xícara de farinha de trigo em gramas;Conversores;Conversores;cálculo contextual;cálculo contextual;VALIDADO_COM_RESSALVA;culinaria_ingrediente;Conversão culinária massa↔volume depende do ingrediente e da padronização da xícara/colher.
+114528;convertio download;Conversores;Fora de escopo;ambígua/revisão;navegacional/transacional;VALIDADO;aplicativo_navegacao;Busca de aplicativo/visualizador, não conversão de arquivo.
+138997;download youtube online mp4;Finanças;Fora de escopo;cálculo direto;navegacional/transacional;VALIDADO;aplicativo_navegacao;Busca de aplicativo/visualizador, não conversão de arquivo.
+186234;microsoft visio 2016 download;Conversores;Fora de escopo;ambígua/revisão;navegacional/transacional;VALIDADO;aplicativo_navegacao;Busca de aplicativo/visualizador, não conversão de arquivo.
+39880;calculadora simples download;Conversores;Fora de escopo;ambígua/revisão;navegacional/transacional;VALIDADO;aplicativo_navegacao;Busca de aplicativo/visualizador, não conversão de arquivo.
+138957;download calculadora simples;Conversores;Fora de escopo;ambígua/revisão;navegacional/transacional;VALIDADO;aplicativo_navegacao;Busca de aplicativo/visualizador, não conversão de arquivo.
+96774;como transformar kwh em watts;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;energia_potencia;"kWh↔kW requer duração; não converter diretamente."
+107209;conversor de watts para kwh;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;energia_potencia;"kWh↔kW requer duração; não converter diretamente."
+282327;transformar kwh em watts;Energia;Conversores;estimativa de consumo;cálculo contextual;VALIDADO_COM_RESSALVA;energia_potencia;"kWh↔kW requer duração; não converter diretamente."
+293636;watt para kwh;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;energia_potencia;"kWh↔kW requer duração; não converter diretamente."
+107204;conversor de watt para quilowatt hora;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;energia_potencia;"kWh↔kW requer duração; não converter diretamente."
+195735;oq e roi;Finanças;Finanças;simulação/projeção;informacional;VALIDADO;roi_investimento;ROI é retorno sobre investimento e não consumo energético.
+159456;formula roi contabilidade;Matemática;Finanças;ambígua/revisão;informacional;VALIDADO;roi_investimento;ROI é retorno sobre investimento e não consumo energético.
+253327;roi o que significa;Finanças;Finanças;simulação/projeção;informacional;VALIDADO;roi_investimento;ROI é retorno sobre investimento e não consumo energético.
+158917;formula do roi;Trabalho;Finanças;informacional;informacional;VALIDADO;roi_investimento;ROI é retorno sobre investimento e não consumo energético.
+35023;calculadora de preço de venda online;Conversores;Finanças;ambígua/revisão;cálculo contextual;VALIDADO;preco_venda;Calculadora de preço de venda/custo, com margem e impostos configuráveis.
+35022;calculadora de preço de venda grátis;Finanças;Finanças;cálculo direto;cálculo contextual;VALIDADO;preco_venda;Calculadora de preço de venda/custo, com margem e impostos configuráveis.
+35001;calculadora de precificação grátis online;Matemática;Finanças;cálculo direto;cálculo contextual;VALIDADO;preco_venda;Calculadora de preço de venda/custo, com margem e impostos configuráveis.
+35021;calculadora de preço de venda;Construção;Finanças;estimativa de quantidade;cálculo contextual;VALIDADO;preco_venda;Calculadora de preço de venda/custo, com margem e impostos configuráveis.
+186856;mmc para saber o peso ideal;Conversores;Conversores;ambígua/revisão;ambígua/revisão;PENDENTE_CONTEXTUAL;falso_positivo_cambio;Ambiguidade lexical: palavra ligada a moeda pode significar outra grandeza.
+201169;peso ideal para crianca de 4 anos;Conversores;Conversores;ambígua/revisão;ambígua/revisão;PENDENTE_CONTEXTUAL;falso_positivo_cambio;Ambiguidade lexical: palavra ligada a moeda pode significar outra grandeza.
+106713;conversor de peso corporal;Conversores;Conversores;ambígua/revisão;ambígua/revisão;PENDENTE_CONTEXTUAL;falso_positivo_cambio;Ambiguidade lexical: palavra ligada a moeda pode significar outra grandeza.
+201170;peso ideal para criança de 10 anos;Conversores;Conversores;ambígua/revisão;ambígua/revisão;PENDENTE_CONTEXTUAL;falso_positivo_cambio;Ambiguidade lexical: palavra ligada a moeda pode significar outra grandeza.
+209023;preco do querosene de aviacao;Finanças;Fora de escopo;cotação atual;cotação atual;VALIDADO;mercado_combustiveis;Consulta de preço de combustível, não cálculo de consumo.
+210261;preço de querosene para aviação;Conversores;Fora de escopo;ambígua/revisão;cotação atual;VALIDADO;mercado_combustiveis;Consulta de preço de combustível, não cálculo de consumo.
+211893;preço querosene de aviação;Construção;Fora de escopo;consulta de preço/mercado;cotação atual;VALIDADO;mercado_combustiveis;Consulta de preço de combustível, não cálculo de consumo.
+209191;preco querosene aviacao;Construção;Fora de escopo;consulta de preço/mercado;cotação atual;VALIDADO;mercado_combustiveis;Consulta de preço de combustível, não cálculo de consumo.
+105826;conversor de l para kg;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;densidade_obrigatoria;"Massa↔volume depende do ingrediente/densidade; não converter diretamente."
+85061;como converter g para ml;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;densidade_obrigatoria;"Massa↔volume depende do ingrediente/densidade; não converter diretamente."
+85060;como converter g em ml;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;densidade_obrigatoria;"Massa↔volume depende do ingrediente/densidade; não converter diretamente."
+7748;34 semanas meses;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;semanas_meses_contextuais;Conversão semana↔mês depende de convenção: calendário, média astronômica ou semana gestacional.
+103583;contagem de semanas e meses;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;semanas_meses_contextuais;Conversão semana↔mês depende de convenção: calendário, média astronômica ou semana gestacional.
+185269;meses e semanas;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;semanas_meses_contextuais;Conversão semana↔mês depende de convenção: calendário, média astronômica ou semana gestacional.
+162412;galoes de agua 20 litros;Energia;Fora de escopo;cálculo contextual;informacional;VALIDADO;curadoria_excecao_especifica;Embalagem com volume fixo, não conversão física.
+182139;maurício godinho delgado;Trabalho;Fora de escopo;informacional;informacional;VALIDADO;curadoria_excecao_especifica;Busca por pessoa/autor de direito trabalhista.
+253166;revisão vida toda stf;Energia;Trabalho;cálculo contextual;informacional;VALIDADO;curadoria_excecao_especifica;Assunto previdenciário/jurisprudência.
+114576;convertor valuta;Conversores;Conversores;ambígua/revisão;navegacional/transacional;VALIDADO;servico_conversao;Busca de plataforma específica, não necessariamente uma operação indicada.
+114574;convertor fahrenheit;Conversores;Conversores;ambígua/revisão;navegacional/transacional;VALIDADO;servico_conversao;Busca de plataforma específica, não necessariamente uma operação indicada.
+114575;convertor temperatura;Conversores;Conversores;ambígua/revisão;navegacional/transacional;VALIDADO;servico_conversao;Busca de plataforma específica, não necessariamente uma operação indicada.
+22310;astar coingecko;Conversores;Finanças;ambígua/revisão;informacional;VALIDADO;cripto_consulta;Consulta informacional/mercado de criptoativo, não unidade física.
+152734;feg coingecko;Conversores;Finanças;ambígua/revisão;informacional;VALIDADO;cripto_consulta;Consulta informacional/mercado de criptoativo, não unidade física.
+28739;brise coingecko;Conversores;Finanças;ambígua/revisão;informacional;VALIDADO;cripto_consulta;Consulta informacional/mercado de criptoativo, não unidade física.
+281916;transformar arroba em kg;Conversores;Conversores;ambígua/revisão;conversão direta;VALIDADO_COM_RESSALVA;arroba_kg;"Conversão massa arroba→kg explícita; tratar arroba padrão conforme contexto (pecuário Brasil)."
+21599;arroba em kg;Conversores;Conversores;ambígua/revisão;conversão direta;VALIDADO_COM_RESSALVA;arroba_kg;"Conversão massa arroba→kg explícita; tratar arroba padrão conforme contexto (pecuário Brasil)."
+4247;1500 parcelado em 12x;Conversores;Conversores;ambígua/revisão;ambígua/revisão;PENDENTE_CONTEXTUAL;tributos_sem_contexto;Correspondência herdada de tributos sem pistas lexicais tributárias reais.
+179436;licenciamento parcelado no boleto;Finanças;Finanças;simulação/projeção;simulação/projeção;PENDENTE_CONTEXTUAL;tributos_sem_contexto;Correspondência herdada de tributos sem pistas lexicais tributárias reais.
+177071;kv w;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;eletrica_contextual;Volt-ampère/tensão↔watts exige fator de potência, corrente ou parâmetros da carga.
+114255;converter w em va;Conversores;Conversores;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;eletrica_contextual;Volt-ampère/tensão↔watts exige fator de potência, corrente ou parâmetros da carga.
+182891;media para passar em engenharia civil;Conversores;Fora de escopo;ambígua/revisão;informacional;VALIDADO;notas_universidade;Nota de corte educacional, não cálculo de área nem material.
+182899;media para passar em pedagogia;Matemática;Fora de escopo;ambígua/revisão;informacional;VALIDADO;notas_universidade;Nota de corte educacional, não cálculo de área nem material.
+112054;converter moeda binance;Conversores;Finanças;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;cripto_dinamico;Conversão de criptoativo requer ativo, contraparte, rede/cotação e horário.
+112206;converter moedas binance;Conversores;Finanças;ambígua/revisão;cálculo contextual;VALIDADO_COM_RESSALVA;cripto_dinamico;Conversão de criptoativo requer ativo, contraparte, rede/cotação e horário.
+164262;gestantes podem ser demitidas;Trabalho;Fora de escopo;informacional;fora de escopo;VALIDADO;saude_gestacao;"Busca sobre gestação ou saúde; não representa conversão temporal comum."
+44861;calcular meses trabalhados;Trabalho;Datas;cálculo direto;cálculo contextual;VALIDADO_COM_RESSALVA;datas_meses;Contagem de meses exige datas ou período inicial e final.
+290589;valor liquido e bruto diferença;Finanças;Trabalho;informacional;informacional;VALIDADO;salario_desconto;Salário bruto/líquido e descontos de folha sujeitos a regras.
