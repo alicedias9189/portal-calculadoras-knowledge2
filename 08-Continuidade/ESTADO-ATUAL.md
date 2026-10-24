@@ -1,6 +1,6 @@
 # ESTADO ATUAL — Portal de Calculadoras
 
-Última atualização: 2026-10-24 (P3 v5.0; histórico P1/P2 abaixo preservado).
+Última atualização: 2026-10-24 (P3 v5.1; histórico P0/P1/P2 e P3 anterior preservado).
 Fonte canônica: `alicedias9189/portal-calculadoras-knowledge2`, branch `main`.
 **Leia este documento primeiro em uma nova conversa. Depois leia o registro mais recente em `08-Continuidade/Registros/` e DEC-038 a DEC-040.**
 
@@ -27,11 +27,18 @@ Portal de calculadoras de matemática, datas, conversores, trabalhistas, elétri
 - IMPORTANTE: planilhas XLSX, ZIPs com 30 lotes e CSVs completos ainda se encontram na Biblioteca do ChatGPT, NÃO no GitHub. O commit não sincroniza os dados binários.
 - Os relatórios atuais refletem revisões automatizadas orientadas por regras, **não aprovação editorial humana**.
 
-## Atualização prioritária — P3 v5.0 (24/10/2026)
+## Atualização prioritária — P3 v5.1 (24/10/2026)
+- DEC-087 e registro `08-Continuidade/Registros/2026-10-24-06-P3-v5.1-revisao-75.md`: **75 pareceres revisados, 19 refinamentos e 56 mantidos com ressalvas**, 49 famílias e oito grupos.
+- Regressão independente **30/30 lotes PASSOU**, 294.905 bases, 2.190 controles. Filas 23.965/52.046 linhas com **382 colunas históricas intactas**, mais oito novas de rastreabilidade.
+- P3 ainda elegíveis **19.637**; P2 pendentes **4.660**; 98 propostas globais preservadas byte a byte.
+- Quatro scripts Python reproduzíveis estão versionados em `07-Scripts/P3/` no GitHub; as filas CSV completas, os lotes e o XLSX estão no ZIP entregue no ChatGPT, **não no GitHub**.
+- Homologação editorial **PENDENTE**. **Próxima tarefa: P3 v5.2**, expansão seletiva dentre os 19.637 elegíveis, sem reabrir os 75 já revisados.
+
+## Histórico — P3 v5.0 (24/10/2026)
 - Fonte técnica: pacote ZIP P3 v4.9 e relatórios dos 30 lotes.
 - DEC-086: 75 novos IDs, 49 famílias, 8 temas; 30/30 regressões e 75/75 patches autorizados. Históricos preservados. P2 pendentes 4.660, P3 elegíveis 19.637.
 - Pareceres técnicos pendentes de homologação editorial. ZIP v5.0 completo disponibilizado em conversa ChatGPT, não armazenado integralmente no GitHub.
-- **Próxima tarefa: P3 v5.1 — revisão crítica individual dos mesmos 75 IDs; não expandir antes de revisar.**
+- Revisão crítica dos mesmos 75 IDs concluída na P3 v5.1; consulte DEC-087.
 
 ## Próximos passos históricos (anotações de 17/10; não substituem a tarefa prioritária)
 1. Completar a transferência dos 12 arquivos ZIP/XLSX da Biblioteca para o GitHub, com checagem de hashes, sem sobrescrever fontes ou aprovações históricas.
