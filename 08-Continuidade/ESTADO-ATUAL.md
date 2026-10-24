@@ -1,6 +1,6 @@
 # ESTADO ATUAL — Portal de Calculadoras
 
-Última atualização: 2026-10-24 (P3 v5.3 concluída; DEC-090; próxima v5.4 de 100 IDs).
+Última atualização: 2026-10-24 (P3 v5.4; 100 IDs; DEC-091; próximo v5.5).
 Fonte canônica: `alicedias9189/portal-calculadoras-knowledge2`, branch `main`.
 **Leia este documento primeiro em uma nova conversa. Depois leia o registro mais recente em `08-Continuidade/Registros/` e DEC-038 a DEC-040.**
 
@@ -27,13 +27,22 @@ Portal de calculadoras de matemática, datas, conversores, trabalhistas, elétri
 - IMPORTANTE: planilhas XLSX, ZIPs com 30 lotes e CSVs completos ainda se encontram na Biblioteca do ChatGPT, NÃO no GitHub. O commit não sincroniza os dados binários.
 - Os relatórios atuais refletem revisões automatizadas orientadas por regras, **não aprovação editorial humana**.
 
-## Atualização prioritária — P3 v5.3 (24/10/2026)
+## Atualização prioritária — P3 v5.4 (24/10/2026)
+- **DEC-091**: expansão fechada de **100 novos IDs / 34 famílias / 7 grupos** dentre os 19.462 P3 elegíveis após filtro Ouro (DEC-089); nenhuma classificação anterior reaberta nesta etapa.
+- **100/100 patches registrados** com JSON antes/depois; 45 alterações de área e 89 de tipo de intenção. Homologação editorial **PENDENTE**.
+- Regressão independente **60/60 lotes PASSOU** (30 canônicos + 30 filtrados), 100/100 IDs; 294.905 bases canônicas e 291.296 bases de trabalho preservadas (número de linhas), com 2.190 controles em cada conjunto. Filtro de 3.609 IDs Ouro permanece reversível.
+- Quatro filas preservaram **406 colunas históricas**, recebendo somente oito novas de rastreabilidade v5.4. 4.660 pendências P2 e backlog de 98 propostas globais preservados.
+- P3 ainda elegíveis: **19.362 após Ouro**; **19.462 na fonte canônica**.
+- Scripts Python reutilizáveis em `07-Scripts/P3/*p3_v54.py`; decisão, relatório, manifesto e registro de continuidade versionados. ZIP contendo os CSVs completos, lotes e XLSX disponível no ChatGPT, **não enviado como binário ao GitHub**.
+- **Próxima tarefa: P3 v5.5 — revisão crítica individual dos 100 pareceres v5.4, sem expandir novos IDs**, com regressão dos 60 lotes. Depois continuar em expansões de 100 sobre fila sem Ouro.
+
+## Histórico — P3 v5.3 (24/10/2026)
 - **DEC-090:** 75 pareceres individuais da v5.2 revisados; **6 refinamentos e 69 mantidos com ressalvas**. Não foram incluídos novos IDs.
 - Regressão independente **60/60 lotes PASSOU** (30 canônicos, 30 após filtro Ouro), 6/6 patches. Mantidos 294.905 IDs-base canônicos, 291.296 IDs-base de trabalho e 2.190 controles em cada versão.
 - Quatro filas preservaram **398 colunas históricas**, recebendo somente oito novas de rastreabilidade v5.3. Backlog global 98 preservado em bytes, P2 pendentes 4.660 intactas.
 - P3 **19.462 elegíveis no filtro Ouro**, 19.562 na fonte canônica, sem alteração de saldo porque a v5.3 não abriu novos IDs. O filtro Ouro de 3.609 IDs é reversível (DEC-089).
 - `07-Scripts/P3/*p3_v53.py` reúne quatro scripts reproduzíveis; `08-Entregas/P3-v5.3/RELATORIO-P3-V5.3.md` e o registro atualizado detalham evidências. Os CSVs/XLSX/ZIPs completos estão no pacote entregue via ChatGPT, **não no repositório**.
-- Homologação editorial **PENDENTE**. **Próxima tarefa: P3 v5.4, selecionar 100 IDs exclusivamente dentre os 19.462 elegíveis sem Ouro**; seguir com revisão crítica e regressão.
+- Homologação editorial **PENDENTE**. **P3 v5.4 concluída** em DEC-091; 100 novos IDs com regressão 60/60.
 
 ## Histórico — limpeza de Ouro/Ouro escuro 1 (24/10/2026)
 - **DEC-089:** sete sementes ODS auditadas. Em `SementesEnergia.ods`/Codex há 3.368 palavras em Ouro e 348 em Ouro escuro 1; são 3.610 expressões distintas após normalização.
