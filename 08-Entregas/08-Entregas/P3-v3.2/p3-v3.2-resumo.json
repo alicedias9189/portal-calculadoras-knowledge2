@@ -1,0 +1,25 @@
+{
+  "versao": "P3 v3.2",
+  "status": "AUDITORIA_EXECUTADA",
+  "total_decisoes": 68,
+  "familias": 36,
+  "por_regra": {
+    "CARTAO": 1,
+    "DIAS_EXCEL": 9,
+    "ENERGIA": 1,
+    "HORAS_EXTRAS": 32,
+    "IPVA": 7,
+    "PAYBACK": 18
+  },
+  "lotes": 30,
+  "bases": 294905,
+  "controles": 2190,
+  "fila_p3": 23965,
+  "fila_geral": 52046,
+  "p3_fora_dos_pilotos_antes": 20272,
+  "p3_fora_dos_pilotos_depois": 20204,
+  "p2_pendentes": 4660,
+  "global_fora_prioridades": 98,
+  "qa_regra_anterior": "taxa de refinamento observada, sem estimar falsos positivos da população",
+  "homologacao_editorial": "pendente"
+}

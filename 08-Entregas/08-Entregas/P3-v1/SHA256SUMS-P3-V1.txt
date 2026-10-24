@@ -1,0 +1,16 @@
+fd26d7a27566e48a097291f1bf02f802b873f5d22e1e1c961f52532300f7601c  06-Decisoes/DEC-046 - Piloto P3 v1 por familias e QA conservador.md
+23e9c0447537f5839aebc822a3f9ec6dc082ba8bc51c338258e82206ed6ebdfa  07-Scripts/P3/auditar_p3_v1_piloto.py
+e03d99a5c153335ba0cfdd76e4cb910e6adb0afc40ff57dcef7036dace077f16  07-Scripts/P3/gerar_filas_p3_v1.py
+d95208a6902ff792e0fe44c50d0c344de03320bec5c316098ff1d066faf57f92  07-Scripts/P3/gerar_planilha_p3_v1.py
+03cd0e6c5edc87c647f3606800986911341b476096c5340223bf56caf180bc9b  07-Scripts/P3/regressao_independente_p3_v1.py
+154123d0f19891c975a5b8156312a07f41e07a73e17e2cd3018f730ca1ac382a  08-Continuidade/ESTADO-ATUAL.md
+6bc2ecdb1af390037e4b281cdeaae618d2178b4e1740853051b926a70d11c072  08-Continuidade/Registros/2026-10-20-04-piloto-P3-v1.md
+62e6bb202fc0b788d578b956f619c0eb2bbcd53b6074533c760c9b1e6c8341c3  08-Entregas/P2-v7/auditoria-p2-v7-csv-integral.zip
+731515d53fcf12b47821dd8eeb1d59eaca1f5444e00ad932683c0dc6580c80ed  08-Entregas/P2-v7/lotes-001-a-030-p0-p1-p2-v7.zip
+7d25e1a18d10251efd4cf0c294c61285815a8de210b17d8afb7a2e0ffa198c56  08-Entregas/P3-v1/RELATORIO.md
+7ec893a9e4b1a3b5263feeed9300c096ba4d61c6d421130facfd9885bec24781  08-Entregas/P3-v1/auditoria-p3-v1-csv-integral.zip
+d00e626670e3cb44b3ada0bd8ff4c12c898918656285fb0c8681637ad672ef36  08-Entregas/P3-v1/lotes-001-a-030-p0-p1-p2-p3-v1-piloto.zip
+14e5e7224c39b38b6b992e9a0b422f132298b533b17eb874d04767d1143c787e  08-Entregas/P3-v1/p3-v1-regressao-independente.json
+154c2caedc37300f6913ab408dd3a5834850d01d054143724a49577d9db96dc8  08-Entregas/P3-v1/p3-v1-resumo.json
+c3fc45f44070d41f71462f558c36a106de65a00787d5b2d309f150b724dd9626  08-Entregas/P3-v1/qa-p3-v1-piloto-centralizada.xlsx
+7167240af60aee6231c331a54ca1725d58987659fd6fc2eed076829afd15e506  LEIA-ME-IMPORTAR-P3-V1.md

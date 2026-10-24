@@ -1,0 +1,16 @@
+{
+  "versao": "P3 v1.2",
+  "total_saude": 187,
+  "saude_suspensos_anteriores": 184,
+  "saude_falsos_negativos_amostra": 3,
+  "alertas_bancarios_auditados": 43,
+  "navegacionais_aplicados": 27,
+  "intencao_mista_preservada": 16,
+  "ids_alterados": 214,
+  "registros_base": 294905,
+  "controles": 2190,
+  "lotes_testados": 30,
+  "p3_fora_piloto": 21875,
+  "p2_pendencias_remanescentes": 4660,
+  "nota": "Taxonomia Saúde v1.2 proposta técnica controlada; rótulos introduzidos em versão paralela sem edição da v1.1. Decisões automatizadas ainda requerem validação editorial por amostra."
+}

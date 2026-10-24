@@ -1,0 +1,24 @@
+{
+  "status": "PASSOU",
+  "lotes": 30,
+  "base": 294905,
+  "controles": 2190,
+  "patches": 272,
+  "filas": {
+    "p3-v2.0-fila-23965.csv": {
+      "linhas": 23965,
+      "colunas_anteriores": 149,
+      "colunas_atualizadas": 157,
+      "patches": 272,
+      "regressao_historica": "PASSOU"
+    },
+    "fila-geral-p0-p1-p2-p3-v2.0.csv": {
+      "linhas": 52046,
+      "colunas_anteriores": 149,
+      "colunas_atualizadas": 157,
+      "patches": 272,
+      "regressao_historica": "PASSOU"
+    }
+  },
+  "limite": "Compara integridade, não homologa decisões semânticas."
+}

@@ -1,0 +1,17 @@
+{
+  "versao": "P3 v2.7",
+  "p3_revisados": 17,
+  "p3_patches": 1,
+  "p3_mantidos_com_ressalva": 16,
+  "globais_revisados": 48,
+  "globais_B": 30,
+  "globais_C": 18,
+  "globais_aplicados": 0,
+  "lotes": 30,
+  "registros_base": 294905,
+  "controles": 2190,
+  "p3_fora_pilotos": 20383,
+  "p2_pendentes": 4660,
+  "sha256_colunas_protegidas": "e85e2e6c0223a84bbf1c4b78907aea8e1ced6f8e578010503db4e043081cbe24",
+  "status": "PASSOU"
+}

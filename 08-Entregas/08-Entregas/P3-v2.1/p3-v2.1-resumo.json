@@ -1,0 +1,20 @@
+{
+  "versao": "P3 v2.1",
+  "amostra_revisada": 165,
+  "universo_auditado": 272,
+  "patches": 13,
+  "patches_amostra": 12,
+  "patch_extra_amostra": "273182 (CET)",
+  "pareceres_amostra": {
+    "CORRIGIDO": 12,
+    "MANTIDO": 23,
+    "MANTIDO_COM_RESSALVA": 130
+  },
+  "base": 294905,
+  "controles": 2190,
+  "lotes": 30,
+  "P3_fora_dos_pilotos": 20400,
+  "P2_pendentes": 4660,
+  "criterio": "revisão contextual e regras por ID; não homologação editorial",
+  "status": "PASSOU"
+}

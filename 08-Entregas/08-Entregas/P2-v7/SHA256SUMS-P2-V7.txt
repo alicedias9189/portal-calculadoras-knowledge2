@@ -1,0 +1,15 @@
+90a221e96da377356bda879c9a5e6042aabfadbdbc7ebce7acf80d88a03c7349  06-Decisoes/DEC-045 - Fechamento conservador P2 v7 e prioridade P3.md
+2bfc19c2f4bd744b4c4e5790158181ddce675338fde38207345a5f2b8432e362  07-Scripts/auditar_independente_p2_v7.py
+deed4244f7cf798e10c96c40fb9749e89c404154979586874e206f8785bfeb59  07-Scripts/gerar_qa_p2_v7.py
+f5ee453bd672836980b401d091692cba83b77b8adee78485d581c9b6d6e6f07b  07-Scripts/revisar_p2_v7.py
+b05c0f5143104e5c071c5d4813bafa6d3ad5003f03d0baef4d89e5ff7f35d15f  08-Continuidade/ESTADO-ATUAL.md
+212a364ea5f049ef5055bec47ce703d00808e3817da6826160a0fcf52e1506dd  08-Continuidade/Registros/2026-10-20-03-auditoria-P2-v7.md
+772aff150d620a8f55dfffc82ab179f04daf0d4a4db824d30f20708d4d8f6989  08-Entregas/P2-v6/auditoria-p2-v6-csv-integral.zip
+dd26bf2f1230e6fcf8be5632bd20edadaece0bd9edbcef47c69735490319b5e9  08-Entregas/P2-v6/lotes-001-a-030-p0-p1-p2-v6.zip
+c7ebfe7c36c97db5659c85d7ceb94afd631f69999506eb3ad98813df4358523e  08-Entregas/P2-v7/RELATORIO.md
+62e6bb202fc0b788d578b956f619c0eb2bbcd53b6074533c760c9b1e6c8341c3  08-Entregas/P2-v7/auditoria-p2-v7-csv-integral.zip
+731515d53fcf12b47821dd8eeb1d59eaca1f5444e00ad932683c0dc6580c80ed  08-Entregas/P2-v7/lotes-001-a-030-p0-p1-p2-v7.zip
+f77b26a9b8ddb7e1c1bb8babfcb4c4b2706cc8a6c3badba009dead1d7bb0242a  08-Entregas/P2-v7/qa-revisao-p2-v7-centralizada.xlsx
+3e307de7e213e1753aabb9d1b421728d76f8af80fcf6c281a2d19521039d1903  08-Entregas/P2-v7/regressao-independente-p2-v7.json
+8a47a3b07410f7c87d73266e83fe56083a83eefdb593ffd42d1424e4e991d7f6  08-Entregas/P2-v7/resumo-p2-v7.json
+92194e91f6b10092730764f58ed994910d18c098fc69af98180449b00e213ec8  LEIA-ME-IMPORTAR-P2-V7.md

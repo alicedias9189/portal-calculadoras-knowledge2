@@ -1,0 +1,11 @@
+{
+  "status": "PASSOU",
+  "lotes": 30,
+  "base": 294905,
+  "controles": 2190,
+  "patches": 2,
+  "decisoes_qa": 66,
+  "filas": "23965 e 52046 linhas: colunas históricas idênticas",
+  "backlog_global_98": "identico byte a byte",
+  "sha256_campos_protegidos": "e85e2e6c0223a84bbf1c4b78907aea8e1ced6f8e578010503db4e043081cbe24"
+}

@@ -1,0 +1,28 @@
+{
+  "etapa": "P3 v1.5",
+  "amostra_critica": 98,
+  "corrigidos_na_amostra": 5,
+  "propagacao_qa_total": 41,
+  "expansao_novas_keywords": 78,
+  "expansao_familias": 35,
+  "patches_totais": 119,
+  "p3_fora_pilotos_antes": 20985,
+  "p3_fora_pilotos_depois": 20907,
+  "p3_universo": 23965,
+  "regras": {
+    "qa_tutorial_jornada": 1,
+    "titulos_publicos_dominio": 20,
+    "qa_tutorial_aposentadoria": 9,
+    "credito_consignado_dominio": 9,
+    "antecipacao_fgts_dominio": 23,
+    "progressao_pa_pg_dominio": 1,
+    "equacao_dominio": 1,
+    "inflacao_indicador_dominio": 8,
+    "qa_taxa_bancaria_informativa": 31,
+    "salario_minimo_valor": 16
+  },
+  "registros_base": 294905,
+  "controles": 2190,
+  "lotes": 30,
+  "ressalva": "Revisão contextual de uma amostra de 98 e propagação estrita de suas correções, com expansão apenas por regras de domínio. Integração de dados não implica aprovação editorial ou legal. Conflitos temporais excluídos da automação."
+}

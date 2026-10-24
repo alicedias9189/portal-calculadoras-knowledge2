@@ -1,0 +1,68 @@
+{
+  "etapa": "P3 v1.9",
+  "origem": "P3 v1.8",
+  "amostra": "revisao contextual de todos os 83 IDs da expansao anterior",
+  "ids_examinados": 83,
+  "patches_efetivos": 10,
+  "pareceres": {
+    "AJUSTADA": 10,
+    "MANTIDA_COM_RESSALVA": 54,
+    "MANTIDA": 19
+  },
+  "regras": {
+    "conversao_energia_dimensional": {
+      "examinados": 6,
+      "ajustados": 2,
+      "mantidos_com_ressalva": 0,
+      "mantidos": 4
+    },
+    "dias_uteis_calendario": {
+      "examinados": 3,
+      "ajustados": 0,
+      "mantidos_com_ressalva": 3,
+      "mantidos": 0
+    },
+    "dias_uteis_contagem": {
+      "examinados": 4,
+      "ajustados": 0,
+      "mantidos_com_ressalva": 4,
+      "mantidos": 0
+    },
+    "ferias_medias": {
+      "examinados": 5,
+      "ajustados": 0,
+      "mantidos_com_ressalva": 5,
+      "mantidos": 0
+    },
+    "irrf_tributario_contextual": {
+      "examinados": 27,
+      "ajustados": 2,
+      "mantidos_com_ressalva": 25,
+      "mantidos": 0
+    },
+    "media_ponderada": {
+      "examinados": 20,
+      "ajustados": 6,
+      "mantidos_com_ressalva": 3,
+      "mantidos": 11
+    },
+    "poupanca_taxa_informacao": {
+      "examinados": 14,
+      "ajustados": 0,
+      "mantidos_com_ressalva": 14,
+      "mantidos": 0
+    },
+    "regra_tres": {
+      "examinados": 4,
+      "ajustados": 0,
+      "mantidos_com_ressalva": 0,
+      "mantidos": 4
+    }
+  },
+  "lotes": 30,
+  "base": 294905,
+  "controles": 2190,
+  "p3_fora_dos_pilotos": 20672,
+  "p2_pendencias": 4660,
+  "nota": "Parecer contextual por expressão, sem aprovação editorial externa. Nenhuma expansão nova nesta revisão."
+}

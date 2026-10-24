@@ -1,0 +1,5 @@
+dd26bf2f1230e6fcf8be5632bd20edadaece0bd9edbcef47c69735490319b5e9  08-Entregas/P2-v6/lotes-001-a-030-p0-p1-p2-v6.zip
+772aff150d620a8f55dfffc82ab179f04daf0d4a4db824d30f20708d4d8f6989  08-Entregas/P2-v6/auditoria-p2-v6-csv-integral.zip
+ba4b4a52e46aab4766589ef642883f189e623e4e55c8c8a383f7aad3520c1a7e  08-Entregas/P2-v6/qa-revisao-p2-v6-centralizada.xlsx
+bfcddd077a4637e5d130d493cb38b35eeeb725f3462ddf292c679d3d30a3249f  08-Entregas/P2-v6/resumo-p2-v6.json
+db71014e2200e2a834e8c8ff23befb2d08c47f763e50204dfa576ff88e56bdfa  08-Entregas/P2-v6/regressao-independente-p2-v6.json

@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "e0e70a69a150846b",
+    "type": "split",
+    "children": [
+      {
+        "id": "00e265966b04cc38",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c590ad817ec2917b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "arquivos/P2-v1/relatorio-p2-v1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "relatorio-p2-v1"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5650a68c62f82483",
+    "type": "split",
+    "children": [
+      {
+        "id": "4b01bb6c0ee25b6f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5a1ba1975ba98be3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "8a646b92321a53c7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "9e6c4b851610e35f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1e0febb4b323ae5b",
+    "type": "split",
+    "children": [
+      {
+        "id": "94735a9983e776ab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f32aa5d5d12ce3d9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "00-Mapa-Global/Amostra Estratificada Global v1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos"
+            }
+          },
+          {
+            "id": "2a21f57b0e7cd2de",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "00-Mapa-Global/Amostra Estratificada Global v1.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída"
+            }
+          },
+          {
+            "id": "6edf64cae76b0d70",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "efd16570781ff5e9",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "c77af942cc3e0264",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "00-Mapa-Global/Amostra Estratificada Global v1.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false
+    }
+  },
+  "active": "c590ad817ec2917b",
+  "lastOpenFiles": [
+    "arquivos/P2-v2/relatorio-e-manifesto/relatorio-validacao-p2-v2.md",
+    "05-Lotes/lote-004-v1.1-barras-v2-aprovado.md",
+    "08-Continuidade/ESTADO-ATUAL.md",
+    "README.md",
+    "08-Entregas/MANIFESTO.md",
+    "05-Lotes/saneamento-lote-001-e-triagem-30-lotes-v1.md",
+    "06-Decisoes/DEC-040 - Protocolo de continuidade entre conversas.md",
+    "08-Entregas/P1-v1/scripts-revisao-p1-codigo-fonte.md",
+    "08-Entregas/P1-v1/relatorio-revisao-p1.md",
+    "08-Entregas/P2-v2/relatorio-validacao-p2-v2.md",
+    "08-Entregas/P2-v1/relatorio-p2-v1.md",
+    "08-Entregas/P2-v2/LEIA-ME-p2-v2.txt",
+    "08-Entregas/P1-v2/relatorio-validacao-p1-v2.md",
+    "08-Entregas/P2-v2",
+    "08-Entregas/P2-v1",
+    "08-Entregas/P1-v2",
+    "08-Entregas/P1-v1",
+    "08-Entregas",
+    "08-Continuidade/Registros/2026-10-17-02-resposta-final-sincronizacao.md",
+    "08-Continuidade/Registros/2026-10-17-01-recuperacao-e-sincronizacao-p1-p2.md",
+    "08-Continuidade/Registros",
+    "08-Continuidade",
+    "07-Scripts/P2/validar_pendencias_p2_v2.py",
+    "07-Scripts/P2/revisar_p2_30_lotes_v1.py",
+    "07-Scripts/P2/README.md",
+    "07-Scripts/P1/README.md",
+    "06-Decisoes/DEC-039 - Revisao P2 e validacao semantica.md",
+    "06-Decisoes/DEC-038 - Revisao P1 e validacao semantica.md",
+    "05-Lotes/lote-001-v1.1-aprovado.md",
+    "05-Lotes/lote-030-v1.1-barras-v2-aprovado.md",
+    "05-Lotes/revisao-p0-474-keywords-30-lotes.md",
+    "05-Lotes/Protocolo de Lotes.md",
+    "05-Lotes/lote-021-v1.1-barras-v2-aprovado.md",
+    "06-Decisoes/DEC-030 - Lote 025 aprovado e finalizador v1.15.md",
+    "02-Regras/Regras Globais.md",
+    "06-Decisoes/DEC-037 - Revisao P0 474 keywords e remanescentes.md"
+  ]
+}

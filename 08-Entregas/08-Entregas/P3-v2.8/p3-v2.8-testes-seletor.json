@@ -1,0 +1,7 @@
+{
+  "status": "PASSOU",
+  "testes": 105,
+  "bloqueios_globais": 98,
+  "ids_aprovados": 66,
+  "observacao": "testes independentes para duplos, P2, inexistentes, lote/família/keyword adulterados"
+}

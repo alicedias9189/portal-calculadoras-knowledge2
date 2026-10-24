@@ -1,0 +1,254 @@
+{
+  "versao": "P2-v6",
+  "universo_p2": 25050,
+  "pendencias_entrada_v5": 5148,
+  "reclassificadas": 387,
+  "sem_ressalva": 106,
+  "com_ressalva": 281,
+  "pendencias_restantes": 4761,
+  "familias_com_patches": 160,
+  "familias_com_pendencias": 2758,
+  "base": 294905,
+  "controles": 2190,
+  "lotes": 30,
+  "regras": {
+    "rendimento_investimentos_contextual": 24,
+    "arredondamento_metodo": 16,
+    "rota_cidades_maranhao": 22,
+    "medidas_culinarias_contextuais": 47,
+    "exercicios_matematica_escolar": 34,
+    "massa_mg_g_pares": 15,
+    "preco_produto_comercial": 5,
+    "amortizacao_tabela_price": 7,
+    "produtividade_agricola": 43,
+    "modelo_calculadora_fisica": 32,
+    "inteiro_para_romano": 4,
+    "formatos_sem_direcao": 6,
+    "inclincacao_cobertura_normas": 13,
+    "inclinacao_telhado": 17,
+    "quantidade_materiais_cobertura": 5,
+    "formatos_documentos_explicitos": 5,
+    "comparacao_bancos_rendimento": 3,
+    "especificacoes_volts_amperes": 39,
+    "referencia_logaritmo_externa": 10,
+    "operacoes_polinomios_online": 3,
+    "calculadora_base_numerica": 4,
+    "troca_especie_bancaria": 7,
+    "datas_eleitorais_informativas": 9,
+    "libra_massa_para_kg": 1,
+    "numero_extenso": 3,
+    "sacas_para_quilos_contextual": 11,
+    "romano_para_decimal": 2
+  },
+  "exemplos": {
+    "rendimento_investimentos_contextual": [
+      "rendimento aplicação financeira",
+      "rendimento de aplicação financeira",
+      "banco do brasil rendimento poupança",
+      "rendimento da poupança do banco do brasil",
+      "rendimento poupança banco do brasil",
+      "rendimento dos fundos bb",
+      "quanto rende 500 mil aplicado"
+    ],
+    "arredondamento_metodo": [
+      "formula arredondar para cima",
+      "formula arredondar para baixo",
+      "formula para arredondar para cima",
+      "função arredondar para cima",
+      "quando arredondar para cima",
+      "quando arredondar para cima ou para baixo",
+      "como arredondar casas decimais"
+    ],
+    "rota_cidades_maranhao": [
+      "acailandia a sao luis",
+      "bacabal a sao luis",
+      "peritoro a sao luis",
+      "imperatriz a sao luis",
+      "imperatriz a são luis",
+      "imperatriz a são luís",
+      "balsas a sao luis"
+    ],
+    "medidas_culinarias_contextuais": [
+      "colheres e gramas",
+      "gramas colheres",
+      "250g de margarina equivale a quantas colheres",
+      "60g de margarina equivale a quantas colheres",
+      "medida de colheres em ml",
+      "3 colheres de margarina equivale a quantos ml de óleo",
+      "50g de margarina equivale a quantas colheres"
+    ],
+    "exercicios_matematica_escolar": [
+      "exercicios minimo multiplo comum",
+      "fórmula de heron exercícios",
+      "minimo multiplo comum 5 ano",
+      "minimo multiplo comum 6 ano",
+      "razão e proporção exercícios resolvidos 7 ano pdf",
+      "discriminante delta exercícios",
+      "exercicios sobre principio multiplicativo"
+    ],
+    "massa_mg_g_pares": [
+      "g mg",
+      "mg miligrama",
+      "10 g mg",
+      "10 mg g",
+      "100 g mg",
+      "200 mg g",
+      "40 mg g"
+    ],
+    "preco_produto_comercial": [
+      "preco de tv casas bahia",
+      "preço de tv casas bahia",
+      "preço de tv na casa bahia",
+      "preço tv casas bahia",
+      "preço de inversores solares"
+    ],
+    "amortizacao_tabela_price": [
+      "tabela price amortização",
+      "calculadora de amortização caixa",
+      "tabela price amortização antecipada simulador",
+      "como calcular a amortização na tabela price",
+      "como calcular amortização na tabela price",
+      "como calcular amortização pela tabela price",
+      "calculo tabela price com carencia"
+    ],
+    "produtividade_agricola": [
+      "quantos kg de azevem por hectare",
+      "quantos quilos de brachiaria por hectare",
+      "quantos pe de cafe cabe em 1 hectare",
+      "1 hectare de cana produz quantas toneladas",
+      "um hectare de cana produz quantas toneladas",
+      "quantos kg de amendoim por hectare",
+      "quantos kg de banana por hectare"
+    ],
+    "modelo_calculadora_fisica": [
+      "fx 991lax casio",
+      "casio fx991lax",
+      "fx 82 casio",
+      "fx 991la cw",
+      "calculadora hp48g",
+      "991lax casio",
+      "casio 991lax"
+    ],
+    "inteiro_para_romano": [
+      "numero 1 em romanos",
+      "numero 8 em romanos",
+      "número 30 em romanos",
+      "numero 7 em romanos"
+    ],
+    "formatos_sem_direcao": [
+      "doc jpg",
+      "docx jpg",
+      "odt docx",
+      "jpg doc",
+      "docx doc",
+      "jpg excel"
+    ],
+    "inclincacao_cobertura_normas": [
+      "inclinacao fibrocimento",
+      "inclinação fibrocimento",
+      "fibrocimento inclinação",
+      "fibrocimento inclinação minima",
+      "inclinação de fibrocimento",
+      "inclinação minima fibrocimento",
+      "caida minima para telhado"
+    ],
+    "inclinacao_telhado": [
+      "caida de telhado",
+      "caída de telhado",
+      "caida para telhado de zinco",
+      "queda para telhado de zinco",
+      "calcular caida de telhado",
+      "calcular caida do telhado",
+      "calcular caida telhado"
+    ],
+    "quantidade_materiais_cobertura": [
+      "calculo para telhado colonial",
+      "calculadora forro pvc",
+      "calcular caibro para telhado",
+      "calculadora para forro de pvc",
+      "calculadora para forro pvc"
+    ],
+    "formatos_documentos_explicitos": [
+      "jpg para powerpoint",
+      "powerpoint para jpg",
+      "jpg em excel",
+      "pptx para jpg",
+      "ods para excel"
+    ],
+    "comparacao_bancos_rendimento": [
+      "melhores bancos para render dinheiro",
+      "qual o melhor banco para render dinheiro",
+      "qual o melhor banco para deixar o dinheiro rendendo"
+    ],
+    "especificacoes_volts_amperes": [
+      "10 a 250 v",
+      "100 a 240 v",
+      "12 v 1 a",
+      "12 v 10 a",
+      "12 v 12 a",
+      "12 v 15 a",
+      "12 v 2 a"
+    ],
+    "referencia_logaritmo_externa": [
+      "logaritmo na medicina",
+      "logaritmo em python",
+      "logaritmo python",
+      "python logaritmo",
+      "ferretto logaritmo",
+      "logaritmo ferretto",
+      "logaritmo professor ferretto"
+    ],
+    "operacoes_polinomios_online": [
+      "divisao de polinomios online",
+      "divisão de polinomios online",
+      "multiplicação de polinomios online"
+    ],
+    "calculadora_base_numerica": [
+      "calculadora de numero binario",
+      "calculadora em hexadecimal",
+      "calculadora decimal e binário",
+      "calculadora base 2 e base 10"
+    ],
+    "troca_especie_bancaria": [
+      "trocar moeda no banco",
+      "trocar moeda por dinheiro",
+      "trocar moeda por nota",
+      "trocar moedas banco",
+      "trocar notas por moedas",
+      "banco troca moedas",
+      "troca de cedulas"
+    ],
+    "datas_eleitorais_informativas": [
+      "qual a data do 2 turno da eleição",
+      "qual a data do 2o turno da eleição",
+      "qual a data do 2o turno da eleição de 2022",
+      "qual a data do primeiro turno da eleição",
+      "qual a data do primeiro turno da eleição 2022",
+      "qual a data do primeiro turno da eleição de 2022",
+      "qual a data do 2o turno da eleição 2022"
+    ],
+    "libra_massa_para_kg": [
+      "transferir libras a kilos"
+    ],
+    "numero_extenso": [
+      "decimal para número por extenso",
+      "algarismo para número por extenso",
+      "número por extenso para algarismo"
+    ],
+    "sacas_para_quilos_contextual": [
+      "kg de café para sacas",
+      "kg para sacas",
+      "passar sacas em quilogramas",
+      "quilogramas de café em sacas",
+      "quilogramas em sacas",
+      "sacas de café em quilogramas",
+      "sacas de café para kg"
+    ],
+    "romano_para_decimal": [
+      "tradutor de romano para decimal",
+      "tradutor romano para decimal"
+    ]
+  },
+  "sha256_lotes": "dd26bf2f1230e6fcf8be5632bd20edadaece0bd9edbcef47c69735490319b5e9",
+  "sha256_auditoria": "772aff150d620a8f55dfffc82ab179f04daf0d4a4db824d30f20708d4d8f6989"
+}

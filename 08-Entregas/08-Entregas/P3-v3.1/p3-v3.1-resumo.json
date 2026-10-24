@@ -1,0 +1,25 @@
+{
+  "versao": "P3 v3.1",
+  "auditoria_de_registros": 36,
+  "patches": 8,
+  "mantidos_com_ressalvas": 28,
+  "pareceres": {
+    "MANTIDO_COM_RESSALVA": 28,
+    "CORRIGIDO": 8
+  },
+  "regras_refinadas": {
+    "REFINAR_METODO_INTERNET": 6,
+    "REFINAR_JUROS_COMPOSTOS_VEICULO": 1,
+    "REFINAR_COMPARACAO_BANCOS_VEICULO": 1
+  },
+  "lotes": 30,
+  "bases": 294905,
+  "controles": 2190,
+  "fila_p3": 23965,
+  "fila_geral": 52046,
+  "pendencias_p3_fora_dos_pilotos": 20272,
+  "pendencias_p2": 4660,
+  "quarentena_global": 98,
+  "escopo": "revisão de 36 decisões já classificadas; sem nova expansão",
+  "homologacao_editorial": "pendente"
+}

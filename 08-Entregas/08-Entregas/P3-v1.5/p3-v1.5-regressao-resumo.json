@@ -1,0 +1,11 @@
+{
+  "lotes_PASSOU": 30,
+  "registros_base": 294905,
+  "controles": 2190,
+  "ids_modificados": 119,
+  "patches_conferidos": 119,
+  "sha256_protegido_fonte": "a330038a4cc65cc89d02555d903e400167b2f4d168a2603edf0bb5d72250147f",
+  "sha256_protegido_saida": "a330038a4cc65cc89d02555d903e400167b2f4d168a2603edf0bb5d72250147f",
+  "result": "PASSOU",
+  "criterios": "Campos protegidos, controles, ID/keyword, diffs reais, filas antigas e conjuntos de patches"
+}

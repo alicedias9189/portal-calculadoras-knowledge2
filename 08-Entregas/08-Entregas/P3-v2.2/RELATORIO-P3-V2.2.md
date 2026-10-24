@@ -1,0 +1,1 @@
+P3 v2.2 concluída com 108 patches. Regras: {'P3V22_IRRF_BASE_FINANCAS': 37, 'P3V22_CET_CREDITO': 42, 'P3V22_INSS_DESCONTO_INFO': 4, 'P3V22_TAXA_FINANC_IMOVEL': 25}. Regressão independente: PASSOU.

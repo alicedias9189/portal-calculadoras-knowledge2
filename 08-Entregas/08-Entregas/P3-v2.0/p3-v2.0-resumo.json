@@ -1,0 +1,27 @@
+{
+  "status": "TRIAGEM_EXECUTADA_COM_REGRESSAO",
+  "versao": "P3-v2.0",
+  "origem": "P3-v1.9",
+  "universo_p3": 23965,
+  "pendentes_fora_pilotos_antes": 20672,
+  "reclassificados": 272,
+  "pendentes_fora_pilotos_depois": 20400,
+  "amostra_qa": 165,
+  "familias_afetadas": 132,
+  "regras": {
+    "P3V20_INSS_DOMINIO": 32,
+    "P3V20_TAXA_JUROS_INFORME": 77,
+    "P3V20_MATERIAL_DIDATICO": 21,
+    "P3V20_ALGEBRA_DOMINIO": 32,
+    "P3V20_ESTATISTICA_DOMINIO": 4,
+    "P3V20_SALARIO_MATERNIDADE": 9,
+    "P3V20_IRRF_DOMINIO": 1,
+    "P3V20_CONSUMO_VEICULO": 94,
+    "P3V20_CONVERSAO_ENERGIA": 2
+  },
+  "lotes": 30,
+  "registros_base": 294905,
+  "controles": 2190,
+  "aprovacao_editorial": "pendente",
+  "metodo": "Regras textuais e inspeção de amostras; não revisão humana exaustiva."
+}

@@ -1,0 +1,1 @@
+Decisão: expansão seletiva P3 v2.2. Patches=108; famílias=17; regras={'P3V22_IRRF_BASE_FINANCAS': 37, 'P3V22_CET_CREDITO': 42, 'P3V22_INSS_DESCONTO_INFO': 4, 'P3V22_TAXA_FINANC_IMOVEL': 25}.

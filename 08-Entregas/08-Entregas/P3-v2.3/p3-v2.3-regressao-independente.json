@@ -1,0 +1,13 @@
+{
+  "status": "PASSOU",
+  "lotes": 30,
+  "base": 294905,
+  "controles": 2190,
+  "patches": 100,
+  "reversoes_fora_da_P3": 98,
+  "refinamentos_P3": 2,
+  "hash_protegidos_antes": "e85e2e6c0223a84bbf1c4b78907aea8e1ced6f8e578010503db4e043081cbe24",
+  "hash_protegidos_depois": "e85e2e6c0223a84bbf1c4b78907aea8e1ced6f8e578010503db4e043081cbe24",
+  "filas": "23.965 e 52.046; 100% das colunas antigas preservadas",
+  "versao_anterior_comparada": "v2.2; reversões restauradas v2.1"
+}

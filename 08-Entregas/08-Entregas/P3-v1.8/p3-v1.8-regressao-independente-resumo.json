@@ -1,0 +1,10 @@
+{
+  "resultado": "PASSOU",
+  "lotes": 30,
+  "base": 294905,
+  "controles": 2190,
+  "patches": 83,
+  "filas_validas": 2,
+  "p3_nova_fora": 20672,
+  "casos_p2_inalterados": "fila geral histórica idêntica"
+}

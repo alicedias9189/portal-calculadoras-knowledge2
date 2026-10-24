@@ -1,0 +1,8 @@
+{
+  "status": "PASSOU",
+  "base": 294905,
+  "controles": 2190,
+  "patches": 578,
+  "lotes": 30,
+  "sha256_colunas_protegidas": "c615847e8393889bc085b05d19ee66139111f1a6a9a2374fc52040a7d9ab560b"
+}

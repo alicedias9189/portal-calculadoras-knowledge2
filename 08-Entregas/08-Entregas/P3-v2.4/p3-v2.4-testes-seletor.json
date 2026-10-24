@@ -1,0 +1,17 @@
+{
+  "status": "PASSOU",
+  "candidatos": 108,
+  "elegiveis": 10,
+  "bloqueados": 98,
+  "sem_prioridade": 98,
+  "base": 294905,
+  "controles": 2190,
+  "testes_negativos": [
+    "keyword divergente",
+    "duplicado",
+    "inexistente",
+    "vazio",
+    "prioridade P2 bloqueada"
+  ],
+  "modificacoes_lotes": 0
+}

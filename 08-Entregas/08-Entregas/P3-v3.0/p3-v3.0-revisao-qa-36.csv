@@ -1,0 +1,37 @@
+﻿id_global;Keyword;regra;parecer_tecnico;risco_residual;validacao_de_escopo
+32825;calculadora de decimal para octal;P3V30_BASES_OCTAL_DECIMAL;PROPOSTA_CLARA;Validar taxonomia final editorialmente.;AUTORIZADO_P3
+34693;calculadora de octal para decimal;P3V30_BASES_OCTAL_DECIMAL;PROPOSTA_CLARA;Validar taxonomia final editorialmente.;AUTORIZADO_P3
+35782;calculadora de velocidade de internet;P3V30_VELOCIDADE_INTERNET;PROPOSTA_COM_RESSALVA;"Termo incompleto; não preencher variáveis ausentes nem simular preços/taxas reais.";AUTORIZADO_P3
+35783;calculadora de velocidade internet;P3V30_VELOCIDADE_INTERNET;PROPOSTA_COM_RESSALVA;"Termo incompleto; não preencher variáveis ausentes nem simular preços/taxas reais.";AUTORIZADO_P3
+35882;calculadora decimal para octal;P3V30_BASES_OCTAL_DECIMAL;PROPOSTA_CLARA;Validar taxonomia final editorialmente.;AUTORIZADO_P3
+37183;calculadora hexadecimal para decimal;P3V30_BASES_HEXA;PROPOSTA_CLARA;Validar taxonomia final editorialmente.;AUTORIZADO_P3
+38348;calculadora octal para decimal;P3V30_BASES_OCTAL_DECIMAL;PROPOSTA_CLARA;Validar taxonomia final editorialmente.;AUTORIZADO_P3
+44136;calcular internet velocidade;P3V30_VELOCIDADE_INTERNET;PROPOSTA_COM_RESSALVA;"Termo incompleto; não preencher variáveis ausentes nem simular preços/taxas reais.";AUTORIZADO_P3
+45636;calcular parcela financiamento veiculo;P3V30_FINANCIAMENTO_VEICULO;PROPOSTA_COM_RESSALVA;"Termo incompleto; não preencher variáveis ausentes nem simular preços/taxas reais.";AUTORIZADO_P3
+57469;calculo parcela financiamento veiculo;P3V30_FINANCIAMENTO_VEICULO;PROPOSTA_COM_RESSALVA;"Termo incompleto; não preencher variáveis ausentes nem simular preços/taxas reais.";AUTORIZADO_P3
+80806;como calcular o quilowatts hora;P3V30_ELETRICIDADE_KWH;PROPOSTA_COM_RESSALVA;"Termo incompleto; não preencher variáveis ausentes nem simular preços/taxas reais.";AUTORIZADO_P3
+82150;como calcular potencia de monomios;P3V30_MATEMATICA_POTENCIAS;PROPOSTA_CLARA;Validar taxonomia final editorialmente.;AUTORIZADO_P3
+84147;como calcular valor kwh hora;P3V30_ELETRICIDADE_KWH;PROPOSTA_COM_RESSALVA;"Termo incompleto; não preencher variáveis ausentes nem simular preços/taxas reais.";AUTORIZADO_P3
+105024;conversao peso chileno x real;P3V30_CAMBIO_PESOS_REAL;PROPOSTA_CLARA;Validar taxonomia final editorialmente.;AUTORIZADO_P3
+106920;conversor de temperatura google;P3V30_TEMPERATURA_CONVERSOR;PROPOSTA_COM_RESSALVA;"Termo incompleto; não preencher variáveis ausentes nem simular preços/taxas reais.";AUTORIZADO_P3
+108335;conversor temperatura google;P3V30_TEMPERATURA_CONVERSOR;PROPOSTA_COM_RESSALVA;"Termo incompleto; não preencher variáveis ausentes nem simular preços/taxas reais.";AUTORIZADO_P3
+108336;conversor temperatura online;P3V30_TEMPERATURA_CONVERSOR;PROPOSTA_COM_RESSALVA;"Termo incompleto; não preencher variáveis ausentes nem simular preços/taxas reais.";AUTORIZADO_P3
+109352;conversão peso chileno real brasileiro;P3V30_CAMBIO_PESOS_REAL;PROPOSTA_CLARA;Validar taxonomia final editorialmente.;AUTORIZADO_P3
+109353;conversão peso chileno x real;P3V30_CAMBIO_PESOS_REAL;PROPOSTA_CLARA;Validar taxonomia final editorialmente.;AUTORIZADO_P3
+109476;conversão real peso colombiano;P3V30_CAMBIO_PESOS_REAL;PROPOSTA_CLARA;Validar taxonomia final editorialmente.;AUTORIZADO_P3
+109488;conversão real x peso chileno;P3V30_CAMBIO_PESOS_REAL;PROPOSTA_CLARA;Validar taxonomia final editorialmente.;AUTORIZADO_P3
+109489;conversão real x peso colombiano;P3V30_CAMBIO_PESOS_REAL;PROPOSTA_CLARA;Validar taxonomia final editorialmente.;AUTORIZADO_P3
+110176;converter base numérica;P3V30_BASES_GENERICA;PROPOSTA_CLARA;Validar taxonomia final editorialmente.;AUTORIZADO_P3
+111307;converter graus celsius;P3V30_TEMPERATURA_CONVERSOR;PROPOSTA_COM_RESSALVA;"Termo incompleto; não preencher variáveis ausentes nem simular preços/taxas reais.";AUTORIZADO_P3
+128349;decimal para octal calculadora;P3V30_BASES_OCTAL_DECIMAL;PROPOSTA_CLARA;Validar taxonomia final editorialmente.;AUTORIZADO_P3
+149789;exercicios propriedades de potencia de mesma base;P3V30_MATEMATICA_POTENCIAS;PROPOSTA_CLARA;Validar taxonomia final editorialmente.;AUTORIZADO_P3
+171606;internet calcular velocidade;P3V30_VELOCIDADE_INTERNET;PROPOSTA_COM_RESSALVA;"Termo incompleto; não preencher variáveis ausentes nem simular preços/taxas reais.";AUTORIZADO_P3
+174515;juros compostos financiamento veiculo;P3V30_FINANCIAMENTO_VEICULO;PROPOSTA_COM_RESSALVA;"Termo incompleto; não preencher variáveis ausentes nem simular preços/taxas reais.";AUTORIZADO_P3
+183879;melhor banco para financiamento veiculo;P3V30_FINANCIAMENTO_VEICULO;PROPOSTA_COM_RESSALVA;"Termo incompleto; não preencher variáveis ausentes nem simular preços/taxas reais.";AUTORIZADO_P3
+195244;octal para decimal calculadora;P3V30_BASES_OCTAL_DECIMAL;PROPOSTA_CLARA;Validar taxonomia final editorialmente.;AUTORIZADO_P3
+207553;potência de dois;P3V30_MATEMATICA_POTENCIAS;PROPOSTA_CLARA;Validar taxonomia final editorialmente.;AUTORIZADO_P3
+207567;potência de expoente inteiro negativo;P3V30_MATEMATICA_POTENCIAS;PROPOSTA_CLARA;Validar taxonomia final editorialmente.;AUTORIZADO_P3
+273333;taxa cdc veiculos;P3V30_FINANCIAMENTO_VEICULO;PROPOSTA_COM_RESSALVA;"Termo incompleto; não preencher variáveis ausentes nem simular preços/taxas reais.";AUTORIZADO_P3
+275998;taxa juros carro;P3V30_FINANCIAMENTO_VEICULO;PROPOSTA_COM_RESSALVA;"Termo incompleto; não preencher variáveis ausentes nem simular preços/taxas reais.";AUTORIZADO_P3
+291863;velocidade da internet calcular;P3V30_VELOCIDADE_INTERNET;PROPOSTA_COM_RESSALVA;"Termo incompleto; não preencher variáveis ausentes nem simular preços/taxas reais.";AUTORIZADO_P3
+291868;velocidade internet calcular;P3V30_VELOCIDADE_INTERNET;PROPOSTA_COM_RESSALVA;"Termo incompleto; não preencher variáveis ausentes nem simular preços/taxas reais.";AUTORIZADO_P3

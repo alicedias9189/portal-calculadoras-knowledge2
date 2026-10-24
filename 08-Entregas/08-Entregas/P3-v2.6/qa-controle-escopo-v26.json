@@ -1,0 +1,12 @@
+{
+  "amostra_global": 98,
+  "bloqueados": 98,
+  "p3_elegiveis": 17,
+  "duplicado_bloqueado": true,
+  "keyword_divergente_bloqueada": true,
+  "familia_divergente_bloqueada": true,
+  "id_inexistente_bloqueado": true,
+  "base": 294905,
+  "controles": 2190,
+  "status": "PASSOU"
+}

@@ -1,0 +1,38 @@
+{
+  "status": "PASSOU",
+  "comparacao": [
+    {
+      "arquivo": "lotes-001-a-030-p3-v2.3.zip",
+      "sha256_v2_3": "3c1d1c714f6cb6944fe29e0f79d6a3f4916a5ca8d08e6b0cd947224ef96fbf8d",
+      "sha256_v2_4": "3c1d1c714f6cb6944fe29e0f79d6a3f4916a5ca8d08e6b0cd947224ef96fbf8d",
+      "identico": true
+    },
+    {
+      "arquivo": "p3-v2.3-fila-23965.csv",
+      "sha256_v2_3": "26dab8c3ce22bb0db89cfd94067939ce3d1bfe9e7ca5f2f0b8ada999d278a131",
+      "sha256_v2_4": "26dab8c3ce22bb0db89cfd94067939ce3d1bfe9e7ca5f2f0b8ada999d278a131",
+      "identico": true
+    },
+    {
+      "arquivo": "fila-geral-p0-p1-p2-p3-v2.3.csv",
+      "sha256_v2_3": "960e3e5dbdd4c523728b49618379c02ee9b35baee5c30bc05d20e22a7d772099",
+      "sha256_v2_4": "960e3e5dbdd4c523728b49618379c02ee9b35baee5c30bc05d20e22a7d772099",
+      "identico": true
+    }
+  ],
+  "arquivos_tamanho": [
+    {
+      "arquivo": "lotes-001-a-030-p3-v2.3.zip",
+      "bytes": 8818456
+    },
+    {
+      "arquivo": "p3-v2.3-fila-23965.csv",
+      "bytes": 11722539
+    },
+    {
+      "arquivo": "fila-geral-p0-p1-p2-p3-v2.3.csv",
+      "bytes": 39635527
+    }
+  ],
+  "alteracoes": 0
+}

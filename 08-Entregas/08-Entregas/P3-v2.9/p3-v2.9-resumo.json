@@ -1,0 +1,25 @@
+{
+  "versao": "P3 v2.9",
+  "decisoes_criticadas": 66,
+  "corrigidas": 2,
+  "mantidas_com_ressalvas": 64,
+  "novas_familias": 0,
+  "regras": {
+    "P3V28_INSS_OBRA": 9,
+    "P3V28_BASES_NUMERICAS": 5,
+    "P3V28_TAXAS_VEICULOS": 45,
+    "P3V28_TEMPO_VIAGEM": 2,
+    "P3V28_POTENCIA_ENERGIA": 2,
+    "P3V28_CELSIUS_FAHRENHEIT": 2,
+    "P3V28_DESVIO_PADRAO": 1
+  },
+  "contagem_p3_fora_dos_pilotos": 20308,
+  "contagem_p3_metodo": "reconciliação v2.8; nenhuma nova inclusão/exclusão de escopo",
+  "p2_pendentes": 4660,
+  "globais_quarentena": 98,
+  "base": 294905,
+  "controles": 2190,
+  "lotes": 30,
+  "criterio": "revisão semântica direcionada de 66 IDs; não homologação editorial",
+  "status": "AUDITORIA_EXECUTADA"
+}

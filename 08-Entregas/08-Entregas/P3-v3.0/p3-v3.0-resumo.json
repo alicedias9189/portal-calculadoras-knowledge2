@@ -1,0 +1,25 @@
+{
+  "versao": "P3 v3.0",
+  "novos_ajustes": 36,
+  "familias": 18,
+  "regras": {
+    "P3V30_BASES_OCTAL_DECIMAL": 6,
+    "P3V30_VELOCIDADE_INTERNET": 6,
+    "P3V30_BASES_HEXA": 1,
+    "P3V30_FINANCIAMENTO_VEICULO": 6,
+    "P3V30_ELETRICIDADE_KWH": 2,
+    "P3V30_MATEMATICA_POTENCIAS": 4,
+    "P3V30_CAMBIO_PESOS_REAL": 6,
+    "P3V30_TEMPERATURA_CONVERSOR": 4,
+    "P3V30_BASES_GENERICA": 1
+  },
+  "fora_do_piloto_antes": 20308,
+  "fora_do_piloto_depois": 20272,
+  "P2_pendentes": 4660,
+  "globais_separados": 98,
+  "base": 294905,
+  "controles": 2190,
+  "lotes": 30,
+  "elegibilidade": "intersecao das filas P3 e geral + metadados + status FORA_DO_PILOTO sem revisao posterior",
+  "homologacao": "pendente"
+}

@@ -1,0 +1,8 @@
+﻿regra;total_regra_v16;amostra_estratificada_v17;corrigidos_na_amostra;corrigidos_em_todos_152;taxa_observada_amostra_pct;interpretacao
+abertura_conta_bancaria;13;13;1;1;7.69;"amostra dirigida; não estimador populacional"
+arranjo_combinacao;5;5;0;0;0.0;"amostra dirigida; não estimador populacional"
+inss_desconto_folha;59;32;7;7;21.88;"amostra dirigida; não estimador populacional"
+raiz_cubica_valor_explicito;1;1;0;0;0.0;"amostra dirigida; não estimador populacional"
+referencia_numerais_romanos;5;5;1;1;20.0;"amostra dirigida; não estimador populacional"
+taxa_financiamento_imobiliario;54;32;6;6;18.75;"amostra dirigida; não estimador populacional"
+variancia_desvio_padrao;15;15;2;2;13.33;"amostra dirigida; não estimador populacional"

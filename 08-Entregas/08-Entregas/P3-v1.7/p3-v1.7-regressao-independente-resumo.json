@@ -1,0 +1,14 @@
+{
+  "status": "PASSOU",
+  "lotes": 30,
+  "registros_base": 294905,
+  "controles": 2190,
+  "patches_exatos": 17,
+  "campos_protegidos_alterados": 0,
+  "IDs_fora_do_alvo_alterados": 0,
+  "filas_conferidas": [
+    "23965 P3",
+    "52046 fila de revisao geral"
+  ],
+  "verificacao": "Comparacao independente integral entre ZIPs por coluna, confronto exato dos 17 patches e trilhas das duas filas."
+}

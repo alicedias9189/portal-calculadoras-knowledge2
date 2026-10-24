@@ -1,0 +1,27 @@
+8df3f3e18b99fca48ff9b4b14c65d19d1dfeccdb5b35ee552a3405ab097f0964  06-Decisoes/DEC-067 - Revisao critica P3 v3.1.md
+a4e90c4032855bb9eb6a989cd833696f0a3b737252afa233c450a8d2e3e7ca58  07-Scripts/P3/auditar_p3_v31.py
+f044da68ac94fc1e369fb8189ce764619c4e62ea335069185c4fae838a512411  07-Scripts/P3/gerar_qa_p3_v31.py
+d93306f244119a230a7c5e9ff2ed482c4c105efcab380c5d967a1fd54c73f400  07-Scripts/P3/montar_entrega_p3_v31.py
+4f4351ed78b98fa5cca5033c5d96c88e7dbe93dd6a81c522517e1bfb6c88a282  07-Scripts/P3/regressao_independente_p3_v31.py
+a4e90c4032855bb9eb6a989cd833696f0a3b737252afa233c450a8d2e3e7ca58  07-Scripts-PENDING.py
+b546871d08b1450d40933a3114f19e2795b70caa4419cdf82940bc585f567f24  08-Continuidade/ESTADO-ATUAL.md
+8ac65132b4281d14dd545943f398021ff2313440792cb8f01018bade59ca9664  08-Continuidade/Registros/2026-10-23-03-P3-v3.1-revisao-36.md
+3e981fe309afeb487ffc59bd7d528de48bf3f9096b7344787a24a87018a72a62  08-Entregas/P3-v3.1/FONTES-REPRODUCAO/08-Entregas/P3-v3.0/backlog-global-98-com-parecer-v27.csv
+beff13d3c98bd2d52b72e2087b4e3847ac5be35e3ba13447cc9a7826c8f7ebb2  08-Entregas/P3-v3.1/FONTES-REPRODUCAO/08-Entregas/P3-v3.0/fila-geral-p0-p1-p2-p3-v3.0.csv
+e6ca52ce7cbd591fc7cbbb6948401edafe4a66d222308d4e06c1779e7afa4563  08-Entregas/P3-v3.1/FONTES-REPRODUCAO/08-Entregas/P3-v3.0/lotes-001-a-030-p3-v3.0.zip
+455fe0d6fcdd06dca745c476a55e47c865a00205a14dcaa291e36654aa46f7a3  08-Entregas/P3-v3.1/FONTES-REPRODUCAO/08-Entregas/P3-v3.0/p3-v3.0-decisoes.csv
+999e9dd098100a7e72d147d2b9f41f931f4943d8ae1bfc2722427458f8ce3e6e  08-Entregas/P3-v3.1/FONTES-REPRODUCAO/08-Entregas/P3-v3.0/p3-v3.0-fila-23965.csv
+bff8f700e45f53557da9ce33e281fd54ca64235824432be3ba5202ec9a9ed745  08-Entregas/P3-v3.1/FONTES-REPRODUCAO/08-Entregas/P3-v3.0/p3-v3.0-resumo.json
+e15ce8ab0695ea1cd8f482ab4e4b1eeed2909e0ed545ae1a79e595ef2dd9795f  08-Entregas/P3-v3.1/RELATORIO-P3-V3.1.md
+3e981fe309afeb487ffc59bd7d528de48bf3f9096b7344787a24a87018a72a62  08-Entregas/P3-v3.1/backlog-global-98-com-parecer-v27.csv
+6da5868b511d58afa900cf24bd20fa8c78ef26f6ae6885291e270e28d83b2f91  08-Entregas/P3-v3.1/fila-geral-p0-p1-p2-p3-v3.1.csv
+d3b6747230308b05d50e2e7006fb1d628eeefb2d014cafc5344c05a7ddb7b12c  08-Entregas/P3-v3.1/lotes-001-a-030-p3-v3.1.zip
+4f223c70f15741c77a1f2727b572346c403f287ffac53e400a9a2e6bcaa9045e  08-Entregas/P3-v3.1/p3-v3.1-fila-23965.csv
+b4ca1d1c6ab266fb49a2cd5b4bccb806ce5950f298071345ec6afd7afca5284b  08-Entregas/P3-v3.1/p3-v3.1-pareceres-36.csv
+cc7cf3f4319909470eeae787a67e60d9d291e584205696dff057a7f6dae4f19d  08-Entregas/P3-v3.1/p3-v3.1-patches.csv
+8e0c696e5e3f69525bd1c8a920e726ec1fef4a2cb2c9852f1ae5f7906c83e295  08-Entregas/P3-v3.1/p3-v3.1-regressao-30-lotes.csv
+21d18724b4fabf27efb65bcd3bbec233368a0cea19689f0737cdbd4b682875ed  08-Entregas/P3-v3.1/p3-v3.1-regressao-independente-30-lotes.csv
+8adbd0dd158cd4384080526c0c6614b56cee38e99785484245a184146f3e84fa  08-Entregas/P3-v3.1/p3-v3.1-regressao-independente-resumo.json
+6b4aa5dd117ada33e5e91dfe58f7fd77ad59ec5d01bd3422979bfeb7dd926e2d  08-Entregas/P3-v3.1/p3-v3.1-resumo.json
+00ce39eeb78be5022d5dece3004d4ca0d827813b502c722b2a6fd2fb5be72ac6  08-Entregas/P3-v3.1/qa-auditoria-P3-v3.1-centralizada.xlsx
+27a950bfe49c8ea6f70460eaa8e4e11f21b4579f2bcc83400c7898fd4eae6eae  LEIA-ME-IMPORTAR-P3-V3.1.md

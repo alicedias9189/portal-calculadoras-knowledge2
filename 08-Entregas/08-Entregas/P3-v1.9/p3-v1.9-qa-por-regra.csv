@@ -1,0 +1,9 @@
+﻿regra;examinados;ajustados;mantidos_com_ressalva;mantidos
+conversao_energia_dimensional;6;2;0;4
+dias_uteis_calendario;3;0;3;0
+dias_uteis_contagem;4;0;4;0
+ferias_medias;5;0;5;0
+irrf_tributario_contextual;27;2;25;0
+media_ponderada;20;6;3;11
+poupanca_taxa_informacao;14;0;14;0
+regra_tres;4;0;0;4

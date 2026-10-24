@@ -1,0 +1,14 @@
+{
+  "status": "PASSOU",
+  "lotes": 30,
+  "bases": 294905,
+  "controles": 2190,
+  "patches_verificados": 8,
+  "pareceres_verificados": 36,
+  "fila_P3": 23965,
+  "fila_geral": 52046,
+  "colunas_historicas": "identicas",
+  "backlog_global_98": "identico_byte_a_byte",
+  "sha256_campos_protegidos": "c18fbedf02b200c1c72f029e6e912c9b9a96c89804165b8ba007af2eed407c3d",
+  "observacao": "Não é homologação editorial; revisão técnica por ID de 36 decisões já classificadas"
+}

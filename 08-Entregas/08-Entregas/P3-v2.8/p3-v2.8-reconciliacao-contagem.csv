@@ -1,0 +1,8 @@
+﻿medida;contagem;nota
+Fora do piloto na v1;21875;Status original FORA_DO_PILOTO
+Tocadas em expansões posteriores;1501;União dos status aplicados, sem somar ocorrências duplicadas
+Ainda sem classificação v2.7;20374;Subtração reproduzível pela união dos status
+Total informado no relatório v2.7;20383;Número histórico não conciliado com os status
+Diferença de contagem;9;Não corrigir dados para coincidir com o relatório
+Mudanças novas v2.8;66;66 patches aprovados pela interseção P3 e geral
+Ainda sem classificação v2.8;20308;Contagem reconciliada

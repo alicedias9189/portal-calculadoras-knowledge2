@@ -1,0 +1,25 @@
+4a66bc7f08ff33ee74e28ed252e9c46a12b469b82d312fabf2670ca88fb991fc  06-Decisoes/DEC-056 - Expansao seletiva P3 v2.0.md
+2a258316433778ce52ed5fb3f013c7becfacb49cc4390a5721b4a3d1dbb6e3a5  07-Scripts/P3/__pycache__/rules_p3_v20.cpython-313.pyc
+54a8959e1291c3f1470765fbe23268894ba39351f883c5dcecfe2c6f5ee14ba5  07-Scripts/P3/auditar_p3_v20.py
+5e5c1ff1fcc88fb0318c132cc7c80186523efe16d00a635f14dde12e79e76db6  07-Scripts/P3/gerar_qa_p3_v20.py
+eaaa90c5a75f7d7875da535aed98a06f183ceda5346495b1d180b78915e25f82  07-Scripts/P3/regressao_independente_p3_v20.py
+3f3f57bb64badad44bcc1e941427e31db94e4317f3fd269a57783d23ae30f9f4  07-Scripts/P3/rules_p3_v20.py
+c8242250039dab0a0c2fa2d9095d4395db746c0c6d28f0fd09580ae13812ffbb  08-Continuidade/ESTADO-ATUAL.md
+d57d515f0030a73fbc3bef78b97af0304d187c8ae86cae3db03d2ab92c2bdd65  08-Continuidade/Registros/2026-10-22-02-P3-v2.0-expansao-seletiva.md
+f66b36c21b37765edb867ef378731a1c808afebc7d63f2e9c598a4b5aab1943d  08-Entregas/P3-v2.0/FONTES-REPRODUCAO/08-Entregas/P3-v1.9/fila-geral-p0-p1-p2-p3-v1.9.csv
+ec31831c6c0338a504ee9f53025dcefc17d26cf7b37d37c7a5afa65629e7f994  08-Entregas/P3-v2.0/FONTES-REPRODUCAO/08-Entregas/P3-v1.9/lotes-001-a-030-p3-v1.9.zip
+7ec834818c792b36ea803bfd46e678339772f5de9cce6df98ef8590bac85219b  08-Entregas/P3-v2.0/FONTES-REPRODUCAO/08-Entregas/P3-v1.9/p3-v1.9-fila-23965.csv
+7c90cab83f43169bc0769cb4cdaf3d7d6679579ab66cce5a1b2b505ad59c7661  08-Entregas/P3-v2.0/RELATORIO-P3-V2.0.md
+d950d256e7600cd4623ab55c2a9cbd741e038abe308d7d4e68b905d6a12db9c8  08-Entregas/P3-v2.0/fila-geral-p0-p1-p2-p3-v2.0.csv
+dfa800ee4b9ca4bdbaaabcf088e3794a036d63a486140c7b903f3757573c04ea  08-Entregas/P3-v2.0/lotes-001-a-030-p3-v2.0.zip
+b78a999857840134b8d51a3bfafebdc409a389f2fa72d3369382b0b3e555727a  08-Entregas/P3-v2.0/p3-v2.0-amostra-qa.csv
+310a23eedf54046dfbbb6562c83368a37c601b548cb4bff97630fe0edabeef1a  08-Entregas/P3-v2.0/p3-v2.0-decisoes.csv
+22c1db44d5979df497a88e204fd8e96b092bec9b1448b8ccbd1c16324b69feb3  08-Entregas/P3-v2.0/p3-v2.0-fila-23965.csv
+90c2604e83ba247a7222b96bb97be1c56e2777029c8cc386460bff6ff674aef2  08-Entregas/P3-v2.0/p3-v2.0-patches.csv
+9cef074730cc696d9c2d0e865b43683cd5a6ac8b5e61f04f47e9108579853e93  08-Entregas/P3-v2.0/p3-v2.0-regras-resumo.csv
+453ac64e164e4b35861671b54c41d62c9e9dd1986f0164b2ab8032a82597e501  08-Entregas/P3-v2.0/p3-v2.0-regressao-30-lotes.csv
+88f57eaf51f740aa268bf79e250816f6b0660fa12afbc5d3ec0bc48b40f64986  08-Entregas/P3-v2.0/p3-v2.0-regressao-independente-30-lotes.csv
+4afdbf0d0d2822683d2c94fe6518736b93c639ba906e1db78ee0cb30d7b67748  08-Entregas/P3-v2.0/p3-v2.0-regressao-independente-resumo.json
+7feb58936b7643a78fd27e98d8ea2f55970409eb10988f5cfead37009b7e2334  08-Entregas/P3-v2.0/p3-v2.0-resumo.json
+eec715ab5b61b0e2190fd8e09e21e41a2184820265d16a4420c066cc6de4a4ee  08-Entregas/P3-v2.0/qa-P3-v2.0-centralizada.xlsx
+c025b5799e97cc57a936a3f2ff13f577b4b5be9fa161c7af07ad4d76f71c37c2  LEIA-ME-IMPORTAR-P3-V2.0.md

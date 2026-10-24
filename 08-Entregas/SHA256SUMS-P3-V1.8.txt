@@ -1,0 +1,24 @@
+33a7a6f8f9d5db6cf8fa78289ff02039d1b9e7ee993c2ea4ed8f3490686869cf  06-Decisoes/DEC-054 - Riscos por regra e expansao seletiva P3 v1.8.md
+b2ab2c1a2489af9f6d3dcdb605af03d03ac103443454efe81f9354f99cdc3861  07-Scripts/P3/auditar_p3_v18.py
+f3bd99b021d7b2139efc0a4d08777cc3b2628cf51f05b44cc9ad7e3cfcc25f82  07-Scripts/P3/gerar_qa_p3_v18.py
+ff3fbfecb1d5a693f31ff3e60446cc9977e17556e90c0d16ab7f17cd058943c1  07-Scripts/P3/regressao_independente_p3_v18.py
+f7b5e4c8297ff664a191363b3868c67a434a44507e60a286121ffaed53802809  08-Continuidade/ESTADO-ATUAL.md
+4a414a7db998171f2d62fe41e5b190adfe3ecca36d9109e868d69c7cb82b84c3  08-Continuidade/Registros/2026-10-21-07-P3-v1.8-auditoria-risco-e-expansao.md
+04fa8c4d1334569455ab0d03500b0d9ac8ea5992062d4784bd071f776651d124  08-Entregas/P3-v1.8/FONTES-REPRODUCAO/08-Entregas/P3-v1.7/fila-geral-p0-p1-p2-p3-v1.7.csv
+3ddae05e6a459654f13ece5ebe532c8ccf36af48abe43c45cc72f42190cf0fd0  08-Entregas/P3-v1.8/FONTES-REPRODUCAO/08-Entregas/P3-v1.7/lotes-001-a-030-p3-v1.7.zip
+2775c1bf568b7bde4faf7d2a54c94c2a927bb5e175640a5da41b1ce0911a532c  08-Entregas/P3-v1.8/FONTES-REPRODUCAO/08-Entregas/P3-v1.7/p3-v1.7-fila-23965.csv
+05f5baf7aa4db0db1070304d0b036c9a2c195846b5f7cc996c49a19a5a807fdd  08-Entregas/P3-v1.8/FONTES-REPRODUCAO/08-Entregas/P3-v1.7/p3-v1.7-revisao-152.csv
+349055d8def33e526a34a61783494a3b922222a0a3d9fd35c88c8e48a48f3976  08-Entregas/P3-v1.8/RELATORIO-P3-V1.8.md
+7543a827cc36d51ff02362ab4d6c33119b225367e940dc2f6bbd59d422991206  08-Entregas/P3-v1.8/RESULTADO-REEXECUCAO.md
+877a7556180905beb472e9df994ebb065e96a1885b09b2d05157cdf973b04d69  08-Entregas/P3-v1.8/fila-geral-p0-p1-p2-p3-v1.8.csv
+a6b238f571db7761a2fa3dab9af1600f18da5dbe927c38a93d39acd55e248dbe  08-Entregas/P3-v1.8/lotes-001-a-030-p3-v1.8.zip
+6df50354f1599b41a1132d08124220c4738ad48766727150158395ba5eb0fe04  08-Entregas/P3-v1.8/p3-v1.8-decisoes.csv
+f7338edd683d373d669472a0547ebcdc4df935180203090d8b6a6a8fb82f7c25  08-Entregas/P3-v1.8/p3-v1.8-fila-23965.csv
+b8601526219639beaef8d7683e0926468666587058c7c655c1eb5deba987f9e4  08-Entregas/P3-v1.8/p3-v1.8-patches.csv
+afb125c89f7f0adf7653e6342def492013ac20ab01eb5d2c7935e2f719348c47  08-Entregas/P3-v1.8/p3-v1.8-qa-taxas-por-regra.csv
+e3371d1f2491dcd080b7e3033ef59dbfa0631ab8cc2d6bb4c69d9d7f317a8500  08-Entregas/P3-v1.8/p3-v1.8-regressao-30-lotes.csv
+8130435e66718b92d9b7dbf1609363a3583f43e71e7000d97ce3197a410cae9d  08-Entregas/P3-v1.8/p3-v1.8-regressao-independente-30-lotes.csv
+3a7bb7be69cdf5ea4d9cdfce3c40e0db3c3ec94c6fe49090e5218a8b414ee274  08-Entregas/P3-v1.8/p3-v1.8-regressao-independente-resumo.json
+b2490e1dca49faf2b8b77cbd0317eccf60b4c4ce1a55690f5373290135ad3d2b  08-Entregas/P3-v1.8/p3-v1.8-resumo.json
+5e88c74c8abd29810b3caf57219ef8782b0d614aac8e626fc6db440821ca22e8  08-Entregas/P3-v1.8/qa-P3-v1.8-centralizada.xlsx
+1b9a7e558e44274a518d677988db0ccb100292940a0c6b4e37600eb0c037a08d  LEIA-ME-IMPORTAR-P3-V1.8.md

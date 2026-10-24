@@ -1,0 +1,27 @@
+{
+  "status": "PASSOU",
+  "lotes": 30,
+  "alteracoes_autorizadas": 36,
+  "bases": 294905,
+  "controles": 2190,
+  "filas": [
+    {
+      "arquivo": "p3-v3.0-fila-23965.csv",
+      "linhas": 23965,
+      "colunas_historicas": 212,
+      "novas_colunas": 9,
+      "status": "PASSOU"
+    },
+    {
+      "arquivo": "fila-geral-p0-p1-p2-p3-v3.0.csv",
+      "linhas": 52046,
+      "colunas_historicas": 212,
+      "novas_colunas": 9,
+      "status": "PASSOU"
+    }
+  ],
+  "global_98": "identico",
+  "campos_protegidos_sha256": "c18fbedf02b200c1c72f029e6e912c9b9a96c89804165b8ba007af2eed407c3d",
+  "p3_restante": 20272,
+  "p2_preservada": 4660
+}

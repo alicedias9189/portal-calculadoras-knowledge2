@@ -1,0 +1,109 @@
+{
+  "universo_p2": 25050,
+  "pendencias_entrada_v3": 5946,
+  "reclassificadas": 384,
+  "sem_ressalva": 109,
+  "com_ressalva": 275,
+  "pendencias_restantes": 5562,
+  "familias_totais_com_pendencias": 2983,
+  "familias_com_correcao": 143,
+  "registros_base": 294905,
+  "controles": 2190,
+  "lotes": 30,
+  "regras": {
+    "simulacao_rendimento": 184,
+    "consumo_combustivel": 11,
+    "calculadora_arredondar": 11,
+    "unidades_mesma_dimensao": 98,
+    "moedas_par_explicito": 10,
+    "calculadora_intervalos_tempo": 13,
+    "fatoracao_algebrica": 12,
+    "calculadora_area_volume": 12,
+    "arquivo_formatos_explicitos": 10,
+    "ano_bissexto": 3,
+    "tijolos_por_area": 19,
+    "cotacao_moeda_sem_par": 1
+  },
+  "sha256_lotes": "1f345f9fa3ce2dd604886b687e3c3333ce903614680b985dd3d1076d8a4fd157",
+  "sha256_auditoria": "136f35749b3e7af57b46392f1e1ead768530d5624587135d52bbbe5109085abb",
+  "exemplos": {
+    "simulacao_rendimento": [
+      "50 mil rende quanto no nubank",
+      "quanto rende 10.000 no nubank",
+      "quanto rende 100.000 na nubank",
+      "quanto rende 15 mil na nubank",
+      "quanto rende 150.000 no nubank"
+    ],
+    "consumo_combustivel": [
+      "calcular consumo gasolina",
+      "20 litros de gasolina faz quantos km",
+      "3 litros de gasolina faz quantos km",
+      "30 litros de gasolina faz quantos km",
+      "5 litros de gasolina faz quantos km"
+    ],
+    "calculadora_arredondar": [
+      "arredondar número",
+      "arredondar para cima",
+      "arredondar número online",
+      "arredondar para baixo",
+      "arredondar um número"
+    ],
+    "unidades_mesma_dimensao": [
+      "kv para v",
+      "gigahertz para hertz",
+      "megawatts para watts",
+      "toneladas para g",
+      "w em kw"
+    ],
+    "moedas_par_explicito": [
+      "100euros em reais",
+      "10euros em reais",
+      "1dolares em reais",
+      "1euros em reais",
+      "200euros em reais"
+    ],
+    "calculadora_intervalos_tempo": [
+      "calculadora de hora e minuto",
+      "calculadora hora e minutos",
+      "calculadora data e hora",
+      "calculadora de data e hora",
+      "contador datas"
+    ],
+    "fatoracao_algebrica": [
+      "fatorar expressões",
+      "fatorar os polinômios",
+      "fatorar polinomios",
+      "fatorar polinomio",
+      "fatorar polinômio"
+    ],
+    "calculadora_area_volume": [
+      "calculadora de telhado",
+      "calculadora de telhado online",
+      "calculadora telhado colonial",
+      "calculadora volume cilindro em litros",
+      "calculadora de litros"
+    ],
+    "arquivo_formatos_explicitos": [
+      "doc para jpg",
+      "docx para doc",
+      "docx para jpg",
+      "csv para xls",
+      "csv para xlsx"
+    ],
+    "ano_bissexto": [
+      "como acontece o ano bissexto",
+      "como saber se o ano é bissexto",
+      "anos bisiestos"
+    ],
+    "tijolos_por_area": [
+      "100 tijolos faz quantos metros quadrados",
+      "1000 tijolos da quantos metros quadrados",
+      "1500 tijolos faz quantos metros quadrados",
+      "200 tijolos faz quantos metros quadrados",
+      "2000 tijolos faz quantos metros quadrados"
+    ],
+    "cotacao_moeda_sem_par": [
+      "valor won sul coreano"
+    ]
+  }
+}

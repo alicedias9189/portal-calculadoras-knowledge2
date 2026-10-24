@@ -1,0 +1,217 @@
+{
+  "versao": "P2-v7",
+  "universo_p2": 25050,
+  "pendencias_entrada_v6": 4761,
+  "reclassificadas": 101,
+  "sem_ressalva": 28,
+  "com_ressalva": 73,
+  "pendencias_restantes": 4660,
+  "familias_com_patches": 81,
+  "familias_com_pendencias": 2646,
+  "registros_base": 294905,
+  "controles": 2190,
+  "lotes": 30,
+  "regras": {
+    "celsius_fahrenheit": 1,
+    "planejamento_financeiro_info": 6,
+    "simulacao_rendimento_produto": 4,
+    "calculadora_consumo_veiculo": 8,
+    "calculo_trabalhista_condicional": 3,
+    "informacao_rendimento_bancario": 6,
+    "custo_viagem_combustivel": 3,
+    "direito_trabalhista_info": 6,
+    "consulta_preco_mercado": 6,
+    "referencia_conceito_matematico": 9,
+    "revestimento_blocos_pecas": 4,
+    "amortizacao_sac_price": 3,
+    "calcular_dividend_yield": 3,
+    "romanos_referencia_educacional": 6,
+    "projecao_renda_passiva": 2,
+    "consulta_servico_instituicao": 6,
+    "torque_kgfm_nm": 1,
+    "microsegundos_segundos": 1,
+    "formula_blondel_escadas": 1,
+    "sistemas_bases_bi_hexa": 3,
+    "ferramenta_matematica_exercicio": 3,
+    "sacos_areia_por_volume": 1,
+    "resistencia_miliohm_ohm": 2,
+    "tensao_kv_v": 1,
+    "volume_km3_m3": 1,
+    "energia_j_ev": 2,
+    "voltas_angulo": 4,
+    "base36_base2": 1,
+    "base2_base36": 1,
+    "galao_imperial_litro": 1,
+    "grau_segundo_arco": 1,
+    "culinaria_colher_cha_ml": 1
+  },
+  "exemplos": {
+    "celsius_fahrenheit": [
+      "c para fahrenheit"
+    ],
+    "planejamento_financeiro_info": [
+      "lista de despesas mensais",
+      "finanças pessoais como organizar",
+      "como controlar as contas pessoais",
+      "objetivo de economia",
+      "dicas para gastar menos",
+      "como controlar as contas domesticas"
+    ],
+    "simulacao_rendimento_produto": [
+      "quanto 50 mil rende no nubank",
+      "aplicação financeira simulador",
+      "nubank simulador",
+      "pós fixado simulador"
+    ],
+    "calculadora_consumo_veiculo": [
+      "calculadora consumo gasolina",
+      "como calcular quantos quilometros por litro",
+      "calculadora de gasolina por km",
+      "calculadora gasolina km",
+      "calcular gasolina e km",
+      "calculadora de gasto de combustivel",
+      "calculadora gasto combustivel",
+      "como calcular quanto o carro faz por litro"
+    ],
+    "calculo_trabalhista_condicional": [
+      "pedido demissão calculo",
+      "calculadora hora trabalhada valor",
+      "simular acerto de trabalho"
+    ],
+    "informacao_rendimento_bancario": [
+      "poupança banco do brasil rendimento",
+      "banco do brasil fundos rentabilidade",
+      "qual o valor da poupança hoje",
+      "qual valor da poupança hoje",
+      "qual banco o dinheiro rende mais",
+      "qual banco rende mais dinheiro"
+    ],
+    "custo_viagem_combustivel": [
+      "calcular pedágio e gasolina",
+      "calcular quanto vou gastar de gasolina",
+      "quanto gasta de gasolina e pedagio"
+    ],
+    "direito_trabalhista_info": [
+      "demissão indireta o que é",
+      "se faltar na sexta desconta quantos dias",
+      "escala 24x72 como funciona",
+      "faltas justificadas podem ser descontadas",
+      "hora de almoço é remunerada",
+      "horário 12x36 como funciona"
+    ],
+    "consulta_preco_mercado": [
+      "combustível aumento",
+      "diesel aumenta",
+      "aumento combustíveis hoje",
+      "preço do boi hoje em são paulo",
+      "aumento preço combustíveis hoje",
+      "aumento combustíveis para a semana"
+    ],
+    "referencia_conceito_matematico": [
+      "metodo de substituicao",
+      "metodo de substituição",
+      "método de substituição",
+      "os números ordinais",
+      "o que são números romanos",
+      "permutações com elementos repetidos",
+      "capitalização composta formula",
+      "algarismos e numerais",
+      "regras da exponenciação"
+    ],
+    "revestimento_blocos_pecas": [
+      "1000 blocos faz quantos metros quadrados",
+      "calculadora espaçador cortag",
+      "calculadora nivelador cortag",
+      "como medir para colocar ceramicas"
+    ],
+    "amortizacao_sac_price": [
+      "amortização tabela price",
+      "calculo tabela sac",
+      "cálculo tabela sac"
+    ],
+    "calcular_dividend_yield": [
+      "calcular dividend yield",
+      "como calcular dividend yield",
+      "como calcular o dividend yield"
+    ],
+    "romanos_referencia_educacional": [
+      "números romanos xi",
+      "numero roma",
+      "números romanos todos",
+      "algarismo v",
+      "algarismo l",
+      "c para arábico"
+    ],
+    "projecao_renda_passiva": [
+      "calcular renda passiva",
+      "quanto preciso investir para ter 1 milhao"
+    ],
+    "consulta_servico_instituicao": [
+      "consórcio yamaha simulador",
+      "qual o horario de funcionamento da b3",
+      "qual o horário de funcionamento dos bancos",
+      "caixa simulador veiculo",
+      "caixa proposta habitacional",
+      "como faço para acessar minha conta da caixa"
+    ],
+    "torque_kgfm_nm": [
+      "kgfm para nm"
+    ],
+    "microsegundos_segundos": [
+      "microsegundos para segundos"
+    ],
+    "formula_blondel_escadas": [
+      "formula blondel"
+    ],
+    "sistemas_bases_bi_hexa": [
+      "hex bin",
+      "calculadora hexa",
+      "números em bases diferentes"
+    ],
+    "ferramenta_matematica_exercicio": [
+      "calcule os seguintes logaritmos",
+      "fatorador online",
+      "resolver problemas de matemática online"
+    ],
+    "sacos_areia_por_volume": [
+      "quantos sacos de areia tem um metro"
+    ],
+    "resistencia_miliohm_ohm": [
+      "mili ohms para ohms",
+      "miliohms para ohms"
+    ],
+    "tensao_kv_v": [
+      "kilovolts para volts"
+    ],
+    "volume_km3_m3": [
+      "transformar km3 em m3"
+    ],
+    "energia_j_ev": [
+      "joules para electron volts",
+      "joules para elétron volts"
+    ],
+    "voltas_angulo": [
+      "turns em graus",
+      "turns em rad",
+      "turns para rad",
+      "voltas para graus"
+    ],
+    "base36_base2": [
+      "base 36 em bin"
+    ],
+    "base2_base36": [
+      "bin para base 36"
+    ],
+    "galao_imperial_litro": [
+      "galão inglês para litros"
+    ],
+    "grau_segundo_arco": [
+      "graus para segundos de arco"
+    ],
+    "culinaria_colher_cha_ml": [
+      "teaspoons para ml"
+    ]
+  },
+  "sha256_lotes": "731515d53fcf12b47821dd8eeb1d59eaca1f5444e00ad932683c0dc6580c80ed",
+  "sha256_auditoria": "62e6bb202fc0b788d578b956f619c0eb2bbcd53b6074533c760c9b1e6c8341c3"
+}

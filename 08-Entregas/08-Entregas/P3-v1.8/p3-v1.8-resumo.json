@@ -1,0 +1,25 @@
+{
+  "etapa": "P3 v1.8",
+  "amostra_v17_analisada": 103,
+  "amostra_v17_correcoes_observadas": 17,
+  "p3_universo": 23965,
+  "p3_fora_piloto_antes": 20755,
+  "p3_expansao_corrigidos": 83,
+  "p3_fora_piloto_depois": 20672,
+  "familias_distintas": 40,
+  "por_regra": {
+    "media_ponderada": 20,
+    "irrf_tributario_contextual": 27,
+    "ferias_medias": 5,
+    "dias_uteis_calendario": 3,
+    "dias_uteis_contagem": 4,
+    "conversao_energia_dimensional": 6,
+    "regra_tres": 4,
+    "poupanca_taxa_informacao": 14
+  },
+  "p2_pendencias_inalteradas": 4660,
+  "regressao_independente": "executar script independente",
+  "base": 294905,
+  "controles": 2190,
+  "nota": "Confianca das regras não equivale a aprovação editorial; amostra V17 foi estratificada e incluiu exceções propositalmente."
+}

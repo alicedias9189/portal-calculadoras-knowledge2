@@ -1,0 +1,33 @@
+{
+  "versao": "P3 v1.3",
+  "p3_total": 23965,
+  "p3_piloto_anterior": 2090,
+  "p3_fora_piloto_antes": 21875,
+  "falsos_negativos_revistos": 5,
+  "falsos_negativos_alterados": 3,
+  "novos_casos_examinados": 314,
+  "novos_casos_alterados": 314,
+  "p3_fora_piloto_restante": 21561,
+  "novas_familias_distintas": 111,
+  "total_patches": 317,
+  "regra_patches": {
+    "tributacao_acoes": 21,
+    "fgts_encargos_atraso": 21,
+    "litros_km": 4,
+    "operacoes_fracoes": 40,
+    "dissidio_2022": 1,
+    "pedido_demissao": 51,
+    "abono_pecuniario_ferias": 29,
+    "quantidade_pisos": 47,
+    "irrf_folha": 36,
+    "dsr_horas_extras": 31,
+    "materiais_reboco": 1,
+    "hp12c_financeira": 4,
+    "algebra_fracoes": 1,
+    "gps_previdencia": 30
+  },
+  "registros_base": 294905,
+  "controles": 2190,
+  "lotes": 30,
+  "limite": "Classificação por regras específicas e amostra QA, NÃO revisão humana integral nem aprovação SEO/taxonomia. Saúde P3 v1.2 ainda exige validação editorial."
+}

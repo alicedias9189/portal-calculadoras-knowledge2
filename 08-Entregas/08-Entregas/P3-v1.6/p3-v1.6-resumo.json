@@ -1,0 +1,31 @@
+{
+  "etapa": "P3 v1.6",
+  "amostra_critica_v15": 78,
+  "correcoes_qa": 11,
+  "novas_classificacoes": 152,
+  "familias_expansao": 56,
+  "total_alteracoes": 163,
+  "p3_fora_pilotos_antes": 20907,
+  "p3_fora_pilotos_depois": 20755,
+  "p3_total": 23965,
+  "regras": {
+    "referencia_numerais_romanos": 5,
+    "variancia_desvio_padrao": 15,
+    "qa_canal_antecipacao": 2,
+    "inss_desconto_folha": 59,
+    "abertura_conta_bancaria": 13,
+    "qa_fundos_nao_titulos_diretos": 1,
+    "qa_titulos_publicos_privados": 1,
+    "taxa_financiamento_imobiliario": 54,
+    "arranjo_combinacao": 5,
+    "qa_piso_previdenciario": 1,
+    "raiz_cubica_valor_explicito": 1,
+    "qa_simulador_banco_nomeado": 5,
+    "qa_taxa_consignado_informativa": 1
+  },
+  "registros_base": 294905,
+  "controles": 2190,
+  "lotes": 30,
+  "pendencias_p2_preservadas": 4660,
+  "limites": "Aplicacao conservadora de regras linguisticas, sem homologacao editorial de todas as keywords; sem inserir alíquotas, cotacoes ou valores fiscais; variacoes futuras de leis exigem fontes atualizadas."
+}

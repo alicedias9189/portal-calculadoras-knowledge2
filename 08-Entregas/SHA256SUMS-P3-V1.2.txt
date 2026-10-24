@@ -1,0 +1,22 @@
+328fdbf00dc3724c59695e3135974458220955138c368d7d442e3f91a930cf16  01-Taxonomia/TAX-v1.2 - Saude e gestacao.md
+a511edd9d617bc07044bc154ac2ad89af45757e23c71afdf92bac470cc14b75f  06-Decisoes/DEC-048 - Escopo Saude e auditoria bancarios P3 v1.2.md
+fa2fd56b08deb8779474c8c35275bc36f51078ad8077d9cb179c797f6de3a9b4  07-Scripts/P3/auditar_p3_v1_2.py
+48e549becb9a53378bdbd90a743393dded3a43b48baa8400eb4a6100e222bdbe  07-Scripts/P3/gerar_qa_p3_v1_2.py
+b68b2b66baf22b6380d4fa81ee5d53d843bd3f81ae481893b3f857624ffae251  08-Continuidade/ESTADO-ATUAL.md
+ecf5dfc1af3aac7c384ed8967c0aabfcc42db6c0f6664c63cc6e97a934dd7504  08-Continuidade/Registros/2026-10-21-01-auditoria-saude-navegacao-P3-v1.2.md
+67951471cd3b0b1810de1aa5d6174bf7345e04be4a15976ffe72e2cd0eb52c7d  08-Entregas/P3-v1.1/fila-geral-p0-p1-p2-p3-v1.1.csv
+d7bda1ee52edc9d8715f680223efb53a10bf600ee5b6db7602ecddb2e547eef1  08-Entregas/P3-v1.1/lotes-001-a-030-p3-v1.1.zip
+5e6a90a3d57634355be11aadf7ae044c57da01d3a3956236241cf89353a48463  08-Entregas/P3-v1.1/p3-v1.1-fila-23965.csv
+cbe67aaa5d65bc0e696947d2cd566fd14312790f98f0395e1bd504e638aacd3f  08-Entregas/P3-v1.1/p3-v1.1-qa-amostra-210.csv
+b2814147e845eff0afa42e4aa8052ac546471a938c65ea19cd4997f03c18a1c5  08-Entregas/P3-v1.1/p3-v1.1-reavaliacao-1207.csv
+2c7a1e1f9febd5c58e80cf1895c82ab6971191d35c9922bfba50519d05c8cf32  08-Entregas/P3-v1.2/RELATORIO-P3-V1.2.md
+422f324fa64ed0bdcb652452041ac06ae63e8d17e02cc727f9be2aa71dd5e0bb  08-Entregas/P3-v1.2/auditoria-43-simuladores.csv
+798ae3b76209583dc6658b64b4a2e3c0dae1c42dba09582c3a1098455fc56294  08-Entregas/P3-v1.2/auditoria-saude-187.csv
+fefa8b1706f9e5211855988707ce736366faf384f7dcba594096dff9caf9a0d1  08-Entregas/P3-v1.2/fila-geral-p0-p1-p2-p3-v1.2.csv
+ae030ecc677be5e78bd236d0b8bb04156382ef1fd17a4422dc7d5ccfc2b1c2ad  08-Entregas/P3-v1.2/lotes-001-a-030-p3-v1.2.zip
+7bbd3fab6c47793d2a67926d2dc787e72fd2df4ec58e32ebdb38a9481daf0b91  08-Entregas/P3-v1.2/p3-v1.2-fila-23965.csv
+26dfeb8cbbc9308b323ed48697b07365a4c49c83cdba401051e5b9aaa131243f  08-Entregas/P3-v1.2/patches-214-p3-v1.2.csv
+1b56226d4943739d2ef5efec8f70a941607eaa5c59cdf9c0cf1f7e483a12d7e2  08-Entregas/P3-v1.2/qa-p3-v1.2-centralizada.xlsx
+7ac1cb14968285231ae349c619423cb2062b453f340af865f73717c260f4d1d3  08-Entregas/P3-v1.2/regressao-30-lotes-p3-v1.2.csv
+805af56c907dc8a49bf7eda5abb28778a6f33e06f8da861477d0c5288ecb5872  08-Entregas/P3-v1.2/resumo-p3-v1.2.json
+f79fef891891bef6da6b5c125c9a4391149243e7a3d3736c40c115f52f498def  LEIA-ME-IMPORTAR-P3-V1.2.md

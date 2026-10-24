@@ -1,0 +1,19 @@
+{
+  "versao": "P3 v2.3",
+  "amostra_v2_2": 72,
+  "amostra_fora_fila_P3": 68,
+  "amostra_dentro_fila_P3": 4,
+  "decisoes_v2_2": 108,
+  "decisoes_v2_2_fora_fila_P3": 98,
+  "decisoes_dentro_P3": 10,
+  "reversoes_de_escopo": 98,
+  "correcoes_de_intencao_dentro_P3": 2,
+  "patches_total": 100,
+  "QA_P3_elegiveis": 10,
+  "P3_fora_dos_pilotos_estimado": 20391,
+  "P2_pendentes": 4660,
+  "base": 294905,
+  "controles": 2190,
+  "lotes": 30,
+  "ressalva": "Reversão comparada à v2.1; out-of-scope quarantined. Indicador P3 fora dos pilotos estimado a partir do histórico 20.400 e 9 novos IDs elegíveis."
+}

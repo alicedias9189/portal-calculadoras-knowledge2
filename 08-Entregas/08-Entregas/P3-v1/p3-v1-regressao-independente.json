@@ -1,0 +1,232 @@
+{
+  "status": "PASSOU",
+  "lotes": 30,
+  "registros_base": 294905,
+  "controles": 2190,
+  "ids_alterados": 1207,
+  "alteracao_area": 207,
+  "alteracao_tipo_intencao": 604,
+  "alteracoes_por_campo": {
+    "subcluster": 1207,
+    "intencao_principal": 1207,
+    "justificativa_curta": 1207,
+    "area_principal": 207,
+    "cluster": 616,
+    "tipo_intencao": 604,
+    "confianca": 982
+  },
+  "hash_sha256_fonte_campos_protegidos": "928be7100acf8558102ad415d330617f052c8d8db33a73e1a8baa1a61eb09975",
+  "por_lote": [
+    {
+      "lote": "lote-001",
+      "linhas": 9904,
+      "controle": 73,
+      "patches": 0,
+      "resultado": "PASSOU"
+    },
+    {
+      "lote": "lote-002",
+      "linhas": 9904,
+      "controle": 73,
+      "patches": 0,
+      "resultado": "PASSOU"
+    },
+    {
+      "lote": "lote-003",
+      "linhas": 9895,
+      "controle": 73,
+      "patches": 46,
+      "resultado": "PASSOU"
+    },
+    {
+      "lote": "lote-004",
+      "linhas": 9904,
+      "controle": 73,
+      "patches": 0,
+      "resultado": "PASSOU"
+    },
+    {
+      "lote": "lote-005",
+      "linhas": 9904,
+      "controle": 73,
+      "patches": 19,
+      "resultado": "PASSOU"
+    },
+    {
+      "lote": "lote-006",
+      "linhas": 9904,
+      "controle": 73,
+      "patches": 0,
+      "resultado": "PASSOU"
+    },
+    {
+      "lote": "lote-007",
+      "linhas": 9904,
+      "controle": 73,
+      "patches": 52,
+      "resultado": "PASSOU"
+    },
+    {
+      "lote": "lote-008",
+      "linhas": 9904,
+      "controle": 73,
+      "patches": 38,
+      "resultado": "PASSOU"
+    },
+    {
+      "lote": "lote-009",
+      "linhas": 9904,
+      "controle": 73,
+      "patches": 0,
+      "resultado": "PASSOU"
+    },
+    {
+      "lote": "lote-010",
+      "linhas": 9904,
+      "controle": 73,
+      "patches": 0,
+      "resultado": "PASSOU"
+    },
+    {
+      "lote": "lote-011",
+      "linhas": 9904,
+      "controle": 73,
+      "patches": 0,
+      "resultado": "PASSOU"
+    },
+    {
+      "lote": "lote-012",
+      "linhas": 9904,
+      "controle": 73,
+      "patches": 243,
+      "resultado": "PASSOU"
+    },
+    {
+      "lote": "lote-013",
+      "linhas": 9904,
+      "controle": 73,
+      "patches": 29,
+      "resultado": "PASSOU"
+    },
+    {
+      "lote": "lote-014",
+      "linhas": 9904,
+      "controle": 73,
+      "patches": 22,
+      "resultado": "PASSOU"
+    },
+    {
+      "lote": "lote-015",
+      "linhas": 9904,
+      "controle": 73,
+      "patches": 32,
+      "resultado": "PASSOU"
+    },
+    {
+      "lote": "lote-016",
+      "linhas": 9904,
+      "controle": 73,
+      "patches": 0,
+      "resultado": "PASSOU"
+    },
+    {
+      "lote": "lote-017",
+      "linhas": 9904,
+      "controle": 73,
+      "patches": 0,
+      "resultado": "PASSOU"
+    },
+    {
+      "lote": "lote-018",
+      "linhas": 9904,
+      "controle": 73,
+      "patches": 147,
+      "resultado": "PASSOU"
+    },
+    {
+      "lote": "lote-019",
+      "linhas": 9904,
+      "controle": 73,
+      "patches": 75,
+      "resultado": "PASSOU"
+    },
+    {
+      "lote": "lote-020",
+      "linhas": 9904,
+      "controle": 73,
+      "patches": 13,
+      "resultado": "PASSOU"
+    },
+    {
+      "lote": "lote-021",
+      "linhas": 9903,
+      "controle": 73,
+      "patches": 13,
+      "resultado": "PASSOU"
+    },
+    {
+      "lote": "lote-022",
+      "linhas": 9903,
+      "controle": 73,
+      "patches": 37,
+      "resultado": "PASSOU"
+    },
+    {
+      "lote": "lote-023",
+      "linhas": 9903,
+      "controle": 73,
+      "patches": 66,
+      "resultado": "PASSOU"
+    },
+    {
+      "lote": "lote-024",
+      "linhas": 9903,
+      "controle": 73,
+      "patches": 88,
+      "resultado": "PASSOU"
+    },
+    {
+      "lote": "lote-025",
+      "linhas": 9903,
+      "controle": 73,
+      "patches": 72,
+      "resultado": "PASSOU"
+    },
+    {
+      "lote": "lote-026",
+      "linhas": 9900,
+      "controle": 73,
+      "patches": 23,
+      "resultado": "PASSOU"
+    },
+    {
+      "lote": "lote-027",
+      "linhas": 9903,
+      "controle": 73,
+      "patches": 93,
+      "resultado": "PASSOU"
+    },
+    {
+      "lote": "lote-028",
+      "linhas": 9900,
+      "controle": 73,
+      "patches": 99,
+      "resultado": "PASSOU"
+    },
+    {
+      "lote": "lote-029",
+      "linhas": 9903,
+      "controle": 73,
+      "patches": 0,
+      "resultado": "PASSOU"
+    },
+    {
+      "lote": "lote-030",
+      "linhas": 9903,
+      "controle": 73,
+      "patches": 0,
+      "resultado": "PASSOU"
+    }
+  ],
+  "observacao": "Regressão estrutural e da trilha de patches; não revisa julgamento editorial nem reexecuta Golden Set."
+}

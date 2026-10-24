@@ -1,0 +1,16 @@
+{
+  "revisados_global_A": 50,
+  "pendentes_global_BC": 48,
+  "propostas_globais_aplicadas": 0,
+  "microexpansao_P3": 17,
+  "familias_p3_novas": 9,
+  "P3_nao_revisados_antes": 20400,
+  "P3_nao_revisados_depois": 20383,
+  "pendencias_P2": 4660,
+  "lotes": 30,
+  "base": 294905,
+  "controles": 2190,
+  "sha256_campos_protegidos": "e85e2e6c0223a84bbf1c4b78907aea8e1ced6f8e578010503db4e043081cbe24",
+  "status": "PASSOU",
+  "parecer_nao_equivale_a_homologacao": true
+}

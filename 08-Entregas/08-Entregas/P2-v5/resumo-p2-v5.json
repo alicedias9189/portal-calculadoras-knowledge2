@@ -1,0 +1,336 @@
+{
+  "versao": "P2-v5",
+  "universo_p2": 25050,
+  "pendencias_entrada_v4": 5562,
+  "reclassificadas": 414,
+  "sem_ressalva": 181,
+  "com_ressalva": 233,
+  "pendencias_restantes": 5148,
+  "familias_com_patches": 185,
+  "familias_com_pendencias": 2883,
+  "base": 294905,
+  "controles": 2190,
+  "lotes": 30,
+  "regras": {
+    "simulacao_credito": 5,
+    "simulador_instituicao": 15,
+    "referencia_logaritmos": 39,
+    "calculo_pedido_demissao": 5,
+    "moedas_historicas": 13,
+    "equipamento_transformador": 25,
+    "valor_futuro_financeiro": 1,
+    "conversao_pdfa": 3,
+    "tutorial_matematico": 4,
+    "materiais_construcao_calculo": 9,
+    "cotacao_agropecuaria": 44,
+    "calculadora_duracao": 36,
+    "direito_trabalhista_informativo": 6,
+    "imagem_ocr_documento": 8,
+    "compra_moeda_estrangeira": 14,
+    "metodo_cramer": 12,
+    "ampere_miliampere": 1,
+    "rendimento_conta_digital": 11,
+    "norma_ambiental": 9,
+    "educacao_financeira": 11,
+    "conteudo_matematico_escolar": 13,
+    "preco_venda_custo": 5,
+    "produto_calculadora_fisica": 31,
+    "simulador_aplicacao": 3,
+    "desconto_faltas": 5,
+    "temperatura_par_explicito": 2,
+    "velocidade_mph_kmh": 1,
+    "orcamento_construcao": 33,
+    "bases_numericas_direcao": 13,
+    "libra_pressao_ambigua": 8,
+    "frequencia_rpm_condicional": 4,
+    "numismatica": 5,
+    "tabela_romanos": 4,
+    "quantidade_blocos_m2": 3,
+    "romanos_caracteres": 3,
+    "pressao_psig_bar": 1,
+    "decimal_para_romano": 1,
+    "torque_nm_lbft": 3,
+    "volume_oncas_fluidas": 1,
+    "bases_numericas_numericas": 4
+  },
+  "exemplos": {
+    "simulacao_credito": [
+      "simulacao de credito",
+      "simulação credito",
+      "simulação credito pessoal",
+      "simulação crédito",
+      "simulação de crédito"
+    ],
+    "simulador_instituicao": [
+      "simulação crédito caixa",
+      "consorcio bradesco simulador",
+      "consórcio bb simulador",
+      "simulador consorcio bb",
+      "simulador consorcio bradesco",
+      "simulador consorcio caixa",
+      "simulador consórcio bradesco veículos"
+    ],
+    "referencia_logaritmos": [
+      "fórmula de logaritmo",
+      "fórmula do logaritmo",
+      "fórmula logaritmo",
+      "logaritmo decimal",
+      "logaritmo do produto",
+      "logaritmo sem base",
+      "logaritmos definição"
+    ],
+    "calculo_pedido_demissao": [
+      "calculadora de pedido de demissão",
+      "calcular pedido de demissao",
+      "calculo de pedido de demissao",
+      "calculo pedido de demissao",
+      "pedido de demissao calculo"
+    ],
+    "moedas_historicas": [
+      "conversão cruzado em real",
+      "conversão cruzado para real banco central",
+      "100.000 cruzeiros em reais",
+      "500 mil cruzeiros em reais",
+      "conversão cruzado novo para real banco central",
+      "conversão cruzado para real calculadora",
+      "conversão de cruzado em real"
+    ],
+    "equipamento_transformador": [
+      "conversor de voltagem 110 220",
+      "conversor de voltagem 110 para 220",
+      "conversor de voltagem 127 para 220",
+      "conversor de voltagem 220 110",
+      "conversor de voltagem 220 para 110",
+      "conversor de voltagem de 110 para 220",
+      "conversor de voltagem de 220 para 110"
+    ],
+    "valor_futuro_financeiro": [
+      "calcular valor futuro"
+    ],
+    "conversao_pdfa": [
+      "como converter pdf em pdf a",
+      "como transformar pdf em pdf a",
+      "como transformar um pdf em pdf a"
+    ],
+    "tutorial_matematico": [
+      "como calcular area em metros quadrados",
+      "formula da função quadratica",
+      "formula função quadratica",
+      "como calcular a area em metros quadrados"
+    ],
+    "materiais_construcao_calculo": [
+      "calculo de argamassa",
+      "cálculo de argamassa",
+      "calculadora para telhado",
+      "calculadora telha fibrocimento",
+      "calculadora de obra",
+      "calculadora metro cúbico",
+      "quantidade de argamassa para assentar tijolo"
+    ],
+    "cotacao_agropecuaria": [
+      "arroba de vaca preço",
+      "arroba de vaca hoje",
+      "preço da vaca gorda scot consultoria",
+      "scot consultoria preço da vaca gorda",
+      "arroba do bezerro hoje",
+      "preco de vaca gorda",
+      "preço da vaca gorda no estado de são paulo"
+    ],
+    "calculadora_duracao": [
+      "calcular hora e minutos",
+      "calculo de horas e minutos",
+      "calculadora de tempo minutos",
+      "calcular tempo minutos",
+      "como somar as horas e minutos",
+      "calcular hora minuto e segundo",
+      "calcular minutos e segundos"
+    ],
+    "direito_trabalhista_informativo": [
+      "o que é demissão indireta",
+      "quais direitos eu tenho se pedir demissão",
+      "piso salarial de motorista",
+      "piso salarial motorista",
+      "piso salarial professor 2023",
+      "se eu pedir demissao recebo seguro"
+    ],
+    "imagem_ocr_documento": [
+      "como transformar imagem em excel",
+      "como transformar imagem em word",
+      "como transformar foto em texto",
+      "como transformar imagem em texto",
+      "como converter foto em excel",
+      "como transformar foto em excel",
+      "como transformar foto em word editavel"
+    ],
+    "compra_moeda_estrangeira": [
+      "compra moeda estrangeira",
+      "comprar moeda estrangeira",
+      "comprar moedas estrangeiras",
+      "app para comprar moeda estrangeira",
+      "compra de moeda estrangeira",
+      "compra de moeda estrangeira banco do brasil",
+      "compra e venda de moeda estrangeira"
+    ],
+    "metodo_cramer": [
+      "regra cramer",
+      "regra de cramer 2x2",
+      "regra de cramer 3x3",
+      "regra de cramer exercicios",
+      "regra de cramer exercícios",
+      "a regra de cramer",
+      "metodo de cramer exercicios"
+    ],
+    "ampere_miliampere": [
+      "a para ma"
+    ],
+    "rendimento_conta_digital": [
+      "banco inter rende quanto",
+      "mercado pago quanto rende",
+      "quanto rende 10.000 no mercado pago",
+      "quanto rende 100 mil no mercado pago",
+      "quanto rende 100 no mercado pago",
+      "quanto rende 1000 no mercado pago",
+      "quanto rende a conta do mercado pago"
+    ],
+    "norma_ambiental": [
+      "conama 237 1997",
+      "conama no 237 1997",
+      "resolução 237 conama",
+      "resolução conama 237",
+      "resolução conama 237 1997",
+      "resolução conama 237 97",
+      "resolução conama no 237 1997"
+    ],
+    "educacao_financeira": [
+      "como poupar dinheiro",
+      "como poupar dinheiro ganhando pouco",
+      "como poupar dinheiro mesmo ganhando pouco",
+      "como fazer para poupar dinheiro",
+      "como faço para poupar dinheiro",
+      "dicas de como poupar dinheiro",
+      "como poupar dinheiro para viajar"
+    ],
+    "conteudo_matematico_escolar": [
+      "razões e proporções exercicios",
+      "exemplos de razões e proporções",
+      "exercicios razoes e proporcoes",
+      "exercicios razões e proporções",
+      "problemas envolvendo razões e proporções",
+      "razões e proporções exemplos",
+      "números racionais na forma decimal exercícios"
+    ],
+    "preco_venda_custo": [
+      "calcular o preço de venda",
+      "calcular preço de venda",
+      "preço de custo e preço de venda",
+      "preço de venda e preço de custo",
+      "calcular preço de venda online"
+    ],
+    "produto_calculadora_fisica": [
+      "casio fx 991lax",
+      "casio fx 991lax classwiz",
+      "casio fx 991lax numeros complexos",
+      "casio fx 991lax plus",
+      "casio fx 991lax qr code",
+      "casio fx 991lax é boa",
+      "casio 991 lax"
+    ],
+    "simulador_aplicacao": [
+      "simulador de aplicacao financeira",
+      "simulador de aplicação financeira",
+      "calculadora de poupança online"
+    ],
+    "desconto_faltas": [
+      "calcular desconto de falta",
+      "falta no trabalho desconta quanto",
+      "falta na segunda desconta quantos dias",
+      "falta injustificada desconta quantos dias",
+      "falta na sexta desconta quantos dias"
+    ],
+    "temperatura_par_explicito": [
+      "celsius para k",
+      "fahrenheit para k"
+    ],
+    "velocidade_mph_kmh": [
+      "milhas por hora para km por hora"
+    ],
+    "orcamento_construcao": [
+      "construir um banheiro quanto custa",
+      "quanto custa para fazer telhado",
+      "quanto custa para fazer um telhado",
+      "quanto custa para fazer um telhado de 100m2",
+      "quanto custa para erguer um comodo",
+      "quanto custa para levantar 2 comodos",
+      "quanto custa para levantar 3 comodos"
+    ],
+    "bases_numericas_direcao": [
+      "binario para hexadecimal",
+      "binário para hexadecimal",
+      "binário para octal",
+      "hexadecimal para binario",
+      "hexadecimal para binário",
+      "octal para binário",
+      "octal para hexadecimal"
+    ],
+    "libra_pressao_ambigua": [
+      "conversão de bar para libras",
+      "converter bar em libras",
+      "converter bar para libras",
+      "converter libras em bar",
+      "libras para bar",
+      "conversor de libras para psi",
+      "conversor de psi para libras"
+    ],
+    "frequencia_rpm_condicional": [
+      "converter rpm para hz",
+      "hz em rpm",
+      "converter hz para rpm",
+      "frequência em hz para rpm"
+    ],
+    "numismatica": [
+      "moedas de 1 real raras preço",
+      "preço de moedas raras",
+      "moeda invertida preço",
+      "preço de moedas raras de 1 real",
+      "moedas raras de 1 real 40 anos banco central valor"
+    ],
+    "tabela_romanos": [
+      "tabela numero romano",
+      "tabela número romano",
+      "tabuada romana de 1 a 1000",
+      "algarismo romana de 1 a 100"
+    ],
+    "quantidade_blocos_m2": [
+      "blocos de concreto por m2",
+      "quantidade de tijolos por m2",
+      "formula para calcular quantidade de tijolos por m2"
+    ],
+    "romanos_caracteres": [
+      "número romano l",
+      "numeral romano c",
+      "m romano numero"
+    ],
+    "pressao_psig_bar": [
+      "psig para bar"
+    ],
+    "decimal_para_romano": [
+      "50 em letra romana"
+    ],
+    "torque_nm_lbft": [
+      "n m para lb ft",
+      "n m para ft lb",
+      "n m para ft lb online"
+    ],
+    "volume_oncas_fluidas": [
+      "onças fluidas para ml"
+    ],
+    "bases_numericas_numericas": [
+      "passar base 16 para base 2",
+      "passar base 2 para base 10",
+      "base 16 em base 10",
+      "base 16 para base 10 online"
+    ]
+  },
+  "sha256_lotes": "25c5cc132d6fb2617811c4a174e8f52def0bd2217a309153120c1525c281acec",
+  "sha256_auditoria": "228dcde2365d6acbcb66b12576d3abb6e4e12f3c973d1f53c698318f4062d5e9"
+}

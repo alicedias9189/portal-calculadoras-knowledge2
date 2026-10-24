@@ -1,0 +1,6 @@
+362dd6dcf0a074ef00594ae875dd68f52f30db26e9f9f3819a4ce1d0ef04b8e0  08-Entregas/P2-v5/RELATORIO.md
+228dcde2365d6acbcb66b12576d3abb6e4e12f3c973d1f53c698318f4062d5e9  08-Entregas/P2-v5/auditoria-p2-v5-csv-integral.zip
+25c5cc132d6fb2617811c4a174e8f52def0bd2217a309153120c1525c281acec  08-Entregas/P2-v5/lotes-001-a-030-p0-p1-p2-v5.zip
+3daa16cee4185c92b5b29ba53e2243acf2983551962179a61b2a6d8544ab64fe  08-Entregas/P2-v5/qa-validacao-p2-v5-centralizada.xlsx
+0e0b66c85dec944a56a4af0f31685785ebaacc1fe8a6096bb0b2429fc05e5221  08-Entregas/P2-v5/regressao-independente-p2-v5.json
+d459f5c2125750a1bd4d80cccda9afcc9baa2b9368d7f6ff86db92712d43bd09  08-Entregas/P2-v5/resumo-p2-v5.json

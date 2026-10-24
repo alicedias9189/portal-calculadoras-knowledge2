@@ -1,0 +1,43 @@
+{
+  "versao": "P3 v2.8",
+  "alteracoes": 66,
+  "regras": {
+    "P3V28_INSS_OBRA": 9,
+    "P3V28_BASES_NUMERICAS": 5,
+    "P3V28_TAXAS_VEICULOS": 45,
+    "P3V28_TEMPO_VIAGEM": 2,
+    "P3V28_POTENCIA_ENERGIA": 2,
+    "P3V28_CELSIUS_FAHRENHEIT": 2,
+    "P3V28_DESVIO_PADRAO": 1
+  },
+  "familias": 37,
+  "qa_integral": 66,
+  "registros_base": 294905,
+  "controles": 2190,
+  "lotes": 30,
+  "fila_P3": 23965,
+  "fila_geral": 52046,
+  "p3_fora_pilotos_reportados_v27": 20383,
+  "elegiveis_nao_classificados_reconciliados_v27": 20374,
+  "p3_elegiveis_nao_classificados_v28": 20308,
+  "divergencia_em_registro_historico": 9,
+  "p2_pendentes": 4660,
+  "propostas_globais_preservadas": 98,
+  "escopo": "Somente interseção validada P3; propostas globais bloqueadas",
+  "status": "PASSOU",
+  "regressao_independente": {
+    "status": "PASSOU",
+    "lotes": 30,
+    "base": 294905,
+    "controles": 2190,
+    "alteracoes": 66,
+    "P3_v27_untouched_recomputed": 20374,
+    "P3_v28_untouched": 20308,
+    "historical_report_v27": 20383,
+    "diferenca_historico": 9,
+    "globais_bloqueadas": 98,
+    "p2_pendentes": 4660,
+    "sha256_campos_protegidos": "e85e2e6c0223a84bbf1c4b78907aea8e1ced6f8e578010503db4e043081cbe24",
+    "filas": "23965 e 52046; 100% das colunas históricas mantidas"
+  }
+}

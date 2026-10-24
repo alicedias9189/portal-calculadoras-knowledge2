@@ -1,0 +1,250 @@
+{
+  "status": "PASSOU",
+  "lotes": 30,
+  "base": 294905,
+  "controles": 2190,
+  "alteracoes": 384,
+  "pendencias": 5562,
+  "checklist": [
+    {
+      "lote": "lote-001-p0-p1-p2-v3.csv",
+      "linhas": 9904,
+      "base": 9831,
+      "controles": 73,
+      "revisadas": 4,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-002-p0-p1-p2-v3.csv",
+      "linhas": 9904,
+      "base": 9831,
+      "controles": 73,
+      "revisadas": 2,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-003-p0-p1-p2-v3.csv",
+      "linhas": 9895,
+      "base": 9822,
+      "controles": 73,
+      "revisadas": 17,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-004-p0-p1-p2-v3.csv",
+      "linhas": 9904,
+      "base": 9831,
+      "controles": 73,
+      "revisadas": 1,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-005-p0-p1-p2-v3.csv",
+      "linhas": 9904,
+      "base": 9831,
+      "controles": 73,
+      "revisadas": 4,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-006-p0-p1-p2-v3.csv",
+      "linhas": 9904,
+      "base": 9831,
+      "controles": 73,
+      "revisadas": 2,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-007-p0-p1-p2-v3.csv",
+      "linhas": 9904,
+      "base": 9831,
+      "controles": 73,
+      "revisadas": 13,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-008-p0-p1-p2-v3.csv",
+      "linhas": 9904,
+      "base": 9831,
+      "controles": 73,
+      "revisadas": 11,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-009-p0-p1-p2-v3.csv",
+      "linhas": 9904,
+      "base": 9831,
+      "controles": 73,
+      "revisadas": 20,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-010-p0-p1-p2-v3.csv",
+      "linhas": 9904,
+      "base": 9831,
+      "controles": 73,
+      "revisadas": 4,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-011-p0-p1-p2-v3.csv",
+      "linhas": 9904,
+      "base": 9831,
+      "controles": 73,
+      "revisadas": 8,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-012-p0-p1-p2-v3.csv",
+      "linhas": 9904,
+      "base": 9831,
+      "controles": 73,
+      "revisadas": 26,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-013-p0-p1-p2-v3.csv",
+      "linhas": 9904,
+      "base": 9831,
+      "controles": 73,
+      "revisadas": 7,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-014-p0-p1-p2-v3.csv",
+      "linhas": 9904,
+      "base": 9831,
+      "controles": 73,
+      "revisadas": 10,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-015-p0-p1-p2-v3.csv",
+      "linhas": 9904,
+      "base": 9831,
+      "controles": 73,
+      "revisadas": 20,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-016-p0-p1-p2-v3.csv",
+      "linhas": 9904,
+      "base": 9831,
+      "controles": 73,
+      "revisadas": 21,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-017-p0-p1-p2-v3.csv",
+      "linhas": 9904,
+      "base": 9831,
+      "controles": 73,
+      "revisadas": 30,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-018-p0-p1-p2-v3.csv",
+      "linhas": 9904,
+      "base": 9831,
+      "controles": 73,
+      "revisadas": 9,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-019-p0-p1-p2-v3.csv",
+      "linhas": 9904,
+      "base": 9831,
+      "controles": 73,
+      "revisadas": 23,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-020-p0-p1-p2-v3.csv",
+      "linhas": 9904,
+      "base": 9831,
+      "controles": 73,
+      "revisadas": 20,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-021-p0-p1-p2-v3.csv",
+      "linhas": 9903,
+      "base": 9830,
+      "controles": 73,
+      "revisadas": 14,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-022-p0-p1-p2-v3.csv",
+      "linhas": 9903,
+      "base": 9830,
+      "controles": 73,
+      "revisadas": 5,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-023-p0-p1-p2-v3.csv",
+      "linhas": 9903,
+      "base": 9830,
+      "controles": 73,
+      "revisadas": 9,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-024-p0-p1-p2-v3.csv",
+      "linhas": 9903,
+      "base": 9830,
+      "controles": 73,
+      "revisadas": 12,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-025-p0-p1-p2-v3.csv",
+      "linhas": 9903,
+      "base": 9830,
+      "controles": 73,
+      "revisadas": 26,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-026-p0-p1-p2-v3.csv",
+      "linhas": 9900,
+      "base": 9827,
+      "controles": 73,
+      "revisadas": 4,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-027-p0-p1-p2-v3.csv",
+      "linhas": 9903,
+      "base": 9830,
+      "controles": 73,
+      "revisadas": 10,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-028-p0-p1-p2-v3.csv",
+      "linhas": 9900,
+      "base": 9827,
+      "controles": 73,
+      "revisadas": 21,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-029-p0-p1-p2-v3.csv",
+      "linhas": 9903,
+      "base": 9830,
+      "controles": 73,
+      "revisadas": 21,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-030-p0-p1-p2-v3.csv",
+      "linhas": 9903,
+      "base": 9830,
+      "controles": 73,
+      "revisadas": 10,
+      "teste": "PASSOU"
+    }
+  ]
+}

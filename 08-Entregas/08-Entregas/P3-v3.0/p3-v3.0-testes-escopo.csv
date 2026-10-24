@@ -1,0 +1,8 @@
+﻿teste;resultado;status
+Exatamente 36 IDs exclusivos;36;PASSOU
+Interseção com fila P3 e fila geral;36/36;PASSOU
+Somente P3 fora dos pilotos;36/36;PASSOU
+98 IDs globais bloqueados;98 bloqueados;PASSOU
+P2 não alterada;zero P2;PASSOU
+IDs repetidos bloqueados;sem repetição;PASSOU
+Volume base e controles;294905 + 2190;PASSOU

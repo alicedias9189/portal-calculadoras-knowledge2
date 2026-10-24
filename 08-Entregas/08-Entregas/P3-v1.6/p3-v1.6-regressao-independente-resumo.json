@@ -1,0 +1,18 @@
+{
+  "lotes_aprovados": 30,
+  "registros_base": 294905,
+  "controles": 2190,
+  "ids_alterados": 163,
+  "ids_esperados": 163,
+  "protegidoss_sha256": "fa4cfa20826ace0e4b66af49d2b8d50d927410a331bdf8781292a2c81dff1ffb",
+  "status": "PASSOU",
+  "checagem": [
+    "30 lotes ordem e colunas",
+    "controles iguais",
+    "colunas protegidas iguais",
+    "alteracoes somente em CAN",
+    "patch exato antes/depois",
+    "fila historica igual",
+    "78 pareceres presentes"
+  ]
+}

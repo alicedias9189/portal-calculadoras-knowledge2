@@ -1,0 +1,11 @@
+{
+  "status": "PASSOU",
+  "lotes": 30,
+  "bases": 294905,
+  "controles": 2190,
+  "alteracoes": 68,
+  "sha256_campos_protegidos": "ed59a756698fd5ba145f9b059bd6239de64471d9ca57fb6112f7db2ae7e51fa8",
+  "filas": "P3 23965 + geral 52046, 9 colunas novas, 229 colunas antigas intocadas",
+  "global_98": "idêntico em bytes",
+  "homologacao_editorial": "pendente"
+}

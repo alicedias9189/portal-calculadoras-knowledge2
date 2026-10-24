@@ -1,0 +1,15 @@
+14b61062d49fdc0a69a1870964add789295dd99d931eb20ea2dc2c952a8e4224  06-Decisoes/DEC-042 - Auditoria por familias P2 v4.md
+2953227e595051f77aa0fc8f00cc53a72b9fcf9b9de8ddc1b961e4bcd7eb5af9  07-Scripts/revisar_p2_v4.py
+725fa59e9059df3ecfadd2c8ea113a929247c27b9431d4baf5e6cc5893235ba6  07-Scripts/auditar_regressao_p2_v4.py
+d7066a378b6d67aa7f85446745366c132c5d3531dad090b38b5938d1b299f319  07-Scripts/gerar_qa_p2_v4.py
+74b4e53734a97c6aac77c031361b4c4ad17cb642c5ab0a023604783a40dd9b9e  08-Continuidade/ESTADO-ATUAL.md
+ad3348e032c450aac952449fcdb54ee73adf4ecb19fd5197874d9b09a89ce756  08-Continuidade/Registros/2026-10-18-04-auditoria-p2-v4.md
+8bdcb321b3494c951eb70ceea9f00502abf1335e82d365bb59b79921f6d40b22  08-Entregas/P2-v3/auditoria-p2-v3-csv-integral.zip
+7d0f2dcfa64e948504d55a066017390da33ecba9c4276b0753b8899e8e56c67c  08-Entregas/P2-v3/lotes-001-a-030-p0-p1-p2-v3.zip
+a66ff911ef3ea753b600e7c4212842136a8516965b02e9473eea73ce541c2b60  08-Entregas/P2-v4/RELATORIO.md
+c5210153faddc1d103a0b09a0f7c7489a3362bc1516c96b8c94f2bded037da00  08-Entregas/P2-v4/qa-validacao-p2-v4-centralizada.xlsx
+1f345f9fa3ce2dd604886b687e3c3333ce903614680b985dd3d1076d8a4fd157  08-Entregas/P2-v4/lotes-001-a-030-p0-p1-p2-v4.zip
+136f35749b3e7af57b46392f1e1ead768530d5624587135d52bbbe5109085abb  08-Entregas/P2-v4/auditoria-p2-v4-csv-integral.zip
+f0a8b47116ad8ddfc0e1ac19e6ddc0a396383cb7f51b4d15c06c46ad161df385  08-Entregas/P2-v4/resumo-p2-v4.json
+995366da20274bb5e47d1af6a1a0fad6830e9fcdc37c09994aaf112ef1dedcce  08-Entregas/P2-v4/regressao-independente-p2-v4.json
+a3aa7f435367b793bff50db800460055b888c7b58c73c040b581c3cba4f5c02e  LEIA-ME-IMPORTAR-P2-V4.md

@@ -1,0 +1,27 @@
+04a1e1db43be756996881a5952a802a1ed873e00005d158a4e7a2cd3f608c64f  06-Decisoes/DEC-062
+04a1e1db43be756996881a5952a802a1ed873e00005d158a4e7a2cd3f608c64f  06-Decisoes/DEC-062 - Revisao global A50 e microexpansao P3 v2.6.md
+40a20c00c23c64972a1c3dd64f8fe4cd29b252aa6e0d0ce6e8eac3e1c49ab756  07-Scripts/P3/__pycache__/controle_elegibilidade_p3_v26.cpython-313.pyc
+4fef57abd2c2ce672e0b3aee3777417744fbcf0c26362cd2bafc8ee517e3bbf9  07-Scripts/P3/auditar_global_e_p3_v26.py
+0ca7071b23e32a82fbbbcbe51f8f00aef8660ea00ecb15d3b68c4a1421135e9d  07-Scripts/P3/controle_elegibilidade_p3_v26.py
+0d0b28a451b69c26e8048555e9f2f374706d297b066293153f4b711277c9c5f4  07-Scripts/P3/gerar_qa_global_p3_v26.py
+ebb547bfda7f980139cf4c1247eaba3f108d861e8bd07e1cc90e936be6eee359  07-Scripts/P3/testar_escopo_v26.py
+1bf573426dc65cfb9d9d7cf4d1d5c21c95c869909bfea628f611ffe33e3f1b0a  08-Continuidade/ESTADO-ATUAL.md
+b15c19a41d7aa5de359d188f84795595f34f7b4928132e09235e562385e2cec2  08-Continuidade/Registros/2026-10-22-06-P3-v2.6-global-A50-e-expansao.md
+dc53e5255dd20a56c29939ef512d7fb129729ea848ed14d121bd23ff89a02c59  08-Entregas/P3-v2.6/FONTES-P3-v2.5/backlog-global-98-priorizado.csv
+960e3e5dbdd4c523728b49618379c02ee9b35baee5c30bc05d20e22a7d772099  08-Entregas/P3-v2.6/FONTES-P3-v2.5/fila-geral-p0-p1-p2-p3-v2.3.csv
+3c1d1c714f6cb6944fe29e0f79d6a3f4916a5ca8d08e6b0cd947224ef96fbf8d  08-Entregas/P3-v2.6/FONTES-P3-v2.5/lotes-001-a-030-p3-v2.3.zip
+26dab8c3ce22bb0db89cfd94067939ce3d1bfe9e7ca5f2f0b8ada999d278a131  08-Entregas/P3-v2.6/FONTES-P3-v2.5/p3-v2.3-fila-23965.csv
+434737f137c70baf99f3f32b96b9e461513a05f2de700f585061457427fde272  08-Entregas/P3-v2.6/RELATORIO-P3-V2.6.md
+bf1e379ad8bd897487710e78334bd6f4e530c8d81e6e98ede4f22927893287f8  08-Entregas/P3-v2.6/backlog-global-98-com-parecer-50.csv
+64c6a0de6400e7aa2e1c8370732215208ab90cb90aadd6b0d5864d61896a46c0  08-Entregas/P3-v2.6/controle-elegibilidade-v26.json
+0ffb76ed2df23b76e06a375e60141eb952ff7e29c6e46e759f9fab79a55498db  08-Entregas/P3-v2.6/fila-geral-p0-p1-p2-p3-v2.6.csv
+ea4c5e8b407868bab3d679c5abdff468a7bd545da7add2ef9f76211b4a6b41f2  08-Entregas/P3-v2.6/lotes-001-a-030-p3-v2.6.zip
+b306e2b4ac19ad0f42fc9e90ebc2153f844de5f851722205b3f7395775f79556  08-Entregas/P3-v2.6/p3-v2.6-decisoes-17.csv
+c655bdf79c923c454065f355b906dc9b1428d587de8e6ae6b1f832ea74ecab53  08-Entregas/P3-v2.6/p3-v2.6-fila-23965.csv
+6f24ef5a39b7dca05d42127c38bc5c7d3324e2551899f46eabd689271600b58a  08-Entregas/P3-v2.6/p3-v2.6-patches-17.csv
+8f523b655ac845e41f2d256fe6b50c297afd0c2d1ea3d1170e940bfdf325fed5  08-Entregas/P3-v2.6/qa-controle-escopo-v26.json
+6fd6b397c8ae53bec2534bfc6de287bc028d8b5b3e3c237b170bffa580d75913  08-Entregas/P3-v2.6/qa-global-A50-e-P3-v2.6-centralizada.xlsx
+eb0f550f94233e37b37d6051270993ac67a12a74445aebdb9a39154d9c93c9a5  08-Entregas/P3-v2.6/regressao-independente-30-lotes.csv
+abfdc222d1056a75def34cacd74780e9c9432e2be6aab5865178ffa27a30bf9c  08-Entregas/P3-v2.6/resumo-v26.json
+1035c4b94e334f4f89957595344cb3e4edfba6ffbf5b2868e25f510828ecf2d1  08-Entregas/P3-v2.6/revisao-contextual-global-50-alta.csv
+f2b1811ac65cb114c44d108eb1d802134cb9da0f8652767f8c59eccd30d95cea  LEIA-ME-IMPORTAR-P3-V2.6.md

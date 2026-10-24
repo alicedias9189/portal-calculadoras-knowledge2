@@ -1,0 +1,231 @@
+{
+  "resultado": "PASSOU",
+  "total": {
+    "lotes": 30,
+    "base": 294905,
+    "controles": 2190,
+    "alterados": 101,
+    "linhas_inalteradas": 296994
+  },
+  "por_lote": [
+    {
+      "lote": "lote-001",
+      "base": 9831,
+      "controles": 73,
+      "alterados": 11,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-002",
+      "base": 9831,
+      "controles": 73,
+      "alterados": 2,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-003",
+      "base": 9822,
+      "controles": 73,
+      "alterados": 4,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-004",
+      "base": 9831,
+      "controles": 73,
+      "alterados": 3,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-005",
+      "base": 9831,
+      "controles": 73,
+      "alterados": 3,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-006",
+      "base": 9831,
+      "controles": 73,
+      "alterados": 3,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-007",
+      "base": 9831,
+      "controles": 73,
+      "alterados": 2,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-008",
+      "base": 9831,
+      "controles": 73,
+      "alterados": 3,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-009",
+      "base": 9831,
+      "controles": 73,
+      "alterados": 1,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-010",
+      "base": 9831,
+      "controles": 73,
+      "alterados": 4,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-011",
+      "base": 9831,
+      "controles": 73,
+      "alterados": 2,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-012",
+      "base": 9831,
+      "controles": 73,
+      "alterados": 5,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-013",
+      "base": 9831,
+      "controles": 73,
+      "alterados": 7,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-014",
+      "base": 9831,
+      "controles": 73,
+      "alterados": 0,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-015",
+      "base": 9831,
+      "controles": 73,
+      "alterados": 2,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-016",
+      "base": 9831,
+      "controles": 73,
+      "alterados": 2,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-017",
+      "base": 9831,
+      "controles": 73,
+      "alterados": 0,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-018",
+      "base": 9831,
+      "controles": 73,
+      "alterados": 1,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-019",
+      "base": 9831,
+      "controles": 73,
+      "alterados": 8,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-020",
+      "base": 9831,
+      "controles": 73,
+      "alterados": 4,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-021",
+      "base": 9830,
+      "controles": 73,
+      "alterados": 6,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-022",
+      "base": 9830,
+      "controles": 73,
+      "alterados": 4,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-023",
+      "base": 9830,
+      "controles": 73,
+      "alterados": 3,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-024",
+      "base": 9830,
+      "controles": 73,
+      "alterados": 2,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-025",
+      "base": 9830,
+      "controles": 73,
+      "alterados": 4,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-026",
+      "base": 9827,
+      "controles": 73,
+      "alterados": 1,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-027",
+      "base": 9830,
+      "controles": 73,
+      "alterados": 2,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-028",
+      "base": 9827,
+      "controles": 73,
+      "alterados": 3,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-029",
+      "base": 9830,
+      "controles": 73,
+      "alterados": 6,
+      "teste": "PASSOU"
+    },
+    {
+      "lote": "lote-030",
+      "base": 9830,
+      "controles": 73,
+      "alterados": 3,
+      "teste": "PASSOU"
+    }
+  ],
+  "validacoes": [
+    "colunas originais preservadas",
+    "IDs e keywords preservados",
+    "controles intocados",
+    "somente 101 IDs P2 alterados",
+    "valores antes/depois comparados com CSVs reais",
+    "conversões diretas novas com direção e unidades"
+  ],
+  "auditoria_patches": 101
+}

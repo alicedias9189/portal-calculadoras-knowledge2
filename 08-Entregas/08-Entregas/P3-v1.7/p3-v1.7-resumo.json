@@ -1,0 +1,32 @@
+{
+  "etapa": "P3 v1.7 — revisão crítica das 152 novas decisões P3 v1.6",
+  "universo_auditado": 152,
+  "amostra_estratificada": 103,
+  "por_regra": {
+    "inss_desconto_folha": 59,
+    "abertura_conta_bancaria": 13,
+    "arranjo_combinacao": 5,
+    "taxa_financiamento_imobiliario": 54,
+    "referencia_numerais_romanos": 5,
+    "variancia_desvio_padrao": 15,
+    "raiz_cubica_valor_explicito": 1
+  },
+  "por_regra_amostra": {
+    "inss_desconto_folha": 32,
+    "abertura_conta_bancaria": 13,
+    "arranjo_combinacao": 5,
+    "taxa_financiamento_imobiliario": 32,
+    "referencia_numerais_romanos": 5,
+    "variancia_desvio_padrao": 15,
+    "raiz_cubica_valor_explicito": 1
+  },
+  "correcoes": 17,
+  "ambiguidades_reabertas": 1,
+  "mantidas": 135,
+  "p3_fora_dos_pilotos": 20755,
+  "p2_pendencias_preservadas": 4660,
+  "lotes": 30,
+  "base": 294905,
+  "controles": 2190,
+  "limites": "Revisão por contexto sem homologação editorial integral; não consultar nem preencher taxa atual, alíquota histórica ou CET bancário sem fonte."
+}

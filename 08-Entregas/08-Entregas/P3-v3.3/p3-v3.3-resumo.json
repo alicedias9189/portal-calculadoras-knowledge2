@@ -1,0 +1,29 @@
+{
+  "versao": "P3 v3.3",
+  "status": "PASSOU",
+  "revisados": 68,
+  "patches": 10,
+  "pareceres": {
+    "MANTIDO_COM_RESSALVA": 58,
+    "CORRIGIDO": 10
+  },
+  "regras": {
+    "P3V32_PAYBACK": 18,
+    "P3V32_DIAS_EXCEL": 9,
+    "P3V32_HORAS_EXTRAS": 32,
+    "P3V32_IPVA": 7,
+    "P3V32_CARTAO": 1,
+    "P3V32_ENERGIA": 1
+  },
+  "patches_por_regra": {
+    "P3V32_HORAS_EXTRAS": 8,
+    "P3V32_PAYBACK": 2
+  },
+  "lotes": 30,
+  "bases": 294905,
+  "controles": 2190,
+  "p3_fora_dos_pilotos": 20204,
+  "p2_pendencias": 4660,
+  "global_quarentena": 98,
+  "criterio": "Revisão semântica individual com homologação editorial humana pendente; nenhuma expansão."
+}
