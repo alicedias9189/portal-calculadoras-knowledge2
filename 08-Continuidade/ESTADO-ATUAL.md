@@ -1,6 +1,6 @@
 # ESTADO ATUAL — Portal de Calculadoras
 
-Última atualização: 2026-10-24 (P3 v5.5, revisão de 100; DEC-092; próxima v5.6).
+Última atualização: 2026-10-24 (P3 v5.6 concluída tecnicamente, sincronização parcial).
 Fonte canônica: `alicedias9189/portal-calculadoras-knowledge2`, branch `main`.
 **Leia este documento primeiro em uma nova conversa. Depois leia o registro mais recente em `08-Continuidade/Registros/` e DEC-038 a DEC-040.**
 
@@ -27,7 +27,18 @@ Portal de calculadoras de matemática, datas, conversores, trabalhistas, elétri
 - IMPORTANTE: planilhas XLSX, ZIPs com 30 lotes e CSVs completos ainda se encontram na Biblioteca do ChatGPT, NÃO no GitHub. O commit não sincroniza os dados binários.
 - Os relatórios atuais refletem revisões automatizadas orientadas por regras, **não aprovação editorial humana**.
 
-## Atualização prioritária — P3 v5.5 (24/10/2026)
+## Atualização prioritária — P3 v5.6 (24/10/2026)
+
+- Expansão técnica de **100 novos IDs**, **52 famílias** em **12 grupos** a partir da P3 v5.5 após filtro Ouro.
+- **85 mudanças de área** e **73 de tipo de intenção**. A revisão crítica e homologação editorial ainda estão **PENDENTES**.
+- Regressão independente **60/60 lotes PASSOU** e conferiu 100 patches por ID. **294.905 registros-base canônicos**, **291.296 operacionais**, **2.190 controles por versão** preservados; 3.609 Ouro excluídos só da visão de trabalho.
+- Quatro filas mantiveram **422 colunas históricas**, acrescidas oito novas colunas P3 v5.6. Backlog 98 e 4.660 pendências P2 intactos.
+- Saldo operacional P3 sem Ouro **19.362 → 19.262**; saldo canônico **19.462 → 19.362**.
+- Arquivo completo: `portal-calculadoras-auditoria-P3-v5.6-unico.zip`, entregue no ChatGPT e validado por manifesto SHA-256.
+- **GitHub sincronizado parcialmente:** publicados os scripts de regressão, QA e empacotamento, o relatório, o registro, README e manifesto. As publicações do script principal `auditar_p3_v56.py` e da DEC-093 foram bloqueadas; ambos permanecem no ZIP. Os binários completos não foram enviados ao GitHub. **Não tratar GitHub como cópia integral da etapa.**
+- **Próxima tarefa: P3 v5.7**, revisão individual dos 100 pareceres v5.6, sem expandir novos IDs antes dessa revisão.
+
+## Histórico — P3 v5.5 (24/10/2026)
 - **DEC-092:** revisão individual de **100 IDs** da v5.4 (34 famílias, 7 grupos), com **23 refinamentos e 77 classificações mantidas com ressalvas**. **Sem expansão nova** de IDs.
 - Regressão independente **60/60 lotes PASSOU**, 23/23 patches registrados com antes/depois, nenhuma alteração em IDs fora do escopo.
 - Total canônico: **294.905 bases**; sem Ouro: **291.296 bases**; controles: **2.190 por versão**. Filtro Ouro de **3.609 IDs** permanece reversível (DEC-089).
@@ -35,7 +46,7 @@ Portal de calculadoras de matemática, datas, conversores, trabalhistas, elétri
 - P3 elegíveis: **19.362 operacionais sem Ouro** e **19.462 canônicos**. Não houve redução, pois foi uma revisão dos 100 IDs já tratados.
 - Quatro scripts Python em `07-Scripts/P3/*p3_v55.py`; relatório `08-Entregas/P3-v5.5/RELATORIO-P3-V5.5.md`, DEC-092 e continuidade versionados no GitHub. Binários integrais CSV/XLSX/ZIP no pacote entregue pelo ChatGPT, não sincronizados integralmente ao GitHub.
 - Homologação editorial **PENDENTE**; algumas consultas sobre direitos da gestante ainda exigem validação de âmbito, sem afirmar intenção exclusivamente trabalhista.
-- **Próxima tarefa: P3 v5.6, selecionar 100 novos IDs somente dos 19.362 P3 elegíveis sem Ouro**; preservar tudo que foi revisado, executar regressão, registrar patches.
+- P3 v5.6 concluída tecnicamente, com 100 novos IDs e regressão independente 60/60. Consulte registro mais recente.
 
 ## Histórico — P3 v5.4 (24/10/2026)
 - **DEC-091**: expansão fechada de **100 novos IDs / 34 famílias / 7 grupos** dentre os 19.462 P3 elegíveis após filtro Ouro (DEC-089); nenhuma classificação anterior reaberta nesta etapa.
