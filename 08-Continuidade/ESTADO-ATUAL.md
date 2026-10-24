@@ -1,6 +1,6 @@
 # ESTADO ATUAL — Portal de Calculadoras
 
-Última atualização: 2026-10-24 (P3 v5.1; histórico P0/P1/P2 e P3 anterior preservado).
+Última atualização: 2026-10-24 (P3 v5.2; DEC-088; histórico anterior preservado).
 Fonte canônica: `alicedias9189/portal-calculadoras-knowledge2`, branch `main`.
 **Leia este documento primeiro em uma nova conversa. Depois leia o registro mais recente em `08-Continuidade/Registros/` e DEC-038 a DEC-040.**
 
@@ -27,12 +27,19 @@ Portal de calculadoras de matemática, datas, conversores, trabalhistas, elétri
 - IMPORTANTE: planilhas XLSX, ZIPs com 30 lotes e CSVs completos ainda se encontram na Biblioteca do ChatGPT, NÃO no GitHub. O commit não sincroniza os dados binários.
 - Os relatórios atuais refletem revisões automatizadas orientadas por regras, **não aprovação editorial humana**.
 
-## Atualização prioritária — P3 v5.1 (24/10/2026)
+## Atualização prioritária — P3 v5.2 (24/10/2026)
+- **DEC-088**, 75 novas classificações em 32 famílias e 7 temas sobre a base P3 v5.1; 19.637 → **19.562 elegíveis**.
+- Regressão independente validou 30/30 lotes, 75/75 patches permitidos, **294.905 registros-base**, **2.190 controles** e 390 colunas históricas intactas em ambas as filas (8 novas colunas de rastreabilidade).
+- P2 pendentes 4.660; 98 propostas globais preservadas byte a byte. Pareceres técnicos; homologação editorial **PENDENTE**.
+- Quatro scripts Python versionados em `07-Scripts/P3/`; os arquivos binários completos estão no ZIP da conversa ChatGPT e **não foram enviados ao GitHub**.
+- **Próxima tarefa: P3 v5.3 — revisar criticamente os 75 pareceres v5.2, sem seleção de novos IDs antes.**
+
+## Histórico — P3 v5.1 (24/10/2026)
 - DEC-087 e registro `08-Continuidade/Registros/2026-10-24-06-P3-v5.1-revisao-75.md`: **75 pareceres revisados, 19 refinamentos e 56 mantidos com ressalvas**, 49 famílias e oito grupos.
 - Regressão independente **30/30 lotes PASSOU**, 294.905 bases, 2.190 controles. Filas 23.965/52.046 linhas com **382 colunas históricas intactas**, mais oito novas de rastreabilidade.
 - P3 ainda elegíveis **19.637**; P2 pendentes **4.660**; 98 propostas globais preservadas byte a byte.
 - Quatro scripts Python reproduzíveis estão versionados em `07-Scripts/P3/` no GitHub; as filas CSV completas, os lotes e o XLSX estão no ZIP entregue no ChatGPT, **não no GitHub**.
-- Homologação editorial **PENDENTE**. **Próxima tarefa: P3 v5.2**, expansão seletiva dentre os 19.637 elegíveis, sem reabrir os 75 já revisados.
+- Homologação editorial **PENDENTE**. P3 v5.2 concluída; consultar DEC-088.
 
 ## Histórico — P3 v5.0 (24/10/2026)
 - Fonte técnica: pacote ZIP P3 v4.9 e relatórios dos 30 lotes.
