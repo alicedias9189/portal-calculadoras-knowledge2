@@ -1,0 +1,24 @@
+38e776f6615038405dd78654b0bc54a35deab42d8503a33c0c97c437a8332d26  06-Decisoes/DEC-093 - Expansao seletiva P3 v5.6 100 IDs.md
+c4e40abb2ab9e84a2869bf6e15e8462ac58b92a02c1dfaf3837910055e5caff5  07-Scripts/P3/auditar_p3_v56.py
+175c082b3ad613579e9fa15c7104476008f2f560c0b18bb9fa7e06b03a043c86  07-Scripts/P3/gerar_qa_p3_v56.py
+6036cc8b7827ca24f51ae3e5b581d9b54e84387f5d3638bced3b70730df2aa1f  07-Scripts/P3/montar_entrega_p3_v56.py
+787b2cd605626a9126a0a0d27cb60e61e3ab6d57c2a6b8b8e0fe95dd14ca716a  07-Scripts/P3/regressao_independente_p3_v56.py
+a481abba6605e0cca4809bc22e5e3a6ba8b95d80b8b6addfda54c249f741e25f  08-Continuidade/Registros/2026-10-24-12-P3-v5.6-expansao-100.md
+1d3b5f80b9e1fea676cb843b31edf513b24b59282d821d1422075e96ac6297cd  08-Entregas/P3-v5.6/RELATORIO-P3-V5.6.md
+3e981fe309afeb487ffc59bd7d528de48bf3f9096b7344787a24a87018a72a62  08-Entregas/P3-v5.6/backlog-global-98-com-parecer-v27.csv
+03ab2339b4a8f4402141f38d6852578596974a4bd0c0fd585070127f21ab047f  08-Entregas/P3-v5.6/fila-geral-p0-p1-p2-p3-v5.6.csv
+29395411e84afee3a83efc900e22e696b7561439f014d0137264d2ee6ba10b06  08-Entregas/P3-v5.6/fila-geral-v5.6-sem-ouro-51884.csv
+4e209acf9b341875e70a6083c495ee2703a233c7a5c18a7c3066803e4ccee800  08-Entregas/P3-v5.6/lotes-001-a-030-p3-v5.6-sem-ouro.zip
+0d9cc51dc285817bad2b9957d66b87a16519e0bb89fa4c613cc9d0f98ce884a9  08-Entregas/P3-v5.6/lotes-001-a-030-p3-v5.6.zip
+27956e3a081ffb116df28b496ef9979e0534eccf8de96b41caf46114b24189f4  08-Entregas/P3-v5.6/p3-v5.6-fila-23865-sem-ouro.csv
+ffb45b34300784cab3342c9b40165ed5d2a24f1daaa1739736a978e1d490fd12  08-Entregas/P3-v5.6/p3-v5.6-fila-23965.csv
+217976b552c581138fc191c4ab6eb6d499c90f43dfa05f2201a65deda7cdea46  08-Entregas/P3-v5.6/p3-v5.6-pareceres-100.csv
+94f4eaa53bd241e710234d993d0371d09c6993e2aad7bab2c66ff476ce6458b5  08-Entregas/P3-v5.6/p3-v5.6-patches-100.csv
+74735589e8236c7bc085ff66c34e315f6ef2b744e7e0598c709679d7420eb72a  08-Entregas/P3-v5.6/p3-v5.6-plano-por-id.csv
+039fde1f2805592c40ad31c1fe52ebd37e285d4b078ca32d67710583e65f3668  08-Entregas/P3-v5.6/p3-v5.6-qa-por-grupo.csv
+edba5ce46f08b7f9e3318111fa8f3e9f9453bae823d2fc7b587b30623b611ea0  08-Entregas/P3-v5.6/p3-v5.6-regressao-independente-60-lotes.csv
+94dd5f76add9824ffd20064aa51464c277ce5b7ec8edd3f46c66fb02a6a62280  08-Entregas/P3-v5.6/p3-v5.6-regressao-independente-resumo.json
+b355d4f49f20b67e9136adf5bdeb1f071484167b88ef5406d37b49c8386d7364  08-Entregas/P3-v5.6/p3-v5.6-regressao-inicial-60-lotes.csv
+64e080497581a374371a3405a19c051d742128c8773c3abfa3b15f151301d729  08-Entregas/P3-v5.6/p3-v5.6-resumo.json
+d6e28b05ae91afeb3333277007b31b3cfdd5d3dc5df4e9a2314b8d0efe5606dd  08-Entregas/P3-v5.6/qa-auditoria-P3-v5.6-centralizada.xlsx
+14eae55e7a4862609560bb80fd8439247ab6795cec7ee11980dc9bf4a90b2b1d  LEIA-ME-IMPORTAR-P3-V5.6.md
