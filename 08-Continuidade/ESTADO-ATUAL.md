@@ -1,6 +1,6 @@
 # ESTADO ATUAL — Portal de Calculadoras
 
-Última atualização: 2026-10-24 (P3 v5.2; DEC-088; histórico anterior preservado).
+Última atualização: 2026-10-24 (P3 v5.2 + filtro de cores Ouro, DEC-089).
 Fonte canônica: `alicedias9189/portal-calculadoras-knowledge2`, branch `main`.
 **Leia este documento primeiro em uma nova conversa. Depois leia o registro mais recente em `08-Continuidade/Registros/` e DEC-038 a DEC-040.**
 
@@ -27,7 +27,15 @@ Portal de calculadoras de matemática, datas, conversores, trabalhistas, elétri
 - IMPORTANTE: planilhas XLSX, ZIPs com 30 lotes e CSVs completos ainda se encontram na Biblioteca do ChatGPT, NÃO no GitHub. O commit não sincroniza os dados binários.
 - Os relatórios atuais refletem revisões automatizadas orientadas por regras, **não aprovação editorial humana**.
 
-## Atualização prioritária — P3 v5.2 (24/10/2026)
+## Atualização prioritária — limpeza de Ouro/Ouro escuro 1 (24/10/2026)
+- **DEC-089:** sete sementes ODS auditadas. Em `SementesEnergia.ods`/Codex há 3.368 palavras em Ouro e 348 em Ouro escuro 1; são 3.610 expressões distintas após normalização.
+- Comparação com 294.905 IDs: 3.621 correspondências; **3.609 IDs excluídos somente de visões derivadas**, 12 retidos para revisão por origem também não dourada. 9 sementes não presentes na base.
+- Regressão independente confirmou **30/30 lotes**, **2.190 controles intactos** e igualdade campo a campo de todos os IDs retidos. Base operacional dos lotes: 291.296.
+- Fila P3 de trabalho: 23.865; **P3 estritamente elegíveis: 19.462** (antes 19.562). A fila geral de trabalho fica em 51.884; originais permanecem preservados.
+- Três scripts reproduzíveis em `07-Scripts/P3/cores/`; relatório em `08-Entregas/P3-v5.2-Auditoria-Cores-Ouro/LEIA-ME.md`. ZIP com CSVs, lotes e XLSX foi entregue em conversa ChatGPT, **não está integralmente no GitHub**.
+- Homologação editorial pendente. **Próxima etapa: P3 v5.3**, revisão crítica dos 75 pareceres da v5.2; depois expansões de 100 IDs/rodada partindo dos 19.462 elegíveis.
+
+## Histórico — P3 v5.2 (24/10/2026)
 - **DEC-088**, 75 novas classificações em 32 famílias e 7 temas sobre a base P3 v5.1; 19.637 → **19.562 elegíveis**.
 - Regressão independente validou 30/30 lotes, 75/75 patches permitidos, **294.905 registros-base**, **2.190 controles** e 390 colunas históricas intactas em ambas as filas (8 novas colunas de rastreabilidade).
 - P2 pendentes 4.660; 98 propostas globais preservadas byte a byte. Pareceres técnicos; homologação editorial **PENDENTE**.
