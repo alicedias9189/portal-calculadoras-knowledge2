@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 """Validação independente sem copiar a lógica de reconhecimento de cores."""
-import zipfile,csv,io,json,hashlib,collections,sys
+import zipfile,csv,io,json,hashlib,collections,sys,argparse
 from pathlib import Path
 root=Path(__file__).resolve().parent
-archive=zipfile.ZipFile('/mnt/data/portal-calculadoras-auditoria-P3-v5.2-unico.zip')
+parser=argparse.ArgumentParser(description='Verifica a visão derivada com a fonte P3 v5.2 original')
+parser.add_argument('--p3-zip',required=True,help='Caminho para o ZIP canônico P3 v5.2')
+args=parser.parse_args()
+archive=zipfile.ZipFile(args.p3_zip)
 f=lambda suffix:next(x for x in archive.namelist() if x.endswith('/'+suffix))
 with (root/'ids-ouro-excluir-3609.csv').open(encoding='utf-8-sig',newline='') as r:
  ids={x['id_global'] for x in csv.DictReader(r,delimiter=';')}
