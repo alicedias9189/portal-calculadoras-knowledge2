@@ -49,6 +49,8 @@ python auditar_e_filtrar_ouro.py \
   --saida /caminho/saida
 ```
 
+Valide o resultado com `python verificar_independente.py --p3-zip /caminho/portal-calculadoras-auditoria-P3-v5.2-unico.zip`, executado dentro da pasta de saída.
+
 ## Limites e próximos passos
 
 A marca de cor sinaliza a origem/variante gerada, **não demonstra por si só ausência de busca real no Google Ads**. Por isso as palavras foram retiradas da fila operacional, mas dados de volume Ads e palavras-chave originais foram preservados no arquivo canônico. Não se devem somar volumes de palavras geradas artificialmente nem presumir que uma frase plausível é gerada sem evidência da origem.
